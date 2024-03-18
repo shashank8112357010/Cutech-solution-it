@@ -42,27 +42,27 @@ const DetailBlogFAQ = () => {
         {
             id: 0,
             doubt: "1. How quickly can Cutech Solutions resolve IT issues?",
-            solution: "At CutechSolution, we understand the importance of fast resolution times. Our team is committed to addressing your IT issues promptly and efficiently, ensuring minimal disruption to your business operations. Depending on the severity of the issue, we aim to resolve most problems within a few hours."
+            solution: "At Cutech Solutions, we understand the importance of fast resolution times. Our team is committed to addressing your IT issues promptly and efficiently, ensuring minimal disruption to your business operations. Depending on the severity of the issue, we aim to resolve most problems within a few hours."
         },
         {
             id: 1,
             doubt: "2. What types of businesses does Cutech Solutions support?",
-            solution: "CutechSolution provides <strong> IT support services </strong> to businesses of all sizes and industries. If you're a small start-up or a large company We have the knowledge and resources to satisfy your requirements in IT."
+            solution: "Cutech Solutions provides <strong> IT support services </strong> to businesses of all sizes and industries. If you're a small start-up or a large company We have the knowledge and resources to satisfy your requirements in IT."
         },
         {
             id: 2,
             doubt: "3. Is Cutech Solutions support available 24x7?",
-            solution: "Yes, CutechSolution offers <strong> on-call 24x7 technical support </strong> to our clients. Whether it's during business hours or in the middle of the night, our team is always available to provide assistance and resolve IT issues."
+            solution: "Yes, Cutech Solutions offers <strong> on-call 24x7 technical support </strong> to our clients. Whether it's during business hours or in the middle of the night, our team is always available to provide assistance and resolve IT issues."
         },
         {
             id: 3,
-            doubt: "4. How does CutechSolution ensure data security and privacy?",
-            solution: "At CutechSolution, we take data security and privacy seriously. We implement <strong> industry-leading security measures </strong> to protect your sensitive information and adhere to strict privacy protocols to ensure that your data remains safe and secure at all times."
+            doubt: "4. How does Cutech Solutions ensure data security and privacy?",
+            solution: "At Cutech Solutions, we take data security and privacy seriously. We implement <strong> industry-leading security measures </strong> to protect your sensitive information and adhere to strict privacy protocols to ensure that your data remains safe and secure at all times."
         },
         {
             id: 4,
-            doubt: "5. How can I get started with CutechSolution's IT support services?",
-            solution: "Getting started with CutechSolution is easy! Simply contact us to schedule a consultation with one of our IT experts. We'll work with you to assess your needs and develop a customized support plan that fits your budget and requirements."
+            doubt: "5. How can I get started with Cutech Solution's IT support services?",
+            solution: "Getting started with Cutech Solutions is easy! Simply contact us to schedule a consultation with one of our IT experts. We'll work with you to assess your needs and develop a customized support plan that fits your budget and requirements."
         },
     ]
 

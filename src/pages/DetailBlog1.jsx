@@ -45,7 +45,7 @@ const DetailBlog1 = () => {
                 Who We Are: Cutech Solutions
               </h2>
               <p className=" font-krub font-medium  text-mobBody sm:text-tabBody lg:text-lapBody text-textgray gap-9 ">
-                At CutechSolution, we pride ourselves on being more than just a typical IT support company. We are your partners in success, committed to delivering reliable and efficient solutions to meet your IT needs. With years of experience in the industry, we understand the challenges businesses face and strive to provide <span className='font-bold'>innovative IT support services</span> to help you stay ahead of the curve.
+                At Cutech Solutions, we pride ourselves on being more than just a typical IT support company. We are your partners in success, committed to delivering reliable and efficient solutions to meet your IT needs. With years of experience in the industry, we understand the challenges businesses face and strive to provide <span className='font-bold'>innovative IT support services</span> to help you stay ahead of the curve.
               </p>
             </div>
             <div className="flex flex-col gap-4">
@@ -89,20 +89,20 @@ const DetailBlog1 = () => {
               </p>
               <p className=" font-krub font-medium flex flex-col text-mobBody sm:text-tabBody lg:text-lapBody text-textgray gap-9 ">
 
-                We are aware of the fact that each minute spent in downtime can cost your business money. That's why we prioritize fast resolution times, ensuring that your IT issues are addressed promptly and efficiently. With CutechSolution, you can rest assured that your business will be back up and running in no time.
+                We are aware of the fact that each minute spent in downtime can cost your business money. That's why we prioritize fast resolution times, ensuring that your IT issues are addressed promptly and efficiently. With Cutech Solutions, you can rest assured that your business will be back up and running in no time.
               </p>
               <p className=" font-krub font-bold flex flex-col text-mobBody sm:text-tabBody lg:text-lapBody  gap-9 ">
                 2. Experienced Professionals
               </p>
 
               <p className=" font-krub font-medium flex flex-col text-mobBody sm:text-tabBody lg:text-lapBody  text-textgray gap-9 ">
-                Our team comprised of IT experts bring many years of expertise and knowledge in the field. From certified technicians to network engineers, we have the skills and knowledge to handle even the most complex IT challenges. With CutechSolution, you can trust that your IT infrastructure is in good hands.
+                Our team comprised of IT experts bring many years of expertise and knowledge in the field. From certified technicians to network engineers, we have the skills and knowledge to handle even the most complex IT challenges. With Cutech Solutions, you can trust that your IT infrastructure is in good hands.
               </p>
               <p className=" font-krub font-bold flex flex-col text-mobBody sm:text-tabBody lg:text-lapBody  gap-9 ">
                 3. Personalized Service
               </p>
               <p className=" font-krub font-medium flex flex-col text-mobBody sm:text-tabBody lg:text-lapBody  text-textgray gap-9 ">
-                We believe in taking a personalized approach to IT support. Unlike larger corporations, we take the time to understand your business and its unique needs, allowing us to provide tailored solutions that align with your goals and objectives. With CutechSolution, you're not just another client – you're a valued partner.
+                We believe in taking a personalized approach to IT support. Unlike larger corporations, we take the time to understand your business and its unique needs, allowing us to provide tailored solutions that align with your goals and objectives. With Cutech Solutions, you're not just another client – you're a valued partner.
               </p>
               <p className=" font-krub font-bold flex flex-col text-mobBody sm:text-tabBody lg:text-lapBody  gap-9 ">
                 4. Proactive Monitoring and Maintenance
@@ -115,14 +115,14 @@ const DetailBlog1 = () => {
               </p>
 
               <p className=" font-krub font-medium  text-mobBody sm:text-tabBody lg:text-lapBody  text-textgray gap-9 ">
-                We believe that <span className='font-bold'>top-quality IT support</span>  should not cost a fortune. That's why we offer competitive pricing plans designed to fit businesses of all sizes and budgets. With CutechSolution, you can enjoy <span className='font-bold'>top-notch IT support</span>  without breaking the bank.
+                We believe that <span className='font-bold'>top-quality IT support</span>  should not cost a fortune. That's why we offer competitive pricing plans designed to fit businesses of all sizes and budgets. With Cutech Solutions, you can enjoy <span className='font-bold'>top-notch IT support</span>  without breaking the bank.
               </p>
             </div>
 
             <DetailBlogFAQ />
 
             <p className='font-krub text-mobBody sm:text-tabBody lg:text-lapBody font-medium leading-[18px] sm:leading-[24px] px-4'>
-              In today's fast-paced business environment, having reliable IT support is essential for success. With CutechSolution, you can elevate your business to new heights with expert B2B IT support services tailored to your needs. From fast resolution times to personalized service, we're here to help you overcome any IT challenge and drive growth and success for your business. Contact us today to learn more about how CutechSolution can support your business's IT needs.
+              In today's fast-paced business environment, having reliable IT support is essential for success. With Cutech Solutions, you can elevate your business to new heights with expert B2B IT support services tailored to your needs. From fast resolution times to personalized service, we're here to help you overcome any IT challenge and drive growth and success for your business. Contact us today to learn more about how Cutech Solutions can support your business's IT needs.
             </p>
 
             <div className='flex  items-center justify-between py-5 px-5 border-2 shadow-sm mb-10'>

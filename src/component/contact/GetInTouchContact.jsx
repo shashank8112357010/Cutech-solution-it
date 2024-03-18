@@ -194,8 +194,9 @@ const GetInTouchContact = () => {
                                         <option value="cucumber">How Did You Hear About Us?</option>
                                         <option value="Instagram">Instagram</option>
                                         <option value="Facebook">Facebook</option>
-                                        <option value="Twiteer">Twiteer</option>
-                                        <option value="Linkdin">Linkdin</option>
+                                        <option value="Twiteer">Twitter</option>
+                                        <option value="Linkdin">Linkedin</option>
+                                        <option value="Linkdin">Google</option>
                                     </select>
                                 </div>
                             </div>

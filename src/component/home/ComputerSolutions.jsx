@@ -18,32 +18,32 @@ const ComputerSolutions = () => {
         {
             id: 0,
             img: "1",
-            heading: "IT Infrastructure Management:",
+            heading: "IT Infrastructure Management",
             para: `Efficiently managing your IT infrastructure, encompassing servers, networks, and workstations. We diligently monitor, maintain, and optimize to uphold peak performance and reliability.
             Our scalable solutions are customized to suit your business's scale, industry, and specific needs. As <strong> experienced IT Managed Service Providers </strong>, we ensure seamless operation.`
         },
         {
             id: 1,
             img: "2",
-            heading: "Robust Network Security Solutions:",
+            heading: "Robust Network Security Solutions",
             para: `Ensure your business is shielded from cyber threats with <strong> robust network security solutions. </strong> Our comprehensive services include advanced firewall protection, intrusion detection, and threat intelligence to defend against malware, ransomware, and phishing attacks. Trust in our regular security audits and vulnerability assessments to pinpoint and neutralize potential risks to your data and assets. We are among the <strong> leading computer cyber security service providers in UK </strong>, dedicated to safeguarding your digital environment`
         },
         {
             id: 2,
             img: "3",
-            heading: "Top-Notch Cloud Management Services:",
+            heading: "Top-Notch Cloud Management Services",
             para: " Experience tailored cloud computing solutions designed to streamline operations, foster collaboration, and ignite innovation. Seamlessly transition to cloud-based platforms, whether public, private, or hybrid, to unlock scalability, flexibility, and cost-efficiency. Benefit from continuous management, monitoring, and optimization of your cloud infrastructure to ensure peak performance and resource efficiency. As a  <strong> trusted cloud managed service provider </strong>, we specialize in delivering <strong> top-notch cloud management services </strong> tailored to your needs."
         },
         {
             id: 3,
             img: "4",
-            heading: "IT Data Disaster Recovery Solutions:",
+            heading: "IT Data Disaster Recovery Solutions",
             para: `Safeguard your business-critical data with comprehensive data backup and recovery solutions.Implement automated backups, redundant storage, and disaster recovery planning to mitigate downtime and uphold business continuity. Regularly test and validate backup systems to guarantee reliability and efficacy. As a leading provider of <strong> IT disaster recovery solutions for UK businesses </strong>, we specialize in delivering top-notch data backup and disaster recovery services tailored to your needs.`
         },
         {
             id: 4,
             img: "5",
-            heading: "Custom Software Development Services:",
+            heading: "Custom Software Development Services",
             para: `Unlock tailored solutions for your business with <strong>custom software development services.</strong> We specialize in crafting bespoke applications, tools, and solutions to optimize workflows, boost efficiency, and foster innovation. Our expertise extends to seamless integration with existing systems and platforms, ensuring smooth operation and compatibility. Explore our custom software development offerings designed specifically for UK businesses.
 `
         },

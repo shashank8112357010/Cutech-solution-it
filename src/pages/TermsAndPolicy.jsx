@@ -10,7 +10,7 @@ const TermsAndPolicy = () => {
           <h1 className="text-darkBlue font-extrabold text-[18px] sm:text-[25px] text-center w-full 2xl:text-[30px]">Terms and Condition</h1>
         </div>
         <div className="flex  flex-col justify-start gap-4 items-start mb-14">
-          <p className="text-textgray text-[12px] sm:text-[16px] 2xl:text-[22px] leading-4 sm:leading-8 font-krub">These terms and conditions outline the rules and regulations for the use of CutechSolutions's Website, located at cutechsolutions.co.uk.</p>
+          <p className="text-textgray text-[12px] sm:text-[16px] 2xl:text-[22px] leading-4 sm:leading-8 font-krub">These terms and conditions outline the rules and regulations for the use of Cutech Solutions's Website, located at cutechsolutions.co.uk.</p>
           <p className="text-textgray text-[12px] sm:text-[16px] 2xl:text-[22px] leading-4 sm:leading-8 font-krub">We presume that by accessing this website, you agree to these terms and conditions. Do not continue to use cutechsolutions.co.uk unless you agree to all of the terms and conditions listed on this page.</p>
           <p className="text-textgray text-[12px] sm:text-[16px] 2xl:text-[22px] leading-4 sm:leading-8 font-krub">The following terms govern the terms and conditions of this website's Terms and Condition the Privacy Notice and Disclaimer and all other agreements: "Client," "You," and "Your" refer to the user of this website. The terms "Party," "Parties," or "Us" refer to both our company and the client. All terms refer to the offer, acceptance, and consideration of the payment required to begin the process of offering our assistance to the client in the most appropriate way with the specific goal of meeting the client's needs in relation to the provision of the Company's stated services, in compliance with and subject to prevailing gb law.The terms listed above are considered interchangeable and refer to the same when used in the singular, plural, capitalization, and/or he/she/they forms.</p>
         </div>
@@ -21,7 +21,7 @@ const TermsAndPolicy = () => {
         </div>
         <div className="flex  flex-col justify-start gap-4 items-start mb-14">
           <h2 className="text-darkBlue font-extrabold text-[18px] sm:text-[25px] 2xl:text-[30px]">License</h2>
-          <p className="text-textgray text-[12px] sm:text-[16px] 2xl:text-[22px] leading-4 sm:leading-8 lg:leading-[28px] font-krub">All content on cutechsolutions.co.uk is protected by intellectual property rights owned by CutechSolutions and/or its licensors, unless otherwise indicated. Every right to intellectual property is reserved. The limitations outlined in these terms and conditions apply to your personal use of this, which you may access from cutechsolutions.co.uk.</p>
+          <p className="text-textgray text-[12px] sm:text-[16px] 2xl:text-[22px] leading-4 sm:leading-8 lg:leading-[28px] font-krub">All content on cutechsolutions.co.uk is protected by intellectual property rights owned by Cutech Solutions and/or its licensors, unless otherwise indicated. Every right to intellectual property is reserved. The limitations outlined in these terms and conditions apply to your personal use of this, which you may access from cutech solutions.co.uk.</p>
         </div>
         <div className="flex  flex-col justify-start gap-4 items-start mb-6">
           <h2 className="text-darkBlue font-extrabold text-[18px] sm:text-[25px] 2xl:text-[30px]">You must not:</h2>
@@ -35,8 +35,8 @@ const TermsAndPolicy = () => {
         </ol>
 
         <div className="flex  flex-col justify-start gap-4 items-start mb-14">
-          <p className="text-textgray text-[12px] sm:text-[16px] 2xl:text-[22px] leading-4 sm:leading-8 font-krub">On certain sections of the website, users can leave comments and share ideas and information. Before a comment appears on the website, CutechSolutions does not filter, edit, publish, or review it. The opinions and views expressed here do not necessarily represent CutechSolutions, its affiliates, or its agents. The poster's opinions and points of view are reflected in the comments. CutechSolutions disclaims all liability for the Comments and for any costs, damages, or liabilities resulting from the use, publication, or presentation of the Comments on this website, to the maximum extent permitted by applicable laws.</p>
-          <p className="text-textgray text-[12px] sm:text-[16px] 2xl:text-[22px] leading-4 sm:leading-8 font-krub">CutechSolutions maintains the right to review all Comments and to delete any that violate these terms and conditions or that are deemed offensive or inappropriate.</p>
+          <p className="text-textgray text-[12px] sm:text-[16px] 2xl:text-[22px] leading-4 sm:leading-8 font-krub">On certain sections of the website, users can leave comments and share ideas and information. Before a comment appears on the website, Cutech Solutions does not filter, edit, publish, or review it. The opinions and views expressed here do not necessarily represent Cutech Solutions, its affiliates, or its agents. The poster's opinions and points of view are reflected in the comments. Cutech Solutions disclaims all liability for the Comments and for any costs, damages, or liabilities resulting from the use, publication, or presentation of the Comments on this website, to the maximum extent permitted by applicable laws.</p>
+          <p className="text-textgray text-[12px] sm:text-[16px] 2xl:text-[22px] leading-4 sm:leading-8 font-krub">Cutech Solutions maintains the right to review all Comments and to delete any that violate these terms and conditions or that are deemed offensive or inappropriate.</p>
 
         </div>
         <div className="flex  flex-col justify-start gap-4 items-start mb-6">
@@ -47,7 +47,7 @@ const TermsAndPolicy = () => {
           <li className="text-textgray mb-2">The remarks do not infringe any proprietary right, including without limitation the copyright, patent, or trademark of any person or entity.</li>
           <li className="text-textgray mb-2">There is nothing in the Comments that violates someone's privacy or is defamatory, libelous, offensive, indecent, or illegal in any other way.</li>
           <li className="text-textgray mb-2">The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity</li>
-          <li className="text-textgray mb-2">In any form, format, or media, you hereby grant CutechSolutions a non-exclusive license to use, reproduce, edit, and permit others to use, reproduce, and edit any of your Comments.</li>
+          <li className="text-textgray mb-2">In any form, format, or media, you hereby grant Cutech Solutions a non-exclusive license to use, reproduce, edit, and permit others to use, reproduce, and edit any of your Comments.</li>
 
 
         </ol>
@@ -82,7 +82,7 @@ const TermsAndPolicy = () => {
         <ol className="lg:leading-[27px] sm:leading-[15px] leading-6 text-[12px] sm:text-[16px] list-disc 2xl:text-[22px] ml-5  mb-7 ">
           <li className="text-textgray mb-2">There would be no negative publicity for us or our approved businesses from the connection.</li>
           <li className="text-textgray mb-2">There are no unfavorable records for this organization with us.</li>
-          <li className="text-textgray mb-2">The benefit of being able to see the URL compensates for CutechSolutions' absence.</li>
+          <li className="text-textgray mb-2">The benefit of being able to see the URL compensates for Cutech Solutions' absence.</li>
           <li className="text-textgray mb-2">the link is in the context of general resource information.</li>
 
 
@@ -94,7 +94,7 @@ const TermsAndPolicy = () => {
           <li className="text-textgray mb-2">By use of our corporate name</li>
           <li className="text-textgray mb-2">By using the universal resource locator, which is linked to.</li>
           <li className="text-textgray mb-2">By using any other description of our Website that is relevant to the context and format of the linking party's content.</li>
-          <li className="text-textgray mb-2">A trademark license agreement is required before using CutechSolutions' logo or other artwork for linking.</li>
+          <li className="text-textgray mb-2">A trademark license agreement is required before using Cutech Solutions' logo or other artwork for linking.</li>
         </ol>
         <div className="flex  flex-col justify-start gap-4 items-start mb-8">
           <h2 className="text-darkBlue font-extrabold text-[18px] sm:text-[25px] 2xl:text-[30px]">iFrames</h2>

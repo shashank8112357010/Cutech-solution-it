@@ -82,7 +82,7 @@ const FaqContact = ({ data }) => {
                         </div>
                     </div>
                 </div>
-                {/* <img loading="lazy" alt='faqImg' src='img/Contact/FAQImg.png' className='w-full h-full object-cover' /> */}
+                {/* <img loading="lazy" alt='faqImg' src='img/Contact/FAQImg.png' className='w-full h-full object-cover' /> */}0
             </div>
         </section>
     )
