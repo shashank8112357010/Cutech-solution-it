@@ -1,17 +1,15 @@
 import React, { useRef } from 'react';
 import { useLocation } from 'react-router-dom';
-import { Helmet } from 'react-helmet';
 import Navbar from './component/Navbar';
 import PrivateRoutes from './routes/PrivateRoutes';
 import Footer from './component/Footer';
 import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
+import { Helmet } from 'react-helmet-async';
 
 const App = () => {
   const location = useLocation();
   const tawkMessengerRef = useRef();
   const currentPage = pageData.find(page => page.path === location.pathname);
-
-
 
   return (
     <>
