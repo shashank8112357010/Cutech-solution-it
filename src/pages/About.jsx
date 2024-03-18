@@ -115,7 +115,7 @@ const About = () => {
                       Expert Proficiency
                     </h3>
                     <p className='text-mobBody2 text-center sm:text-tabBody2 lg:text-lapBody2 text-textgray font-rubik leading-[18px] md:leading-[22px]'>
-                      Our team of seasoned IT professionals possesses the expertise and skills required to tackle even the most intricate IT challenges,
+                      Our team of seasoned IT professionals possesses the expertise and skills required to tackle even the most intricate IT challenges.
                     </p>
                   </div>
                 </div>
@@ -139,7 +139,7 @@ const About = () => {
                       Client Contentment
                     </h3>
                     <p className='text-mobBody2 text-center sm:text-tabBody2 lg:text-lapBody2 text-textgray font-rubik leading-[18px] md:leading-[22px]'>
-                      At Cutech Solutions, client contentment ranks as our foremost priority. We go the extra mile to ensure that our clients receive the utmost level of service and support
+                      At Cutech Solutions, client contentment ranks as our foremost priority. We go the extra mile to ensure that our clients receive the utmost level of service and support.
                     </p>
                   </div>
                 </div>

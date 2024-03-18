@@ -14,7 +14,7 @@ const WhyUs = () => {
                         </h2>
                         <div>
                             <p className='font-krub font-medium lg:text-[16px] sm:text-[16px] text-[12px] text-[#666C89] mb-4'>
-                                At Cutech Solutions, we understand the critical <strong> importance of minimizing downtime</strong> for your business's productivity and profitability. That's why we prioritize issue resolution based on severity and potential impact on your operations. Our dedicated team ensures prompt and efficient resolution of critical issues, allowing your business to operate smoothly without interruption
+                                At Cutech Solutions, we understand the critical <strong> importance of minimizing downtime</strong> for your business's productivity and profitability. That's why we prioritize issue resolution based on severity and potential impact on your operations. Our dedicated team ensures prompt and efficient resolution of critical issues, allowing your business to operate smoothly without interruption.
                             </p>
                             <p className='font-krub font-medium lg:text-[16px] sm:text-[16px] text-[12px] text-[#666C89] mb-4'>
                                 Whether it's a technical glitch disrupting your operations or a cybersecurity threat endangering your business, you can rely on Cutech Solutions to prioritize and resolve the issue urgently and expertly. We are committed to your satisfaction and success, going above and beyond to meet your IT needs with efficiency, reliability, and professionalism.

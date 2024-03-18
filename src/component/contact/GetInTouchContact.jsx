@@ -80,8 +80,7 @@ const GetInTouchContact = () => {
                         }
 
                         <p className="block mx-auto text-center font-rubik leading-[22.68px] max-w-[320px] sm:max-w-[430px] font-normal lg:text-lapContactBody sm:text-tabBody text-mobBody">
-                            Leverage agile frameworks to provide a robust synopsis for strategy
-                            foster collaborative thinking to further the overall value.
+                        Cutech Solutions: Empowering B2B Enterprises with Next-Level IT Solutions
                         </p>
                     </div>
 
@@ -111,8 +110,7 @@ const GetInTouchContact = () => {
                                 className="inline-block"
                             />
                             <div className="flex flex-col text-mobBody justify-center font-krub font-medium leading-[16.2px]">
-                                <p>Mon - Sat 24/7</p>
-                                <p>Sunday Closed</p>
+                                <p>Mon - Sun 24/7</p>
                             </div>
                         </div>
                     </div>

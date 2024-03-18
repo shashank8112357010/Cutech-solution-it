@@ -45,7 +45,7 @@ const Blog = () => {
                   <div className="img w-full lg:1/2 relative">
 
                     <div className='block mx-auto w-full h-full sm:w-[550px] sm:h-[400px]'>
-                      <img loading="lazy" className='w-full lg:h-full object-cover' src={item.img} alt="" />
+                      <img loading="lazy" className='w-full lg:h-full' src={item.img} alt="" />
                     </div>
                     <Link to={item.link}>
                       <div className="absolute opacity-0 hover:opacity-100 top-8 left-10 flex h-4/5 w-4/5 bg-black/60 items-center justify-center text-white font-bold duration-500">  Read More</div>

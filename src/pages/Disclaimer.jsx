@@ -8,7 +8,7 @@ const Disclaimer = () => {
             <section className="max-w-7xl mx-auto mt-6 px-4 sm:px-20 bg-transparent ">
                 <div className="flex flex-col justify-center items-center mb-12 sm:mb-28">
                     <h1 className="text-center capitalize text-[22px] sm:text-[45px] 2xl:text-[50px] font-extrabold mt-8 font-rubik">
-                        Disclaimer for Cutech Solutions Ltd
+                        Disclaimer for Cutech Solutions 
                     </h1>
                 </div>
                 <div className="flex  flex-col justify-start gap-4 items-start mb-14">

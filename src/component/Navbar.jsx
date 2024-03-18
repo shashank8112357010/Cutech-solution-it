@@ -48,8 +48,8 @@ const Navbar = () => {
                                 <img loading="lazy" src='../../img/navbar/navLogo1.svg' className='object-cover w-full' />
                             </div>
                             <div className='text-mobContactBody sm:text-lapContactBody'>
-                                <p>Mon - Sat 24/7</p>
-                                <p>Sunday Closed</p>
+                                <p>Mon - Sun 24/7</p>
+                                
                             </div>
                         </div>
                         <div className='flex items-center justify-center flex-row gap-2'>

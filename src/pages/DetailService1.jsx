@@ -142,7 +142,7 @@ const DetailService1 = () => {
             <h2 className="text-white text-mobTitle sm:text-tabTitle lg:text-lapTitle font-rubik font-semibold lg:leading-[41px] ">
               Benefits of Partnering with a Reputable Cyber Security Service Provider
             </h2>
-            <p className="text-white text-mobBody sm:text-tabBody lg:text-lapBody font-krub">Cybercrime is a complex and ever-evolving threat. Attempting to manage cyber security in-house can be a resource-intensive and challenging endeavor. Partnering with a reputable cyber security service provider in UK offers a multitude of benefits</p>
+            <p className="text-white text-mobBody sm:text-tabBody lg:text-lapBody font-krub">Cybercrime is a complex and ever-evolving threat. Attempting to manage cyber security in-house can be a resource-intensive and challenging endeavor. Partnering with a reputable cyber security service provider in UK offers a multitude of benefits.</p>
             <button className="bg-white font-medium text-xs sm:text-[23px]   block mx-auto py-3 px-5 sm:mx-0  sm:px-10 sm:py-6 rounded-full">Get Started</button>
           </div>
         </div>
@@ -151,7 +151,7 @@ const DetailService1 = () => {
             <div className="flex flex-col gap-2 hover:text-darkYellow cursor-pointer ">
               <p className="text-mobTitle sm:text-tabTitle lg:text-lapTitle font-black ">01</p>
               <h3 className="text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2 font-semibold  ">Enhanced Security Posture</h3>
-              <p className="text-mobBody2 sm:text-tabBody2 lg:text-lapBody2 font-normal font-krub">Our expertise allows us to identify and address security gaps that may be missed by internal IT teams. We implement best practices and industry-standard security controls to significantly reduce your risk of cyberattacks</p>
+              <p className="text-mobBody2 sm:text-tabBody2 lg:text-lapBody2 font-normal font-krub">Our expertise allows us to identify and address security gaps that may be missed by internal IT teams. We implement best practices and industry-standard security controls to significantly reduce your risk of cyberattacks.</p>
             </div>
             <div className="flex flex-col gap-2 hover:text-darkYellow cursor-pointer ">
               <p className="text-mobTitle sm:text-tabTitle lg:text-lapTitle font-black  font-rubik">02</p>

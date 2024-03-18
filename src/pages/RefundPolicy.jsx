@@ -47,11 +47,7 @@ const RefundPolicy = () => {
                     </h1>
                 </div>
 
-                <div className="flex flex-col justify-start gap-4 items-start mb-4">
-                    <p className="font-extrabold text-textgray text-[12px] sm:text-[16px] 2xl:text-[24px] leading-4 sm:leading-8 font-krub">Cutech Solutions Ltd
-                        128 City Road, London, United Kingdom, EC1V 2NX
-                    </p>
-                </div>
+                
                 <div className="flex  flex-col justify-start gap-4 items-start mb-14">
                     <p className="text-textgray text-[12px] sm:text-[16px] 2xl:text-[22px] leading-4 sm:leading-8 font-krub">At Cutech Solutions Ltd, we strive to ensure the satisfaction of our customers with the services we provide. We are aware, though, that there may be instances in which a refund is required. Therefore, we have established the following refund policy to outline the terms and conditions under which refunds will be issued:</p>
                 </div>

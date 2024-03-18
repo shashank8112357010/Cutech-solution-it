@@ -17,7 +17,7 @@ const Footer = () => {
                                 </div>
                             </div>
                             <p className='font-krub font-medium text-lapFooterBody leading-[18.18px] text-center lg:text-start sm:w-[400px] lg:w-[300px]'>
-                                Leverage agile frameworks to provide a robust synopsis for strategy  collaborative thinking to further the overall value proposition.
+                            Cutech Solutions: Empowering B2B Enterprises with Next-Level IT Solutions
                             </p>
                             <div className='flex flex-col gap-4'>
                                 <div className='flex items-center flex-row justify-center lg:justify-start gap-2'>
@@ -97,7 +97,7 @@ const Footer = () => {
             <div className='w-full mx-auto flex bg-darkBlue text-white '>
                 <div className=' px-2 mx-auto w-full sm:w-12/12 flex justify-between border-t-2 border-[#4E5683] '>
                     <div className='py-2 text-mobFooterLinks text-center w-full '>
-                        Copyright &copy; 2024 Cutech Solutions Pvt Ltd
+                        Copyright &copy; 2024 Cutech Solutions 
                     </div>
                 </div>
             </div>

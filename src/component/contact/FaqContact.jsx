@@ -29,7 +29,7 @@ const FaqContact = ({ data }) => {
 
 
     return (
-        <section className='flex mt-10 pt-5 justify-center lg:justify-between px-4 sm:px-16 items-center flex-wrap gap-12 lg:gap-0 lg:flex-nowrap py-4 lg:py-20 mb-20 bg-lightWhite max-w-[1920px] mx-auto'>
+        <section className='flex mt-10 pt-5 justify-center lg:justify-between px-4 sm:px-16 items-center flex-wrap lg:gap-0 lg:flex-nowrap py-4 lg:py-20 mb-10 bg-lightWhite max-w-[1920px] mx-auto'>
 
             <div className='w-full lg:w-1/2 text-black mt-10 px-4 sm:px-4  ' >
 
@@ -62,7 +62,7 @@ const FaqContact = ({ data }) => {
                 })}
             </div>
 
-            <div className='w-full lg:w-[476px] h-[389px] lg:h-[429px] relative flex justify-center items-center'>
+            <div className='w-full lg:w-[476px] h-[389px] lg:h-[429px]  relative flex justify-center items-center'>
                 <div className='bg-darkBlue px-6 py-2 md:p-12 text-white absolute lg:w-[400px] lg:top-[15%] lg:-left-[20%]'>
                     <div className='mb-8 flex flex-col '>
                         <p className="text-lapContactBody w-[100px] mb-4 font-rubik bg-white/10 border-l-4 pl-2 border-yellow-500 ">
@@ -82,7 +82,7 @@ const FaqContact = ({ data }) => {
                         </div>
                     </div>
                 </div>
-                <img loading="lazy" alt='faqImg' src='img/Contact/FAQImg.png' className='w-full h-full object-cover' />
+                {/* <img loading="lazy" alt='faqImg' src='img/Contact/FAQImg.png' className='w-full h-full object-cover' /> */}
             </div>
         </section>
     )

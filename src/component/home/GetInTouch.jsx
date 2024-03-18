@@ -43,8 +43,8 @@ const GetInTouch = () => {
                                 className="inline-block"
                             />
                             <div className="flex flex-col text-mobBody font-krub font-medium leading-[16.2px] mt-2">
-                                <p>Mon - Sat 24/7</p>
-                                <p>Sunday Closed</p>
+                                <p>Mon - Sun 24/7</p>
+
                             </div>
                         </div>
                     </div>
