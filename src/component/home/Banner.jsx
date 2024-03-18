@@ -76,7 +76,7 @@ const Banner = () => {
                         <div className="absolute inset-0 grid h-full w-full place-items-center">
                             <div className="w-10/12 text-center mt-10 md:w-4/4">
                                 <Typography
-                                    variant="span"
+                                    variant="lead"
                                     className="mb-4 capitalize !text-white front block text-[18px] sm:text-[25px] lg:text-lapHeaderText font-semibold font-rubik leading-[18px] sm:leading-[29px] lg:leading-[53px]"
                                 >
                                     {renderTextWithBold(item.heading)}
