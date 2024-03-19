@@ -14,7 +14,8 @@ const data = [
         headingColor: "darkestBlue"
     },
     {
-        img: "/img/testimonial/TestimonialImg1.png",
+
+        img: " /img/testimonial/TestimonialImg3.png",
         name: "Emma",
         route: "User-Support",
         review: "We were hesitant to switch IT support providers, but Cutech Solutions exceeded our expectations in every way. Their team is incredibly responsive and knowledgeable, always providing prompt solutions to our technical issues. Their cloud service management solutions have also helped streamline our operations and reduce costs. We're thrilled with the level of service and expertise they provide.",
@@ -23,7 +24,7 @@ const data = [
         headingColor: "white"
     },
     {
-        img: "/img/testimonial/TestimonialImg3.png",
+        img: "/img/testimonial/TestimonialImg1.png",
         name: "David",
         route: "Tech-Support",
         review: "Choosing Cutech Solutions for our cybersecurity needs was one of the best decisions we've made for our business. Their comprehensive approach to cybersecurity ensures that we're protected from every angle, giving us confidence in our data security. Their digital marketing solutions have also helped boost our online presence, driving more traffic to our website. We couldn't be happier with the results!",
