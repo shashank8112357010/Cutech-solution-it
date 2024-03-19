@@ -2,7 +2,6 @@ const Cards = () => {
   const data = [
     {
       id: 1,
-
       name: "Integrity",
       desc: "We conduct business affairs with integrity, transparency, and honesty, thereby earning the trust and respect of our clients and peers alike. ",
     },
