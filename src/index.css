@@ -1,0 +1,158 @@
+/* src/styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+.bg-custom-gradient {
+    background-image: linear-gradient(to bottom right, #FFB629, #FFDA56, #FFD7A6);
+}
+
+.bg-button:hover {
+    background-image: linear-gradient(to bottom right, #FFB629, #FFDA56, #FFD7A6);
+    color: black
+}
+
+.bg-DetailHover:hover {
+    background-image: linear-gradient(to bottom right, #FFB629, #FFDA56, #FFD7A6);
+    color: white
+}
+
+
+/* shadow of cards in home  */
+.shadow-custom:hover {
+    box-shadow: 3px 5px 31px 2px rgba(9, 18, 66, 0.2);
+}
+
+.shadow-custom-about {
+    box-shadow: 3px 5px 31px 2px rgba(9, 18, 66, 0.2);
+}
+
+/* blur effect */
+.blureffect {
+    background-color: rgba(189, 189, 189, 0.9);
+    ;
+}
+
+
+
+.headerBottomBorder,
+.headerBottomActive {
+    position: relative;
+    transition: all 1.5s ease-in-out;
+}
+
+.headerBottomBorder:hover::after {
+    position: absolute;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    content: "";
+    background-color: white;
+    height: 2px;
+}
+
+.headerBottomActive::after {
+    position: absolute;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    content: "";
+    background-color: white;
+    height: 2px;
+}
+
+/* //navbar box shadow  */
+.box {
+    box-shadow: 3px 5px 17px 2px rgba(9, 18, 66, 0.1);
+}
+
+
+/* //for slick carousal  */
+.slick-initialized .slick-slide {
+    gap: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+@media (max-width : 660px) {
+    .slick-initialized .slick-slide {
+        justify-content: start !important;
+        align-items: start !important;
+    }
+}
+
+
+/* services we offer  */
+.serviceWeOffer>.slick-slider .slick-list {
+    height: 334px !important;
+}
+
+.serviceWeOffer>.slick-slider .slick-track {
+    height: 334px !important;
+}
+
+/* modal */
+.custom-dialog-overlay {
+    background-color: #fff;
+}
+
+/* //loader  */
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #091242;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.slick-arrow {
+    display: none !important;
+}
+
+.upperSlider>.slick-track {
+    width: 1000px !important;
+}
+
+.billing-width {
+    width: 952px;
+}
+
+.order-summary-width {
+    width: 584px;
+}
+
+@media (max-width: 1200px) {
+    .billing-width {
+        width: 100%;
+
+    }
+
+    .order-summary-width {
+        width: 100%;
+        display: block;
+    }
+}
+
+.lower-dots>.slick-active {
+    right: 4px !important
+}
