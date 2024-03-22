@@ -4,8 +4,8 @@ export const Intro = () => {
     return (
         <div className='max-w-[1920px] mx-auto py-4 sm:py-12 pb-12 sm:pb-24'>
             <div className='flex flex-col px-8 sm:px-20 md:px-40 lg:justify-center'>
-                <div className='flex lg:flex-row sm:flex-col flex-col lg:justify-center w-full'>
-                    <div className='flex flex-col w-auto lg:w-1/2'>
+                <div className='flex lg:flex-row sm:flex-col flex-col lg:justify-between items-center w-full'>
+                    <div className=' flex flex-col w-auto lg:w-1/2'>
                         <p className="text-[12px] lg:text-[14px] font-rubik w-[78px] bg-white/10 border-l-4 pl-2 border-yellow-500 font-normal">
                             Welcome
                         </p>
@@ -30,8 +30,8 @@ export const Intro = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='flex justify-end sm:justify-center lg:justify-normal mt-10 lg:mt-12'>
-                        <img loading="lazy" src="img/home/Intro.png" alt="" className='w-[539px] h-[547px] object-cover' />
+                    <div className='flex justify-end lg:w-[429px] lg:h-[547px] sm:justify-center lg:justify-normal mt-4'>
+                        <img loading="lazy" src="img/home/Intro.png" alt="" className=' w-full h-full object-cover' />
                     </div>
                 </div>
             </div>

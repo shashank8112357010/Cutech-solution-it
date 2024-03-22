@@ -46,7 +46,7 @@ export const Navbar = () => {
                             </div>
                             <div className='text-mobContactBody sm:text-lapContactBody'>
                                 <p>Mon - Sun 24/7</p>
-                                
+
                             </div>
                         </div>
                         <div className='flex items-center justify-center flex-row gap-2'>
@@ -91,7 +91,7 @@ export const Navbar = () => {
                     <div className='flex flex-row flex-center w-full'>
 
                         <ul className={`flex flex-col w-1/2 justify-end items-end gap-8 font-semibold text-[14px] sm:text-[18px]`}>
-                            {[{ route: "Home", path: '/home' }, { route: "About", path: '/about-us' }, { route: "Blog", path: '/blog' }, { route: "Services", path: '/services' }, { route: "Contact", path: '/contact-us' }].map((item, index) => {
+                            {[{ route: "Home", path: '/' }, { route: "About", path: '/about-us' }, { route: "Blog", path: '/blog' }, { route: "Services", path: '/services' }, { route: "Contact", path: '/contact-us' }].map((item, index) => {
                                 return (
                                     <li key={index} className={`hover:text-darkYellow w-[50px] text-center ${pathname === item.path ? "text-darkYellow" : "text-textBlack"}`} onClick={() => setHide(false)}><Link to={item.path}>{item.route}</Link></li>
                                 )
@@ -104,8 +104,8 @@ export const Navbar = () => {
                     </div>
 
                     <div className='w-full flex mt-5 pr-10 justify-center items-center'>
-                    <Link to="/contact-us">
-                        <img loading="lazy" src='../../img/navbar/header.svg' className='object-cover cursor-pointer w-[100px]' />
+                        <Link to="/contact-us">
+                            <img loading="lazy" src='../../img/navbar/header.svg' className='object-cover cursor-pointer w-[100px]' />
                         </Link>
                     </div>
                     <div>{""}</div>
@@ -120,7 +120,7 @@ export const Navbar = () => {
                         <div className='h-full flex'>
                             <ul className='flex flex-row text-mobContactBody gap-4 xxl:text-lapContactBody justify-center items-center h-full'>
                                 {
-                                    [{ route: "Home", path: '/home' }, { route: "About", path: '/about-us' }, { route: "Blog", path: '/blog' },].map((item, index) => {
+                                    [{ route: "Home", path: '/' }, { route: "About", path: '/about-us' }, { route: "Blog", path: '/blog' },].map((item, index) => {
                                         return (
                                             <NavLink key={index} className={`h-full`} to={item.path}>
                                                 <li className={`headerBottomBorder ${pathname === item.path && "headerBottomActive"} h-full flex items-center px-6 transition-all duration-300 ease-in-out`}>

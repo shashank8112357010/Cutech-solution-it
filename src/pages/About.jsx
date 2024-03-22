@@ -61,7 +61,7 @@ export const About = () => {
             <div className="absolute -top-6 flex h-[6px] w-[15%] bg-custom-gradient rounded-sm items-center justify-center text-white font-bold duration-500">
             </div>
 
-            <h2 className='lg:text-lapTitle capitalize sm:text-tabTitle text-mobTitle font-semibold font-rubik'>
+            <h2 className='lg:text-lapTitle capitalize sm:text-tabTitle text-mobTitle font-semibold font-rubik leading-6 sm:leading-10'>
               Our Dedication to <span className='text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay'>Excellence</span>
             </h2>
             <p className='lg:text-lapBody3 sm:text-lapBody3 text-tabBody3 font-krub font-medium text-textgray'>

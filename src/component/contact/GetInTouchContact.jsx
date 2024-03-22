@@ -34,7 +34,6 @@ export const GetInTouchContact = () => {
                 body: formData,
             }
             fetch(`https://script.google.com/macros/s/AKfycbzG1hW0zaXKsXeLTV4V0wpGcBsDAX2xuG7gP8Nrf56G-MR0q1ekvEAwPCpDuh8cUa2dMw/exec`, header).then((res) => {
-                console.log(res)
                 setLoading(false)
                 moveToTop()
                 setShowPopup(true);
@@ -56,7 +55,7 @@ export const GetInTouchContact = () => {
     return (
 
 
-        <section className="max-w-[1920px] mx-auto mb-20 text-white px-4 flex flex-col justify-center items-center ">
+        <section className="max-w-[1920px] mt-10 mx-auto mb-20 text-white px-4 flex flex-col justify-center items-center ">
 
             <div className='flex justify-between items-center w-full px-8 py-10  flex-col pb-20 gap-4 bg-[#091242]'>
                 <div className='flex justify-center items-center max-w-[1280px] flex-col border-b-[#4E5683] border-x-[#091242] border-t-[#091242] border-2 sm:p-4 '>

@@ -26,7 +26,7 @@ export const Cards = () => {
     <div className="mb-8">
       <div className="text-center mb-8">
         <h2 className="relative lg:text-lapTitle sm:text-tabTitle text-mobTitle font-bold font-rubik leading-[41px]">
-          <div className="absolute -top-6 left-[43%] flex h-[6px] w-[15%] bg-custom-gradient rounded-sm items-center justify-center text-white font-bold duration-500">
+          <div className="absolute -top-2 sm:-top-6 left-[43%] flex h-[6px] w-[15%] bg-custom-gradient rounded-sm items-center justify-center text-white font-bold duration-500">
           </div>
           Our <span className="text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay">Core Values</span>
         </h2>

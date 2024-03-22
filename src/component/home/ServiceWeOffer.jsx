@@ -106,7 +106,7 @@ export const ServiceWeOffer = () => {
                 </p>
             </div>
 
-            <div className='w-full !flex !flex-row relative !justify-between !items-center gap-0 md:gap-8  overflow-hidden'>
+            <div className='w-full !flex !flex-row relative !justify-between !items-center gap-0 md:gap-8 pl-1 overflow-hidden'>
 
                 {/* //nextButton  */}
                 <div className=" absolute z-[40] left-4 sm:left-16 block cursor-pointer"
@@ -121,9 +121,9 @@ export const ServiceWeOffer = () => {
                     }}
                     {...settings} >
                     {data.map((item, index) => (
-                        <div key={index} className="mr-4 flex justify-center items-center gap-12 ">
-                            <div className='sm:mx-4 transition-all duration-300 h-[300px] w-[290px] sm:w-[320px] lg:w-[500px] pb-8 sm:px-4 ease-in-out flex-grow border-2 border-[#E7DAED] shadow-custom justify-center flex flex-col px-2 sm:p-3 sm:my-8 gap-2 rounded-[9px] '>
-                                <h3 className='font-rubik text-mobTitle2 text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay sm:text-tabTitle2 lg:text-lapTitle2 font-semibold leading-[27px]'>
+                        <div key={index} className="mr-4 flex justify-center items-center gap-12">
+                            <div className='sm:mx-4 transition-all duration-300 w-[310px] sm:w-[380px] pb-8 sm:px-4 ease-in-out flex-grow border-2 border-[#E7DAED] shadow-custom justify-center flex flex-col px-2 sm:p-3 sm:my-8 gap-2 rounded-[9px] '>
+                                <h3 className='font-rubik text-mobTitle2 text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay sm:text-tabTitle2 lg:text-lapTitle2 font-semibold leading-4 sm:leading-[27px]'>
                                     {item.heading}
                                 </h3>
                                 <p className='text-mobBody2 sm:text-tabBody2 lg:text-lapBody2 text-textgray font-rubik leading-[18px] md:leading-[22px]'>

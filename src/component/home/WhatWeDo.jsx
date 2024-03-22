@@ -49,6 +49,7 @@ const renderTextWithBold = (text) => {
     });
 };
 
+
 export const WhatWeDo = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [modalData, setModalData] = useState({})
@@ -65,7 +66,7 @@ export const WhatWeDo = () => {
 
     return (
         <section className='max-w-[1920px] mx-auto'>
-            <div className='px-8 sm:px-20 md:px-40 lg:px-20 sm:py-12 flex flex-row flex-wrap lg:flex-nowrap w-full mx-auto gap-8 mb-16'>
+            <div className='px-8 sm:px-20 md:px-40 lg:px-20 sm:py-12 flex flex-col lg:flex-row  w-full justify-center mx-auto gap-8 mb-16'>
                 <div className='leftBox w-full xl:w-3/12 lg:px-20 2xl:px-0'>
                     <p className="text-lapContactBody mb-2 font-rubik bg-white/10 border-l-4 pl-2 border-yellow-500 font-normal ">
                         What We Do
@@ -75,15 +76,15 @@ export const WhatWeDo = () => {
                     </h2>
                 </div>
 
-                <div className='justify-center rightBox w-full lg:w-9/12 flex flex-row flex-wrap gap-8 sm:gap-12 lg:gap-8 xl:justify-end'>
+                <div className='justify-center rightBox max-w-4xl flex flex-row flex-wrap gap-8 sm:gap-12 lg:gap-4 xl:justify-end'>
                     {
                         cardData?.map((item) => {
                             return (
-                                <div key={item.id} className='w-[400px] flex flex-row justify-between items-center sm:items-start'>
+                                <div key={item.id} className='w-[400px] lg:basis-[380px] 2xl:basis-[400px] flex flex-row justify-between items-center sm:items-start'>
                                     <div className='w-[41px] sm:w-[60px] h-[40px] sm:h-[60px]'>
                                         <img loading="lazy" src={item.imgPic} alt={item.id} className='w-full h-full object-cover' />
                                     </div>
-                                    <div className='w-4/5 border-2 border-l-[#D8D8D8] pl-4 border-y-white border-r-white'>
+                                    <div className='w-4/5 border-2  border-l-[#D8D8D8] pl-4 border-y-white border-r-white'>
                                         <h3 className='font-rubik text-mobHeading1 sm:text-tabHeading1 leading-[14px] sm:leading-[29px]'>
                                             <Link to={item.link}>
                                                 {item.heading}

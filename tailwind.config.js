@@ -77,7 +77,7 @@ export default {
       fontFamily: {
         rubik: ['Rubik', 'sans-serif'],
         krub: ['Krub', 'sans-serif'],
-        
+
       },
     },
   },

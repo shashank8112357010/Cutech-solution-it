@@ -45,7 +45,7 @@ export const Footer = () => {
                             <h3 className='text-mobFooterTitle z-10 sm:text-lapFooterTitle font-rubik bg-[#1d2551] py-5 px-20'>Pages</h3>
                             <ul className='flex flex-col text-mobFooterLinks sm:text-tabFooterLinks lg:text-lapFooterLinks justify-center font-medium items-center gap-4'>
                                 {
-                                    [{ route: "Home", path: '/home' }, { route: "About Us", path: '/about-us' }, { route: "Blog", path: '/blog' }, { route: "Services", path: '/services' }, { route: "Contact", path: '/contact-us' }].map((item, index) => {
+                                    [{ route: "Home", path: '/' }, { route: "About Us", path: '/about-us' }, { route: "Blog", path: '/blog' }, { route: "Services", path: '/services' }, { route: "Contact", path: '/contact-us' }].map((item, index) => {
                                         return (
                                             <li key={index} className='flex items-center transition-all duration-300 ease-in-out'><Link to={item.path}>{item.route}</Link></li>
                                         )
