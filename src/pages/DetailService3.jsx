@@ -1,12 +1,12 @@
 import React from 'react'
-import BannerAtom from '../atom/BannerAtom'
+import {BannerAtom} from '../atom/BannerAtom'
 
 import { Link } from 'react-router-dom'
-import CoreService3 from '../component/services/CoreService3'
-import ChooseService3 from '../component/services/ChooseService3'
+import {CoreService3} from '../component/services/CoreService3'
+import {ChooseService3} from '../component/services/ChooseService3'
 
 
-const DetailService3 = () => {
+export const DetailService3 = () => {
 
   return (
     <>
@@ -285,5 +285,5 @@ const DetailService3 = () => {
   )
 }
 
-export default DetailService3
+
 

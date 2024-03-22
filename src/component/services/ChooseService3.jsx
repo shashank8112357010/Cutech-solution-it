@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ChooseService3 = () => {
+export const ChooseService3 = () => {
   return (
     <div className='bg-lightWhite w-full lg:px-10 lg:py-14 sm:px-8 sm:py-10 py-5 mb-[13rem]'>
       <div className="">
@@ -101,4 +101,3 @@ const ChooseService3 = () => {
   )
 }
 
-export default ChooseService3

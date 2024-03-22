@@ -13,6 +13,10 @@ import { Privacy } from "../pages/Privacy";
 import { RefundPolicy } from "../pages/RefundPolicy";
 import { DetailBlog1 } from "../pages/DetailBlog1";
 import { DetailService1 } from "../pages/DetailService1";
+import { DetailService4 } from "../pages/DetailService4";
+import { DetailService3 } from "../pages/DetailService3";
+import { DetailService2 } from "../pages/DetailService2";
+import { NoPageFound } from "./NoPageFound";
 
 
 export const Router = () => {
@@ -31,10 +35,10 @@ export const Router = () => {
                 <Route path="/refund-policy" element={<RefundPolicy />} />
                 <Route path="/elevate-your-business-with-expert-b2b-it-support" element={<DetailBlog1 />} />
                 <Route path="/cyber-security-service" element={<DetailService1 />} />
-                {/* <Route path="/digital-marketing-company" element={<DetailService2 />} /> */}
-                {/* <Route path="/cloud-managed-services" element={<DetailService3 />} /> */}
-                {/* <Route path="/remote-technical-support-services" element={<DetailService4 />} /> */}
-                {/* <Route path="*" element={<NoPageFound />} /> */}
+                <Route path="/digital-marketing-company" element={<DetailService2 />} />
+                <Route path="/cloud-managed-services" element={<DetailService3 />} />
+                <Route path="/remote-technical-support-services" element={<DetailService4 />} />
+                <Route path="*" element={<NoPageFound />} />
             </Routes>
             <Footer />
         </>
