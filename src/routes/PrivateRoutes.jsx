@@ -18,7 +18,6 @@ import { DetailService3 } from "../pages/DetailService3";
 import { DetailService2 } from "../pages/DetailService2";
 import { NoPageFound } from "./NoPageFound";
 
-
 export const Router = () => {
     return (
         <>
