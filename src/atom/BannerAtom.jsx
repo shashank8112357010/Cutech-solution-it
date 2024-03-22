@@ -4,14 +4,6 @@ import React from 'react';
 
 
 
-
-
-
-
-
-
-
-
 export const BannerAtom = ({ srcImg, title, heading }) => {
   return (
     <div className='relative mmd:h-[400px] -z-[50]'>
