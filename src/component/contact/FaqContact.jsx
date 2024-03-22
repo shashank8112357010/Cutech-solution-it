@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import pkg from '@material-tailwind/react';
 const {Accordion, AccordionHeader, AccordionBody} = pkg;
 
-const FaqContact = ({ data }) => {
+export const FaqContact = ({ data }) => {
 
     const [open, setOpen] = useState(null);
 
@@ -90,4 +90,3 @@ const FaqContact = ({ data }) => {
     )
 }
 
-export default FaqContact

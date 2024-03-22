@@ -44,7 +44,7 @@ const data = [
 ];
 
 
-export const FeatureSlider = () => {
+export const Testimonial = () => {
     let sliderRef = useRef(null);
 
     const next = () => {

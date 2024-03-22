@@ -1,7 +1,6 @@
 import React, { useRef } from 'react'
 import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+
 
 const data = [
     { heading: "Tailored Solutions for Your Business Needs", para: "At our firm, we believe in tailoring IT solutions to fit each client's unique needs. Whether you're a startup or an enterprise, we customize our services to match your business size, sector, and goals. With a personalized approach, we ensure your IT infrastructure remains strong and reliable. Proudly offering <strong> top-tier technical support in UK </strong>, we prioritize understanding your requirements to deliver bespoke solutions." },
@@ -13,7 +12,7 @@ const data = [
     { heading: "Continuous Support and Collaboration", para: "Our relationship with clients doesn't end after the project is completed – it's just the beginning. We believe in fostering long-term partnerships with our clients, providing ongoing support, maintenance, and collaboration to help them achieve their business goals. Whether you need <strong> assistance with troubleshooting a technical issue </strong> or advice on implementing a new technology, Cutech Solutions is always here to help." },
 ];
 
-const ServiceWeOffer = () => {
+export const ServiceWeOffer = () => {
     let sliderRef = useRef(null);
 
     const next = () => {
@@ -147,4 +146,4 @@ const ServiceWeOffer = () => {
     )
 }
 
-export default ServiceWeOffer
+
