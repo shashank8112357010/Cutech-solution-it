@@ -7,4 +7,5 @@ import vue from '@vitejs/plugin-vue';
 export default defineConfig({
   plugins: [react(), vue()],
   // base :"https://cutechsolutions.co.uk/"
+  base :"https://cutechsolution.onrender.com/"
 })
