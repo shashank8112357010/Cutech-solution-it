@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Intro = () => {
+export const Intro = () => {
     return (
         <div className='max-w-[1920px] mx-auto py-4 sm:py-12 pb-12 sm:pb-24'>
             <div className='flex flex-col px-8 sm:px-20 md:px-40 lg:justify-center'>
@@ -39,4 +39,4 @@ const Intro = () => {
     )
 }
 
-export default Intro
+
