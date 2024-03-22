@@ -161,12 +161,9 @@ app.use("*", async (req, res, next) => {
         }
 
         const html = template
-    .replace(`<!--meta-tags-->`, metaTags) // Replace meta tags placeholder
-    .replace(`<!--app-html-->`, '<h1>Hello, world!</h1>'); // Replace app HTML placeholder with actual content
+    .replace(`<!--meta-tags-->`, metaTags)
+    .replace(`<!--app-html-->`, ' ');
 
-        // const html = template
-        //     .replace(`<!--meta-tags-->`, metaTags)
-        //     .replace(`<!--app-html-->`, '');
         res.status(200).setHeader("Content-Type", "text/html").end(html);
     } catch (error) {
         vite.ssrFixStacktrace(error);
