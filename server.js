@@ -12,9 +12,9 @@ const templateHtml = isProduction
     ? fs.readFileSync("./dist/client/index.html", "utf-8")
     : "";
 
-const ssrManifest = isProduction
-    ? fs.readFileSync("./dist/client/ssr-manifest.json", "utf-8")
-    : undefined;
+// const ssrManifest = isProduction
+//     ? fs.readFileSync("./dist/client/ssr-manifest.json", "utf-8")
+//     : undefined;
 
 
 
@@ -116,6 +116,7 @@ let vite;
 
 // Add vite or respective production middlewares
 if (!isProduction) {
+
     vite = await createViteServer({
         server: { middlewareMode: true },
         appType: "custom",
@@ -140,7 +141,6 @@ app.use("*", async (req, res, next) => {
             return res.status(404).send("Page not found");
         }
 
-        console.log(currentPage, "currentPage");
 
         // Meta tags and body content based on the current page data
 
@@ -152,8 +152,6 @@ app.use("*", async (req, res, next) => {
             <link rel="canonical" href="${canonicalUrl}">
         `;
 
-
-
         let template;
         if (!isProduction) {
             template = fs.readFileSync(path.resolve("./index.html"), "utf-8");
@@ -163,8 +161,8 @@ app.use("*", async (req, res, next) => {
         }
 
         const html = template
-    .replace(`<!--meta-tags-->`, metaTags)
-    .replace(`<!--app-html-->`, ' ');
+            .replace(`<!--meta-tags-->`, metaTags)
+            .replace(`<!--app-html-->`, `<div id="app">${templateHtml}</div>`);
 
         res.status(200).setHeader("Content-Type", "text/html").end(html);
     } catch (error) {
