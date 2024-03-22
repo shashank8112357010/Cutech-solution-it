@@ -1,9 +1,8 @@
 import React from 'react'
 
-const NoPageFound = () => {
+export const NoPageFound = () => {
     return (
         <div>NoPageFound</div>
     )
 }
 
-export default NoPageFound
