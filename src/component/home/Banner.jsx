@@ -1,6 +1,5 @@
 import React from 'react';
 import Slider from 'react-slick';
-import { Typography } from '@material-tailwind/react';
 import { Link } from 'react-router-dom';
 
 export const Banner = () => {
@@ -75,25 +74,20 @@ export const Banner = () => {
                         />
                         <div className="absolute inset-0 grid h-full w-full place-items-center">
                             <div className="w-10/12 text-center mt-10 md:w-4/4">
-                                <Typography
-                                    variant="lead"
+                                <div
                                     className="mb-4 capitalize !text-white front block text-[18px] sm:text-[25px] lg:text-lapHeaderText font-semibold font-rubik leading-[18px] sm:leading-[29px] lg:leading-[53px]"
                                 >
                                     {renderTextWithBold(item.heading)}
-                                </Typography>
+                                </div>
                                 {item.para && (
-                                    <Typography
-                                        variant="lead"
-                                        color="white"
+                                    <div
                                         className="block mb-6 opacity-80 !text-white font-krub text-mobHeaderBody sm:text-tabHeaderBody lg:text-lapHeaderBody leading-[18px] sm:leading-[24px]"
                                     >
                                         {item.para}
-                                    </Typography>
+                                    </div>
                                 )}
 
-                                <Typography
-                                    variant="lead"
-                                    color="white"
+                                <div
                                     className="mb-0 text-[14px] sm:text-[16px] md:text-[20px] opacity-80 w-5/5 flex justify-center items-center"
                                 >
                                     <button
@@ -104,7 +98,7 @@ export const Banner = () => {
                                             Explore
                                         </Link>
                                     </button>
-                                </Typography>
+                                </div>
                             </div>
                         </div>
                     </div>

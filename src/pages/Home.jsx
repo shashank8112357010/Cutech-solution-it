@@ -1,17 +1,6 @@
 import React, { lazy, Suspense } from 'react';
-// import { Banner } from '../component/home/Banner';
-// import { BannerAtom } from '../atom/BannerAtom';
-import { FeatureSlider } from '../component/home/Testimonial';
-import { Privacy } from './Privacy';
-// import Intro from '../component/home/Intro';
-// import WhatWeDo from '../component/home/WhatWeDo';
-// import WhyUs from '../component/home/WhyUs';
-// import ServiceWeOffer from '../component/home/ServiceWeOffer';
-// import Testimonial from '../component/home/Testimonial';
-// import HowWorks from '../component/home/HowWorks';
-// import ComputerSolutions from '../component/home/ComputerSolutions';
-// import FaqContact from '../component/contact/FaqContact';
-// import HomeBlog from '../component/home/HomeBlog';
+import { Banner } from '../component/home/Banner';
+import { Intro } from '../component/home/Intro';
 
 // // Lazy-loaded components
 // const LazyGetInTouch = lazy(() => import('../component/contact/GetInTouchContact'));
@@ -37,26 +26,19 @@ export const Home = () => {
 
     return (
         <div className='font-krub'>
-            {/* <Banner/> */}
-            {/* <BannerAtom srcImg="/img/Contact/ContactBanner.png" title="Contact Us" heading="Contact Us" />
-            <BannerAtom srcImg="/img/about/aboutBanner.png" title="About us" heading="About Us" /> */}
-            <div className='hover:bg-red-500'>
-                Escrow
-            </div>
-            {/* <Intro />
-            <WhatWeDo />
-            <WhyUs />
-            <ServiceWeOffer />
-            <Suspense fallback={<div>Loading...</div>}>
+            <Banner />
+            <Intro />
+            {/* <WhatWeDo /> */}
+            {/* <WhyUs /> */}
+            {/* <ServiceWeOffer /> */}
+            {/* <Suspense fallback={<div>Loading...</div>}>
                 <LazyGetInTouch />
-            </Suspense>
-            <Testimonial />
-            <HowWorks />
-            <ComputerSolutions />
-            <FaqContact data={data} />
-            <HomeBlog /> */}
-            <Privacy/>
-            <FeatureSlider />
+            </Suspense> */}
+            {/* <Testimonial /> */}
+            {/* <HowWorks /> */}
+            {/* <ComputerSolutions /> */}
+            {/* <FaqContact data={data} /> */}
+            {/* <HomeBlog /> */}
         </div>
     );
 };
