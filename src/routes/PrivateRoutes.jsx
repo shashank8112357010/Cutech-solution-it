@@ -17,6 +17,7 @@ import { DetailService4 } from "../pages/DetailService4";
 import { DetailService3 } from "../pages/DetailService3";
 import { DetailService2 } from "../pages/DetailService2";
 import { NoPageFound } from "./NoPageFound";
+import { HomeSocialIcon } from "../data/dataSet";
 
 export const Router = () => {
     return (
@@ -41,7 +42,7 @@ export const Router = () => {
                     <Route path="*" element={<NoPageFound />} />
                 </Routes>
 
-                {/* <div className='z-50 fixed top-[30%] right-0 rounded-tl-lg rounded-bl-lg rounded-tr-none rounded-br-none'>
+                <div className='z-50 fixed top-[30%] right-0 rounded-tl-lg rounded-bl-lg rounded-tr-none rounded-br-none'>
                     <div className=' relative h-[210px] flex flex-col justify-end'>
                         <Link to="contact-us" className=' -rotate-90 absolute font-semibold text-[14px] bg-darkBlue text-darkYellow rounded-tr-lg top-0 h-[109px] w-28 px-4 pt-2 cursor-pointer '>
                             ~Contact us
@@ -52,7 +53,7 @@ export const Router = () => {
                             </span>)}
                         </div>
                     </div>
-                </div> */}
+                </div>
             </div>
             <Footer />
         </>
