@@ -8,10 +8,11 @@ import { Testimonial } from '../component/home/Testimonial';
 import { HowWorks } from '../component/home/HowWorks';
 import { ComputerSolutions } from '../component/home/ComputerSolutions';
 import { HomeBlog } from '../component/home/HomeBlog';
+import { GetInTouchContact } from '../component/contact/GetInTouchContact';
 // import {FaqContact} from '../component/contact/FaqContact';
 
 // // Lazy-loaded components
-const LazyGetInTouch = lazy(() => import('../component/contact/GetInTouchContact'));
+// const LazyGetInTouch = lazy(() => import('../component/contact/GetInTouchContact'));
 
 export const Home = () => {
     const data = [
@@ -39,9 +40,10 @@ export const Home = () => {
             <WhatWeDo />
             <WhyUs />
             <ServiceWeOffer />
-            <Suspense fallback={<div>Loading...</div>}>
+            {/* <Suspense fallback={<div>Loading...</div>}>
                 <LazyGetInTouch />
-            </Suspense>
+            </Suspense> */}
+            <GetInTouchContact />
             <Testimonial />
             <HowWorks />
             <ComputerSolutions />
