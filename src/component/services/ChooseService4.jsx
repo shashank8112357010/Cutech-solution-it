@@ -6,7 +6,7 @@ export const ChooseService4 = () => {
       <div className="">
         <div className="text-center mx-auto max-w-[581px]">
 
-          <h2 className="text-mobTitle sm:text-tabTitle lg:text-lapTitle font-bold font-rubik">Choosing the Right Remote Technical Support Provider in UK</h2>
+          <h2 className="text-mobTitle sm:text-tabTitle lg:text-lapTitle font-bold lg:leading-10 font-rubik">Choosing the Right Remote Technical Support Provider in UK</h2>
 
           <p className='font-krub text-mobBody sm:text-tabBody lg:text-lapBody leading-[18px] sm:leading-[24px] text-center'>
             Selecting the right <strong>remote technical support provider</strong> is crucial for ensuring the smooth operation and optimal performance of your IT infrastructure. When making your choice, keep the following four important factors in mind:

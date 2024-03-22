@@ -6,7 +6,7 @@ export const ChooseService2 = () => {
       <div className="">
         <div className="text-center mx-auto max-w-[550px]">
 
-          <h3 className="text-mobTitle sm:text-tabTitle lg:text-lapTitle font-bold font-rubik">Why Cutech Solutions is the Ideal Digital Marketing Partner for You</h3>
+          <h3 className="text-mobTitle sm:text-tabTitle lg:text-lapTitle font-bold lg:leading-10 font-rubik">Why Cutech Solutions is the Ideal Digital Marketing Partner for You</h3>
 
           <p className='font-krub text-mobBody sm:text-tabBody lg:text-lapBody leading-[18px] sm:leading-[24px] text-center'>
             At Cutech Solutions, we are passionate about helping businesses thrive online. We understand the unique challenges and opportunities that exist in the ever-evolving digital landscape. Here's why we are the ideal digital marketing partner for you:
