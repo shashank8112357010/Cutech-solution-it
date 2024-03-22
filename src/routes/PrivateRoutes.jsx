@@ -3,14 +3,18 @@ import { Home } from "../pages/Home";
 // import Other  from "../pages/Other";
 import { Navbar } from "../component/Navbar";
 import "../index.css"
+import { Footer } from "../component/Footer";
+
+
 export const Router = () => {
     return (
         <>
         <Navbar/>
         <Routes>
-            <Route path="/" element={<Home />} />
-            {/* <Route path="/other" element={<Other />} /> */}
+            <Route path="/home" element={<Home />} />
+            {/* <Route path="/about-us" element={<About />} /> */}
         </Routes>
+        <Footer/>
         </>
     );
 };

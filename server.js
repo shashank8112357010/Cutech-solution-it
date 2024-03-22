@@ -16,6 +16,8 @@ const ssrManifest = isProduction
     ? fs.readFileSync("./dist/client/ssr-manifest.json", "utf-8")
     : undefined;
 
+
+
 const pageData = [
     {
         path: '/home',
