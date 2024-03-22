@@ -69,8 +69,6 @@ export const Banner = () => {
                             src={item.url}
                             className="top-[600px] w-full h-full object-cover"
                             alt="imgBanner"
-                            loading="lazy"
-                            decoding="async"
                         />
                         <div className="absolute inset-0 grid h-full w-full place-items-center">
                             <div className="w-10/12 text-center mt-10 md:w-4/4">
