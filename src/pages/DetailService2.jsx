@@ -1,11 +1,11 @@
 import React from 'react'
-import BannerAtom from '../atom/BannerAtom'
-import CoreService from '../component/services/CoreService2'
-import ChooseService from '../component/services/ChooseService1'
+import {BannerAtom} from '../atom/BannerAtom'
+import {CoreService2} from '../component/services/CoreService2'
+import {ChooseService2} from '../component/services/ChooseService2'
 import { Link } from 'react-router-dom'
 
 
-const DetailService2 = () => {
+export const DetailService2 = () => {
     return (
         <>
             <BannerAtom srcImg="/img/about/aboutBanner.png" title="Service " heading="Digital Marketing Service " />
@@ -120,7 +120,7 @@ const DetailService2 = () => {
             </div>
             {/* second section end  */}
 
-            <CoreService />
+            <CoreService2 />
             {/* fourth section */}
             <div className="max-w-[1920px] mx-auto w-full flex flex-col lg:flex-row px-5 lg:px-[2%] mt-14 mb-[10rem]">
                 <div className="blackSection w-full lg:max-w-[30rem]">
@@ -253,8 +253,9 @@ const DetailService2 = () => {
                     </div>
                 </div>
             </div>
+
             {/* chooseservice */}
-            <ChooseService />
+            <ChooseService2 />
 
             {/* lastsection */}
             <div className='mt-16 px-4 sm:px-20  '>
@@ -282,5 +283,5 @@ const DetailService2 = () => {
     )
 }
 
-export default DetailService2
+
 

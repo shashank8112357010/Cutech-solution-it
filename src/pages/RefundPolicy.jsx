@@ -1,7 +1,7 @@
 import React from 'react'
-import BannerAtom from '../atom/BannerAtom'
+import { BannerAtom } from '../atom/BannerAtom'
 
-const RefundPolicy = () => {
+export const RefundPolicy = () => {
 
     const refundPolicy = [
         {
@@ -47,16 +47,16 @@ const RefundPolicy = () => {
                     </h1>
                 </div>
 
-                
+
                 <div className="flex  flex-col justify-start gap-4 items-start mb-14">
                     <p className="text-textgray text-[12px] sm:text-[16px] 2xl:text-[22px] leading-4 sm:leading-8 font-krub">At Cutech Solutions Ltd, we strive to ensure the satisfaction of our customers with the services we provide. We are aware, though, that there may be instances in which a refund is required. Therefore, we have established the following refund policy to outline the terms and conditions under which refunds will be issued:</p>
                 </div>
 
 
                 {
-                    refundPolicy.map((item) => {
+                    refundPolicy.map((item, index) => {
                         return (
-                            <div className="flex  flex-col justify-start items-start mb-8 gap-4">
+                            <div key={index} className="flex  flex-col justify-start items-start mb-8 gap-4">
                                 <h2 className="text-darkBlue font-extrabold text-[18px] sm:text-[25px] 2xl:text-[30px] font-rubik">{item.policy}</h2>
                                 <p className="text-textgray text-[12px] sm:text-[16px] 2xl:text-[22px] leading-4 sm:leading-8 font-krub">{item.solution}</p>
                             </div>
@@ -98,5 +98,3 @@ const RefundPolicy = () => {
         </>
     )
 }
-
-export default RefundPolicy

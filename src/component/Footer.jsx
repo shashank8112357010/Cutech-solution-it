@@ -17,7 +17,7 @@ export const Footer = () => {
                                 </div>
                             </div>
                             <p className='font-krub font-medium text-lapFooterBody leading-[18.18px] text-center lg:text-start sm:w-[400px] lg:w-[300px]'>
-                            Cutech Solutions: Empowering B2B Enterprises with Next-Level IT Solutions
+                                Cutech Solutions: Empowering B2B Enterprises with Next-Level IT Solutions
                             </p>
                             <div className='flex flex-col gap-4'>
                                 <div className='flex items-center flex-row justify-center lg:justify-start gap-2'>
@@ -45,7 +45,7 @@ export const Footer = () => {
                             <h3 className='text-mobFooterTitle z-10 sm:text-lapFooterTitle font-rubik bg-[#1d2551] py-5 px-20'>Pages</h3>
                             <ul className='flex flex-col text-mobFooterLinks sm:text-tabFooterLinks lg:text-lapFooterLinks justify-center font-medium items-center gap-4'>
                                 {
-                                    [{ route: "Home", path: '/' }, { route: "About Us", path: '/about-us' }, { route: "Blog", path: '/blog' }, { route: "Services", path: '/services' }, { route: "Contact", path: '/contact-us' }].map((item, index) => {
+                                    [{ route: "Home", path: '/home' }, { route: "About Us", path: '/about-us' }, { route: "Blog", path: '/blog' }, { route: "Services", path: '/services' }, { route: "Contact", path: '/contact-us' }].map((item, index) => {
                                         return (
                                             <li key={index} className='flex items-center transition-all duration-300 ease-in-out'><Link to={item.path}>{item.route}</Link></li>
                                         )
@@ -97,7 +97,7 @@ export const Footer = () => {
             <div className='w-full mx-auto flex bg-darkBlue text-white '>
                 <div className=' px-2 mx-auto w-full sm:w-12/12 flex justify-between border-t-2 border-[#4E5683] '>
                     <div className='py-2 text-mobFooterLinks text-center w-full '>
-                        Copyright &copy; 2024 Cutech Solutions 
+                        Copyright &copy; 2024 Cutech Solutions
                     </div>
                 </div>
             </div>
@@ -106,4 +106,3 @@ export const Footer = () => {
     )
 }
 
- 

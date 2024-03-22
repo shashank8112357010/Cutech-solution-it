@@ -1,10 +1,9 @@
 import React from 'react'
-import Cards from '../component/home/Cards'
-import FaqContact from '../component/contact/FaqContact'
-import BannerAtom from '../atom/BannerAtom'
+import { BannerAtom } from '../atom/BannerAtom'
 import { Link } from 'react-router-dom'
+import { Cards } from "../component/home/Cards"
 
-const About = () => {
+export const About = () => {
   return (
     <section className='max-w-[1920px] mx-auto'>
 
@@ -181,4 +180,3 @@ const About = () => {
   )
 }
 
-export default About

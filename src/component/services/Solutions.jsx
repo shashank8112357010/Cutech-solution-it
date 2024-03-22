@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Solutions = () => {
+export const Solutions = () => {
     return (
         <section className='max-w-[1920px] mx-auto'>
             <div className='flex flex-row flex-wrap lg:flex-nowrap gap-[60px] sm:gap-[89.16px] justify-center lg:justify-between mt-0 mb-20  lg:px-20  '>
@@ -26,4 +26,3 @@ const Solutions = () => {
     )
 }
 
-export default Solutions 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom';
 
-const GetInTouchContact = () => {
+export const GetInTouchContact = () => {
     const { pathname } = useLocation()
     const navigate = useNavigate();
     const [isloading, setLoading] = useState(false)
@@ -77,7 +77,7 @@ const GetInTouchContact = () => {
                         }
 
                         <p className="block mx-auto text-center font-rubik leading-[22.68px] max-w-[320px] sm:max-w-[430px] font-normal lg:text-lapContactBody sm:text-tabBody text-mobBody">
-                        Cutech Solutions: Empowering B2B Enterprises with Next-Level IT Solutions
+                            Cutech Solutions: Empowering B2B Enterprises with Next-Level IT Solutions
                         </p>
                     </div>
 
@@ -238,7 +238,6 @@ const GetInTouchContact = () => {
     )
 }
 
-export default GetInTouchContact
 
 
 

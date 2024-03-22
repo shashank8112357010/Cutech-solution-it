@@ -1,9 +1,9 @@
 import React from 'react'
-import GetInTouchContact from '../component/contact/GetInTouchContact'
-import FaqContact from '../component/contact/FaqContact'
-import BannerAtom from '../atom/BannerAtom'
+import { GetInTouchContact } from '../component/contact/GetInTouchContact'
+// import FaqContact from '../component/contact/FaqContact'
+import { BannerAtom } from '../atom/BannerAtom'
 
-const Contact = () => {
+export const Contact = () => {
     const data = [
         {
             id: 0,
@@ -71,10 +71,8 @@ const Contact = () => {
         <section className='max-w-[1920px] mx-auto'>
             <BannerAtom srcImg="/img/Contact/ContactBanner.png" title="Contact Us" heading="Contact Us" />
             <GetInTouchContact />
-            <FaqContact data={data} />
+            {/* <FaqContact data={data} /> */}
         </section>
     )
 }
-
-export default Contact
 

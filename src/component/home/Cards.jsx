@@ -1,4 +1,4 @@
-const Cards = () => {
+export const Cards = () => {
   const data = [
     {
       id: 1,
@@ -57,4 +57,4 @@ const Cards = () => {
   );
 };
 
-export default Cards;
+

@@ -1,7 +1,7 @@
 import React from 'react'
-import BannerAtom from '../atom/BannerAtom'
+import { BannerAtom } from '../atom/BannerAtom'
 
-const TermsAndPolicy = () => {
+export const TermsAndPolicy = () => {
   return (
     <>
       <BannerAtom srcImg="/img/Contact/ContactBanner.png" title="Terms" heading="Terms and Condition" />
@@ -137,5 +137,3 @@ const TermsAndPolicy = () => {
     </>
   )
 }
-
-export default TermsAndPolicy

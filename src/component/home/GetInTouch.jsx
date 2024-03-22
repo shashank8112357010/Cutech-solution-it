@@ -1,6 +1,6 @@
 import React from 'react'
 
-const GetInTouch = () => {
+export const GetInTouch = () => {
     return (
         <section className='mx-auto max-w-[1920px]'>
             <div className="bg-[#091242] py-20 text-white flex flex-col lg:flex-row justify-center items-center gap-[52.46px]">
@@ -97,4 +97,3 @@ const GetInTouch = () => {
     )
 }
 
-export default GetInTouch

@@ -1,6 +1,15 @@
 import React, { lazy, Suspense } from 'react';
 import { Banner } from '../component/home/Banner';
 import { Intro } from '../component/home/Intro';
+import { WhatWeDo } from '../component/home/WhatWeDo';
+import { WhyUs } from '../component/home/WhyUs';
+import { ServiceWeOffer } from '../component/home/ServiceWeOffer';
+import { Testimonial } from '../component/home/Testimonial';
+import { HowWorks } from '../component/home/HowWorks';
+import { ComputerSolutions } from '../component/home/ComputerSolutions';
+import { HomeBlog } from '../component/home/HomeBlog';
+import { GetInTouchContact } from '../component/contact/GetInTouchContact';
+// import {FaqContact} from '../component/contact/FaqContact';
 
 // // Lazy-loaded components
 // const LazyGetInTouch = lazy(() => import('../component/contact/GetInTouchContact'));
@@ -28,17 +37,18 @@ export const Home = () => {
         <div className='font-krub'>
             <Banner />
             <Intro />
-            {/* <WhatWeDo /> */}
-            {/* <WhyUs /> */}
-            {/* <ServiceWeOffer /> */}
+            <WhatWeDo />
+            <WhyUs />
+            <ServiceWeOffer />
             {/* <Suspense fallback={<div>Loading...</div>}>
                 <LazyGetInTouch />
             </Suspense> */}
-            {/* <Testimonial /> */}
-            {/* <HowWorks /> */}
-            {/* <ComputerSolutions /> */}
+            <GetInTouchContact />
+            <Testimonial />
+            <HowWorks />
+            <ComputerSolutions />
             {/* <FaqContact data={data} /> */}
-            {/* <HomeBlog /> */}
+            <HomeBlog />
         </div>
     );
 };
