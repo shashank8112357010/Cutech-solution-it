@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CoreService1 = () => {
+export const CoreService1 = () => {
   return (
     <div className='bg-lightWhite w-full lg:px-10 lg:py-14 sm:px-8 sm:py-10 py-5 mb-[13rem] '>
       <div className="">
@@ -112,5 +112,3 @@ const CoreService1 = () => {
     </div>
   )
 }
-
-export default CoreService1

@@ -1,11 +1,10 @@
 import React from 'react'
-import CoreService from '../component/services/CoreService1'
-import ChooseService from '../component/services/ChooseService1'
-import BannerAtom from '../atom/BannerAtom'
+import { BannerAtom } from '../atom/BannerAtom'
 import { Link } from 'react-router-dom'
+import { CoreService1 } from "../component/services/CoreService1"
+import { ChooseService1 } from "../component/services/ChooseService1"
 
-
-const DetailService1 = () => {
+export const DetailService1 = () => {
 
   return (
     <>
@@ -134,7 +133,7 @@ const DetailService1 = () => {
       </div>
       {/* second section end  */}
 
-      < CoreService />
+      < CoreService1 />
       {/* fourth section */}
       < div className="w-full flex flex-col lg:flex-row px-5 lg:px-[2%] mt-14 mb-[10rem]" >
         <div className="blackSection w-full lg:max-w-[30rem]">
@@ -257,7 +256,7 @@ const DetailService1 = () => {
         </div>
       </div >
       {/* chooseservice */}
-      < ChooseService />
+      < ChooseService1 />
 
       {/* lastsection */}
       < div className=' mt-16 mx-auto  px-4 sm:px-20  ' >
@@ -285,5 +284,5 @@ const DetailService1 = () => {
   )
 }
 
-export default DetailService1
+
 
