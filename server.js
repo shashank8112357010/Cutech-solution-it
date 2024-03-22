@@ -29,8 +29,8 @@ const pageData = [
     {
         path: '/about-us',
         metaTitle: 'Discover Our Story | Cutech Solutions About Us',
+        canonicalUrl: 'https://cutechsolutions.co.uk/about-us',
         metaDescription: 'Explore the journey of Cutech Solutions. Learn about our overview, our mission, and core values. Get to know us better.',
-        canonicalUrl: 'https://cutechsolutions.co.uk/about-us'
     },
     {
         path: '/blog',
@@ -163,8 +163,8 @@ app.use("*", async (req, res, next) => {
         }
 
         const html = template
-    .replace(`<!--meta-tags-->`, metaTags)
-    .replace(`<!--app-html-->`, ' ');
+            .replace(`<!--meta-tags-->`, metaTags)
+            .replace(`<!--app-html-->`, ' ');
 
         res.status(200).setHeader("Content-Type", "text/html").end(html);
     } catch (error) {

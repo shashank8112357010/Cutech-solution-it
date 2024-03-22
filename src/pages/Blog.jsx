@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import BannerAtom from '../atom/BannerAtom';
+import { BannerAtom } from '../atom/BannerAtom';
 
-const Blog = () => {
+export const Blog = () => {
   const data = [
     {
       id: 1,
@@ -93,5 +93,3 @@ const Blog = () => {
     </>
   )
 }
-
-export default Blog
