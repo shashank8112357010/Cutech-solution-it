@@ -6,5 +6,5 @@ import vue from '@vitejs/plugin-vue';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), vue()],
-  base :"https://cutechsolutions.co.uk/"
+  // base :"https://cutechsolutions.co.uk/"
 })
