@@ -70,14 +70,14 @@ export const ServiceCards = () => {
                         return (
                             <div key={item.id} className='flex flex-col px-4 sm:px-20 lg:justify-center'>
 
-                                <div className={` flex item flex-col ${item.result ? "lg:flex-row" : "lg:flex-row-reverse"} lg:justify-between w-full`}>
+                                <div className={` flex item flex-col ${item.result ? "lg:flex-row" : "lg:flex-row-reverse"} ${item.result ? "lg:gap-4":""} lg:justify-between w-full`}>
                                     <div className={`flex flex-col lg:gap-[25px] sm:gap-[25px] gap-[8.9px] w-auto lg:w-1/2 ${!item.result && "md:pl-12"}`}>
                                         <div className='flex flex-col w-full '>
                                             <h2 className='font-rubik font-semibold w-[300px] sm:w-[400px] lg:w-[500px] mt-2 capitalize text-mobTitle sm:text-tabTitle lg:text-lapTitle leading-[23px] sm:leading-[29px] lg:leading-[43px] mb-1'>
                                                 {item.heading}
-                                            </h2>
+                                            </h2> 
                                             <div>
-                                                <p className='font-krub  font-medium lg:text-[16px] sm:text-[16px] text-[12px] text-[#666C89] my-2 sm:my-6'>
+                                                <p className={`font-krub ${item.result?"lg:w-3/4" :""}  font-medium lg:text-[16px] sm:text-[16px] text-[12px] text-[#666C89] my-2 sm:my-6`}>
                                                     {renderTextWithBold(item.para1)}
                                                 </p>
                                             </div>
@@ -103,7 +103,7 @@ export const ServiceCards = () => {
                                             </div>
 
                                             <button type="submit" className={`bg-red-500 ${item.result ? "justify-start" : "justify-end"} text-start w-[150px] bg-custom-gradient px-[25px] py-[14px] text-black font-rubik font-normal mt-8`}>
-                                                <Link to="/contact-us" className='w-full text-center block'>
+                                                <Link to={`/${item?.link}`} className='w-full text-center block'>
                                                     Learn More
                                                 </Link>
                                             </button>

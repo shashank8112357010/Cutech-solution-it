@@ -6,7 +6,7 @@ export const ChooseService3 = () => {
       <div className="">
         <div className="text-center mx-auto max-w-[581px]">
 
-          <h2 className="text-mobTitle sm:text-tabTitle lg:text-lapTitle font-bold font-rubik">Choosing the Right Cloud Service Management Provider in UK</h2>
+          <h2 className="text-mobTitle sm:text-tabTitle lg:text-lapTitle font-bold lg:leading-10 font-rubik">Choosing the Right Cloud Service Management Provider in UK</h2>
 
           <p className='font-krub text-mobBody sm:text-tabBody lg:text-lapBody leading-[18px] sm:leading-[24px] text-center'>
             Selecting the right <strong>cloud service management provider in UK</strong> equips you with the expertise and resources needed for a successful cloud journey.  Here's a roadmap to guide you in making the best decision for your business:
