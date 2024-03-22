@@ -26,6 +26,11 @@ export const Router = () => {
     useEffect(() => {
         const currentPage = pageData.find(page => page.path === pathname)
         document.title = currentPage.metaTitle
+
+        window.scroll({
+            top: 0,
+            behavior: 'smooth'
+        })
     }, [pathname])
 
     console.log("MN=>", document.title)
