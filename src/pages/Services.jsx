@@ -1,10 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import BannerAtom from '../atom/BannerAtom';
-import Solutions from '../component/services/Solutions';
-import ServiceCards from '../component/services/ServiceCards';
+import { BannerAtom } from '../atom/BannerAtom';
+import { Solutions } from '../component/services/Solutions';
+import { ServiceCards } from '../component/services/ServiceCards';
 
-const Services = () => {
+export const Services = () => {
     return (
         <>
             <BannerAtom srcImg="/img/services/ServicesBanner.png" title="Our Services" heading="Our Services" />
@@ -53,4 +52,4 @@ const Services = () => {
     );
 };
 
-export default Services;
+

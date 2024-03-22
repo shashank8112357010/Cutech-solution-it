@@ -1,8 +1,8 @@
 import React from 'react';
-import BannerAtom from '../atom/BannerAtom';
-import DetailBlogFAQ from '../component/detailBlogFaq/DetailBlogFAQ';
+import { BannerAtom } from '../atom/BannerAtom';
+// import DetailBlogFAQ from '../component/detailBlogFaq/DetailBlogFAQ';
 
-const DetailBlog1 = () => {
+export const DetailBlog1 = () => {
   return (
     <>
       <BannerAtom srcImg="/img/blog/BlogBanner.png" title="Blog" heading="Blog" />
@@ -119,7 +119,7 @@ const DetailBlog1 = () => {
               </p>
             </div>
 
-            <DetailBlogFAQ />
+            {/* <DetailBlogFAQ /> */}
 
             <p className='font-krub text-mobBody sm:text-tabBody lg:text-lapBody font-medium leading-[18px] sm:leading-[24px] px-4'>
               In today's fast-paced business environment, having reliable IT support is essential for success. With Cutech Solutions, you can elevate your business to new heights with expert B2B IT support services tailored to your needs. From fast resolution times to personalized service, we're here to help you overcome any IT challenge and drive growth and success for your business. Contact us today to learn more about how Cutech Solutions can support your business's IT needs.
@@ -290,5 +290,3 @@ const DetailBlog1 = () => {
     </>
   )
 }
-
-export default DetailBlog1

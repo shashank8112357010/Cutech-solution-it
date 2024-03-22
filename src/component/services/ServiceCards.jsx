@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const ServiceCards = () => {
+export const ServiceCards = () => {
 
     const aboutCardData = [
         {
@@ -126,4 +126,3 @@ const ServiceCards = () => {
     )
 }
 
-export default ServiceCards
