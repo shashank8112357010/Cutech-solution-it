@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import CardModal from '../modal/CardModal'
 
-const ComputerSolutions = () => {
+export const ComputerSolutions = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [modalData, setModalData] = useState({})
 
@@ -118,4 +118,3 @@ const ComputerSolutions = () => {
     )
 }
 
-export default ComputerSolutions

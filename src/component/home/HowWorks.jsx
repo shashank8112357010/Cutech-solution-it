@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HowWorks = () => {
+export const HowWorks = () => {
     return (
         <section className="mx-auto max-w-[1920px]">
             <div className="relative ">
@@ -77,4 +77,3 @@ const HowWorks = () => {
     )
 }
 
-export default HowWorks

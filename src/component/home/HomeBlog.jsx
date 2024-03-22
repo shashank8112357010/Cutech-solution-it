@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const HomeBlog = () => {
+export const HomeBlog = () => {
     return (
         <section className="mx-auto max-w-[1920px]">
             <div className="w-[95%] md:w-9/12 lg:w-[83%] mx-auto text-center my-[15vh] sm:py-4 relative">
@@ -62,4 +62,3 @@ const HomeBlog = () => {
     )
 }
 
-export default HomeBlog
