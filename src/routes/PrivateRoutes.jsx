@@ -47,11 +47,11 @@ export const Router = () => {
                         <Link to="contact-us" className=' -rotate-90 absolute font-semibold text-[14px] bg-darkBlue text-darkYellow rounded-tr-lg top-0 h-[109px] w-28 px-4 pt-2 cursor-pointer '>
                             ~Contact us
                         </Link>
-                        <div className='flex flex-col w-[36px] pb-0'>
+                        {/* <div className='flex flex-col w-[36px] pb-0'>
                             {HomeSocialIcon.map((item, index) => <span className='hover:-translate-x-1 h-[33px] rounded-tr-lg transition-all duration-240 px-0.5 ease-out' key={index}>
                                 {item.icon}
                             </span>)}
-                        </div>
+                        </div> */}
                     </div>
                 </div>  */}
             </div>
