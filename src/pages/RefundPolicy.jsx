@@ -65,28 +65,21 @@ export const RefundPolicy = () => {
                     })
                 }
 
-                <div className="flex  flex-col justify-start items-start mb-8 gap-4">
+                <div className="flex  flex-col justify-start items-start mb-4 gap-2">
                     <h2 className="text-darkBlue font-extrabold text-[18px] sm:text-[25px] 2xl:text-[30px] font-rubik">Exclusions:</h2>
                     <p className="text-textgray text-[12px] sm:text-[16px] 2xl:text-[22px] leading-4 sm:leading-8 font-krub">The following services are not eligible for refunds:</p>
 
-                    <ol className="lg:leading-[27px] sm:leading-[20px] leading-6 text-[12px] sm:text-[16px] list-disc 2xl:text-[22px] ml-5  mb-7 ">
-                        <li className="text-textgray mb-2">Services provided after the initial 14-day period.</li>
-                        <li className="text-textgray mb-2">Services that have been partially or fully consumed by the customer.</li>
-                        <li className="text-textgray mb-2">Services that have been terminated due to a violation of Cutech Solutions Ltd's terms of service.</li>
+                    <ol className="lg:leading-[27px] sm:leading-[20px] leading-6 text-[12px] sm:text-[16px] list-disc 2xl:text-[22px] ml-5  mb-4 ">
+                        <li className="text-textgray ">Services provided after the initial 14-day period.</li>
+                        <li className="text-textgray ">Services that have been partially or fully consumed by the customer.</li>
+                        <li className="text-textgray">Services that have been terminated due to a violation of Cutech Solutions Ltd's terms of service.</li>
                     </ol>
                 </div>
 
                 <div className="flex  flex-col justify-start items-start mb-8 gap-4">
                     <h2 className="text-darkBlue font-extrabold text-[18px] sm:text-[25px] 2xl:text-[30px] font-rubik">Disputes:</h2>
                     <p className="text-textgray text-[12px] sm:text-[16px] 2xl:text-[22px] leading-4 sm:leading-8 font-krub">Under applicable laws and regulations, a customer may report a problem to the relevant regulatory bodies or consumer protection organizations if they are unhappy with the answer Cutech Solutions Ltd. gave them regarding a refund request.</p>
-                    <div className='bold'>
-                        <p className='text-black'>Contact Information:</p>
-                        <p className="text-textgray text-[8px] sm:text-[14px] 2xl:text-[20px] leading-4 sm:leading-8 font-krub">For any questions or concerns regarding our refund policy, please contact Cutech Solutions Ltd at the following address:</p>
-                        <span className='text-textgray/85'>Cutech Solutions Ltd</span>
-                        <span className='text-textgray/85'>128 City Road, London, United Kingdom, EC1V 2NX</span>
-                        <span className='text-textgray/85'>Email: billing@cutechsolutions.co.uk</span>
-                        <span className='text-textgray/85'>Phone: +44 7424 352181</span>
-                    </div>
+                   
                 </div>
                 <div className="flex  flex-col justify-start items-start mb-12 gap-4">
                     <h2 className="text-darkBlue font-extrabold text-[18px] sm:text-[25px] 2xl:text-[30px] font-rubik">Effective Date:
