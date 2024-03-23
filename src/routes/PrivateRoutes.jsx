@@ -58,7 +58,7 @@ export const Router = () => {
                     <Route path="*" element={<NoPageFound />} />
                 </Routes>
 
-                <div className='z-50 fixed top-[30%] right-0 rounded-tl-lg rounded-bl-lg rounded-tr-none rounded-br-none'>
+                <div className='z-50 fixed top-[29%] right-0 rounded-tl-lg rounded-bl-lg rounded-tr-none rounded-br-none'>
                     <div className=' relative h-[210px] flex flex-col justify-end'>
                         <Link to="contact-us" className=' -rotate-90 absolute font-semibold text-[14px] bg-darkBlue text-darkYellow rounded-tr-lg top-0 h-[109px] w-28 px-4 pt-2 cursor-pointer '>
                             Contact us
@@ -72,10 +72,10 @@ export const Router = () => {
                 </div>
             </div>
             <TawkMessengerReact
-        ref={tawkMessengerRef}
-        propertyId="65f5385ecc1376635adb4051"
-        widgetId="1hp2u8db4" />
-      <Footer />
+                ref={tawkMessengerRef}
+                propertyId="65f5385ecc1376635adb4051"
+                widgetId="1hp2u8db4" />
+            <Footer />
         </>
     );
 };
