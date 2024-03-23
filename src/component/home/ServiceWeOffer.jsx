@@ -1,7 +1,6 @@
 import React, { useRef } from 'react'
 import Slider from 'react-slick';
 
-
 const data = [
     { heading: "Tailored Solutions for Your Business Needs", para: "At our firm, we believe in tailoring IT solutions to fit each client's unique needs. Whether you're a startup or an enterprise, we customize our services to match your business size, sector, and goals. With a personalized approach, we ensure your IT infrastructure remains strong and reliable. Proudly offering <strong> top-tier technical support in UK </strong>, we prioritize understanding your requirements to deliver bespoke solutions." },
     { heading: "Comprehensive Range of Services", para: "At Cutech Solutions, we offer a wide array of IT services to fulfill all your needs. From <strong> B2B support in UK </strong> , cloud management, pay-per-click, and <strong>  digital marketing in UK </strong> , we've got you covered. With expert cyber security solutions, centralizing your IT with us streamlines operations, cuts costs, and simplifies vendor management, saving you valuable time and resources." },
@@ -109,7 +108,7 @@ export const ServiceWeOffer = () => {
             <div className='w-full !flex !flex-row relative !justify-between !items-center gap-0 md:gap-8 pl-1 overflow-hidden'>
 
                 {/* //nextButton  */}
-                <div className=" absolute z-[40] left-4 sm:left-16 block cursor-pointer"
+                <div className=" absolute z-[40] leftArrow left-4 sm:left-16 block cursor-pointer"
                     onClick={next}
                 >
                     <img loading="lazy" src="/img/testimonial/TestimonialLeftArrow.svg" className=" h-8 md:h-12 w-8 md:w-12" alt="LeftArrow" />
@@ -122,8 +121,8 @@ export const ServiceWeOffer = () => {
                     {...settings} >
                     {data.map((item, index) => (
                         <div key={index} className="mr-4 flex justify-center items-center gap-12">
-                            <div className='sm:mx-4 transition-all duration-300 w-[310px] sm:w-[380px] pb-8 sm:px-4 ease-in-out flex-grow border-2 border-[#E7DAED] shadow-custom justify-center flex flex-col px-2 sm:p-3 sm:my-8 gap-2 rounded-[9px] '>
-                                <h3 className='font-rubik text-mobTitle2 text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay sm:text-tabTitle2 lg:text-lapTitle2 font-semibold leading-4 sm:leading-[27px]'>
+                            <div className='sm:mx-4 transition-all duration-300 w-[310px] sm:w-[380px] !h-[240px] sm:!h-[300px] pb-8 sm:px-4 ease-in-out flex-grow border-2 border-[#E7DAED] shadow-custom flex flex-col px-2 sm:p-3 sm:my-8 gap-2 rounded-[9px]'>
+                                <h3 className='mt-4 sm:mt-0 font-rubik text-mobTitle2 text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay sm:text-tabTitle2 lg:text-lapTitle2 font-semibold leading-4 sm:leading-[27px]'>
                                     {item.heading}
                                 </h3>
                                 <p className='text-mobBody2 sm:text-tabBody2 lg:text-lapBody2 text-textgray font-rubik leading-[18px] md:leading-[22px]'>
@@ -135,7 +134,7 @@ export const ServiceWeOffer = () => {
                 </Slider>
 
                 {/* //previous button */}
-                <div className="block absolute z-[40px] right-4 sm:right-16 cursor-pointer"
+                <div className="block absolute z-[40] rightArrow right-4 sm:right-16 cursor-pointer"
                     onClick={previous}
                 >
                     <img loading="lazy" src="/img/testimonial/TestimonialRightArrow.svg" className=" h-8 md:h-12 w-8 md:w-12" alt="RightArrow" />

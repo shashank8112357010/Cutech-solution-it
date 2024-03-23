@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
-import { socialIcon } from '../data/dataSet';
+// import { socialIcon } from '../data/dataSet';
 import "../index.css"
+import { socialIcon } from '../data/dataSet'
 
 export const Navbar = () => {
     const [hide, setHide] = useState(false)
