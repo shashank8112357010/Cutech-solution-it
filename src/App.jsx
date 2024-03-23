@@ -1,10 +1,12 @@
 import React from 'react'
 import { PrivateRoutes } from './routes/PrivateRoutes'
 
-const App = () => {
+
+
+
+export const App = () => {
   return (
     <PrivateRoutes />
   )
 }
 
-export default App

@@ -1,4 +1,5 @@
 import { Routes, Route, Link, useLocation } from "react-router-dom";
+import { useEffect, useRef } from "react";
 import "../index.css"
 import { Home } from "../pages/Home";
 import { Navbar } from "../component/Navbar";
@@ -17,21 +18,23 @@ import { DetailService4 } from "../pages/DetailService4";
 import { DetailService3 } from "../pages/DetailService3";
 import { DetailService2 } from "../pages/DetailService2";
 import { NoPageFound } from "./NoPageFound";
-import { useEffect } from "react";
 import { HomeSocialIcon } from "../data/dataSet";
+import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
+
 
 export const Router = () => {
-    const { pathname } = useLocation()
+    const { pathname } = useLocation();
+    const tawkMessengerRef = useRef();
 
     useEffect(() => {
         const currentPage = pageData.find(page => page.path === pathname)
         document.title = currentPage.metaTitle
-
         window.scroll({
             top: 0,
             behavior: 'smooth'
         })
-    }, [pathname])
+    }, [pathname]);
+
 
     return (
         <>
@@ -67,8 +70,12 @@ export const Router = () => {
                         </div>
                     </div>
                 </div>
-                <Footer />
             </div>
+            <TawkMessengerReact
+        ref={tawkMessengerRef}
+        propertyId="65f5385ecc1376635adb4051"
+        widgetId="1hp2u8db4" />
+      <Footer />
         </>
     );
 };
