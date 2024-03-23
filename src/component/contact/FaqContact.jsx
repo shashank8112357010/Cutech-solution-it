@@ -1,16 +1,12 @@
 import React, { useState } from 'react'
-
-import pkg from '@material-tailwind/react';
-const {Accordion, AccordionHeader, AccordionBody} = pkg;
+import { Accordion, AccordionHeader, AccordionBody } from '@material-tailwind/react';
 
 export const FaqContact = ({ data }) => {
 
     const [open, setOpen] = useState(null);
-
     const handleOpen = (index) => {
         setOpen(open === index ? null : index);
     };
-
 
 
     function Icon({ id, open }) {

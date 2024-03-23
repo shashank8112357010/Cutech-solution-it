@@ -1,6 +1,6 @@
 import React from 'react'
 import { GetInTouchContact } from '../component/contact/GetInTouchContact'
-// import FaqContact from '../component/contact/FaqContact'
+import { FaqContact } from '../component/contact/FaqContact'
 import { BannerAtom } from '../atom/BannerAtom'
 
 export const Contact = () => {
@@ -71,7 +71,7 @@ export const Contact = () => {
         <section className='max-w-[1920px] mx-auto'>
             <BannerAtom srcImg="/img/Contact/ContactBanner.png" title="Contact Us" heading="Contact Us" />
             <GetInTouchContact />
-            {/* <FaqContact data={data} /> */}
+            <FaqContact data={data} />
         </section>
     )
 }

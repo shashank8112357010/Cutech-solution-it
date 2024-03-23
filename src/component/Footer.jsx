@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import { socialIcon } from '../data/dataSet'
+import { socialIcon } from '../data/dataSet'
 
 export const Footer = () => {
     return (
@@ -85,9 +85,9 @@ export const Footer = () => {
                                         Send Now
                                         <div className='w-[40px] h-[40px] absolute -bottom-4 -right-4 rounded-full bg-white'></div>
                                     </button>
-                                    {/* <span className='xl:ml-4 mt-4 xl:mt-0 block '>
+                                    <span className='xl:ml-4 mt-4 xl:mt-0 block '>
                                         {socialIcon.map((item, index) => <span className='hover:-translate-y-1 transition-all duration-240 px-0.5 ease-out' key={index}>{item.icon}</span>)}
-                                    </span> */}
+                                    </span>
                                 </div>
                             </div>
                         </div>

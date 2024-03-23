@@ -18,7 +18,7 @@ import { DetailService3 } from "../pages/DetailService3";
 import { DetailService2 } from "../pages/DetailService2";
 import { NoPageFound } from "./NoPageFound";
 import { useEffect } from "react";
-// import { HomeSocialIcon } from "../data/dataSet";
+import { HomeSocialIcon } from "../data/dataSet";
 
 export const Router = () => {
     const { pathname } = useLocation()
@@ -33,7 +33,6 @@ export const Router = () => {
         })
     }, [pathname])
 
-    console.log("MN=>", document.title)
     return (
         <>
             <Navbar />
@@ -56,18 +55,20 @@ export const Router = () => {
                     <Route path="*" element={<NoPageFound />} />
                 </Routes>
 
-                {/* <div className='z-50 fixed top-[30%] right-0 rounded-tl-lg rounded-bl-lg rounded-tr-none rounded-br-none'>
+                <div className='z-50 fixed top-[30%] right-0 rounded-tl-lg rounded-bl-lg rounded-tr-none rounded-br-none'>
                     <div className=' relative h-[210px] flex flex-col justify-end'>
                         <Link to="contact-us" className=' -rotate-90 absolute font-semibold text-[14px] bg-darkBlue text-darkYellow rounded-tr-lg top-0 h-[109px] w-28 px-4 pt-2 cursor-pointer '>
-                            ~Contact us
+                            Contact us
                         </Link>
-                        {/* <div className='flex flex-col w-[36px] pb-0'>
+                        <div className='flex flex-col w-[36px] pb-0'>
                             {HomeSocialIcon.map((item, index) => <span className='hover:-translate-x-1 h-[33px] rounded-tr-lg transition-all duration-240 px-0.5 ease-out' key={index}>
                                 {item.icon}
                             </span>)}
-                        </div> */}
+                        </div>
+                    </div>
+                </div>
+                <Footer />
             </div>
-            <Footer />
         </>
     );
 };

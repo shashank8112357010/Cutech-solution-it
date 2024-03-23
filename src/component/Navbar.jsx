@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
-// import { socialIcon } from '../data/dataSet';
+import { socialIcon } from '../data/dataSet';
 import "../index.css"
 
 export const Navbar = () => {
@@ -98,9 +98,9 @@ export const Navbar = () => {
                             })}
 
                         </ul>
-                        {/* <div className='flex flex-col items-center justify-center gap-8 sm:gap-12 w-1/2'>
+                        <div className='flex flex-col items-center justify-center gap-8 sm:gap-12 w-1/2'>
                             {socialIcon.map((item, index) => <span className='hover:-translate-y-1 transition-all duration-240 px-0.5 ease-out' key={index}>{item.icon}</span>)}
-                        </div> */}
+                        </div>
                     </div>
 
                     <div className='w-full flex mt-5 pr-10 justify-center items-center'>
@@ -179,14 +179,14 @@ export const Navbar = () => {
                         </div>
                     </div>
                     <div>
-                        {/* <div className='flex flex-row justify-center items-center gap-2'>
+                        <div className='flex flex-row justify-center items-center gap-2'>
                             {socialIcon.map((item, index) => <span className='hover:-translate-y-1 transition-all duration-240 px-0.5 ease-out' key={index}>{item.icon}</span>)}
                             <div>
-                                 <Link to="/contact-us">
-                                <img loading="lazy" src='../../img/navbar/header.svg' className='object-cover cursor-pointer w-full' />
-                                 </Link>
+                                <Link to="/contact-us">
+                                    <img loading="lazy" src='../../img/navbar/header.svg' className='object-cover cursor-pointer w-full' />
+                                </Link>
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </header>
