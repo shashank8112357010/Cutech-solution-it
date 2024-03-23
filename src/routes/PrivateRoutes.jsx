@@ -21,6 +21,7 @@ import { NoPageFound } from "./NoPageFound";
 import { HomeSocialIcon } from "../data/dataSet";
 import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 
+
 export const Router = () => {
     const { pathname } = useLocation();
     const tawkMessengerRef = useRef();
@@ -28,12 +29,12 @@ export const Router = () => {
     useEffect(() => {
         const currentPage = pageData.find(page => page.path === pathname)
         document.title = currentPage.metaTitle
-
         window.scroll({
             top: 0,
             behavior: 'smooth'
         })
-    }, [pathname])
+    }, [pathname]);
+
 
     return (
         <>
@@ -75,7 +76,6 @@ export const Router = () => {
         propertyId="65f5385ecc1376635adb4051"
         widgetId="1hp2u8db4" />
       <Footer />
-                <Footer />
         </>
     );
 };
