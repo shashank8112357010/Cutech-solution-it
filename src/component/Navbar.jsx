@@ -33,7 +33,7 @@ export const Navbar = () => {
             <nav role="navigation" aria-label="Main" className='max-w-[1920px] relative bg-darkBlue mx-auto px-4 mmd:px-20 text-white'>
                 <div className='sm:px-10 font-krub flex flex-row justify-between items-center py-4 '>
                     {/* leftSide  */}
-                    <div className='LeftSide w-[120px] flex items-center justify-center sm:w-[191px] h-[47px]'>
+                    <div className='LeftSide w-[100px] flex items-center justify-center sm:w-[191px] h-[47px]'>
                         <Link to="/">
                             <img loading="lazy" src='../../img/navbar/logo.svg' className='object-cover w-full' />
                         </Link>

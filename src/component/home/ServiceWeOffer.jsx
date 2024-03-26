@@ -108,7 +108,7 @@ export const ServiceWeOffer = () => {
             <div className='w-full !flex !flex-row relative !justify-between !items-center gap-0 md:gap-8 pl-1 overflow-hidden'>
 
                 {/* //nextButton  */}
-                <div className=" absolute z-[40] leftArrow left-4 sm:left-16 block cursor-pointer"
+                <div className=" absolute z-50 leftArrow left-4 sm:left-16 block cursor-pointer"
                     onClick={next}
                 >
                     <img loading="lazy" src="/img/testimonial/TestimonialLeftArrow.svg" className=" h-8 md:h-12 w-8 md:w-12" alt="LeftArrow" />
@@ -134,7 +134,7 @@ export const ServiceWeOffer = () => {
                 </Slider>
 
                 {/* //previous button */}
-                <div className="block absolute z-[40] rightArrow right-4 sm:right-16 cursor-pointer"
+                <div className="block absolute z-50 rightArrow right-4 sm:right-16 cursor-pointer"
                     onClick={previous}
                 >
                     <img loading="lazy" src="/img/testimonial/TestimonialRightArrow.svg" className=" h-8 md:h-12 w-8 md:w-12" alt="RightArrow" />
