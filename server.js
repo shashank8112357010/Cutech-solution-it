@@ -155,7 +155,11 @@ app.use("*", async (req, res, next) => {
         // Find matching page data based on the request path
         const currentPage = pageData.find(page => page.path === req.originalUrl);
         if (!currentPage) {
-            return res.status(404).send("Page not found");
+            return res.status(404).send(`<div className='w-1/2 items-center flex justify-center py-20'>
+            <div className='sm:w-[700px] sm:h-[300px]'>
+                <img src='/img/PageNotFound.png' alt='pageNotFound' className='w-full h-full object-cover' />
+            </div>
+        </div>`);
         }
 
 
