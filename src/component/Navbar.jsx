@@ -180,9 +180,16 @@ export const Navbar = () => {
                     </div>
                     <div>
                         <div className='flex flex-row justify-center items-center gap-2'>
-                            {socialIcon.map((item, index) => <span className='hover:-translate-y-1 transition-all duration-240 px-0.5 ease-out' key={index}>{item.icon}</span>)}
+                            {socialIcon.map((item, index) => (
+                                <a href={item.icon.props.url} target="_blank" rel="noopener noreferrer" key={index}>
+                                    {/* {console.log(item)} */}
+                                    <span className='hover:-translate-y-1 transition-all duration-240 px-0.5 ease-out' >
+                                        {item.icon}
+                                    </span>
+                                </a>
+                            ))}
                             <div>
-                                <Link to="/contact-us">
+                                <Link to="/contact-us" >
                                     <img loading="lazy" src='../../img/navbar/header.svg' className='object-cover cursor-pointer w-full' />
                                 </Link>
                             </div>

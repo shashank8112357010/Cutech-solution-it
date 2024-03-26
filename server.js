@@ -155,9 +155,9 @@ app.use("*", async (req, res, next) => {
         // Find matching page data based on the request path
         const currentPage = pageData.find(page => page.path === req.originalUrl);
         if (!currentPage) {
-            return res.status(404).send(`<div className='w-1/2 items-center flex justify-center py-20'>
-            <div className='sm:w-[700px] sm:h-[300px]'>
-                <img src='/img/PageNotFound.png' alt='pageNotFound' className='w-full h-full object-cover' />
+            return res.status(404).send(`<div style="width:100%; display:flex; align-items:center; justify-content:center; margin-top: 0; margin-left:auto; margin-right:auto; margin-bottom: 0; height: 90vh">
+            <div style="width:700px; height:300px">
+                <img src='/img/PageNotFound.png' alt='pageNotFound' style="width: 100%; height: 100%; object-fit: cover;" />
             </div>
         </div>`);
         }
