@@ -81,7 +81,7 @@ export const Footer = () => {
                                         className='text-center w-[240px] sm:text-start h-10 border-[#4E5683] border-2 py-6 px-4 sm:px-8 text-md 2xl:text-[18px] font-bold leading-6 bg-transparent outline-none' placeholder='Email here' />
                                 </div>
                                 <div className='flex flex-col xl:flex-row items-center justify-center '>
-                                    <button className='bg-custom-gradient font-krub overflow-hidden font-semibold relative text-[12px] text-lightBlack w-[108px] h-[34px] sm:w-[146px] sm:h-[45px]'>
+                                    <button className='bg-custom-gradient font-krub overflow-hidden font-semibold relative text-[12px] text-lightBlack w-[70px] h-[34px] sm:w-[136px] sm:h-[45px]'>
                                         Send Now
                                         <div className='w-[40px] h-[40px] absolute -bottom-4 -right-4 rounded-full bg-white'></div>
                                     </button>

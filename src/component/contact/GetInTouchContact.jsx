@@ -211,11 +211,11 @@ export const GetInTouchContact = () => {
                                 >
                                     {
                                         isloading ?
-                                            <div className='flex items-center justify-center h-[14px] sm:h-[24px]'>
+                                            <div className='flex items-center justify-center font-normal rounded-lg h-[14px] sm:h-[24px]'>
                                                 "Loading"
                                             </div>
                                             :
-                                            "Submit  Message"
+                                            "Submit"
                                     }
                                 </button>
                             </div>

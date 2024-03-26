@@ -84,7 +84,7 @@ const pageData = [
     },
     {
         path: '/services',
-        metaTitle: 'Cutech Solution Services',
+        metaTitle: 'Cutech Solutions Services: Empowering Business with Tech',
         metaDescription: "Discover how our services can elevate your business. From B2B IT support services to digital marketing solutions, we've got you covered. Explore now",
         canonicalUrl: 'https://cutechsolutions.co.uk/services',
         metaKeywords: "B2B IT Support Service, Reliable B2B IT Support Service, Top notch B2B IT Support Service, On-Call 24x7 Technical Support, IT Helpdesk Support, IT Managed Service Providers, Remote Technical Support in UK, Technical Support in UK, Computer Cyber Security Service Solutions, Leading Computer Cyber Security Service Providers in UK, Cloud Managed Services in UK, Cloud Service Management in UK, Best SEO company in London, Digital Marketing Solutions , Digital Marketing Experts in UK, Digital Marketing Experts, SEO Company, SEO Company UK, Best SEO Company UK, SEO Company in the UK"
@@ -107,14 +107,14 @@ const pageData = [
     {
         path: '/digital-marketing-company',
         metaTitle: 'Top Digital Marketing Services in UK | SEO Service UK',
-        metaDescription: "Unlock growth opportunities with our expert digital marketing services in UK. Trusted strategies tailored for your success.",
+        metaDescription: "Elevate your online presence with Cutech Solutions' digital marketing services in UK. Our SEO service in UK ensures top rankings and increased visibility.",
         canonicalUrl: 'https://cutechsolutions.co.uk/digital-marketing-company',
         metaKeywords: "Digital Marketing Services in UK, SEO Service UK, Digital Marketing Company in UK, Digital Marketing Service Provider, Digital Marketing Service Provider in UK, digital marketing experts, digital marketing services UK, Search Engine Optimization, Pay-Per-Click, Social Media Marketing, Digital Marketing Companies in UK, Digital Marketing Solutions",
     },
     {
         path: '/cyber-security-service',
-        metaTitle: 'Cyber Security Service',
-        metaDescription: "Don't leave your business vulnerable to cyber attacks. Explore our cyber security services and fortify your defenses today.",
+        metaTitle: 'Cyber Security Service | Cyber Risk',
+        metaDescription: "Safeguard your business with expert Cyber Security Service from Cutech Solutions. Mitigate cyber risks and protect your assets today.",
         canonicalUrl: 'https://cutechsolutions.co.uk/cyber-security-service',
         metaKeywords: "Cyber Security Service, Cyber Security Service Providers in UK, Computer Cyber Security Service Solutions, Computer Cyber Security Service Providers in UK, Cyber Security Service in UK, Best Cyber Security Service in UK, Top Cyber Security Service in UK",
     },

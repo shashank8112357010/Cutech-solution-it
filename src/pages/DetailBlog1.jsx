@@ -139,9 +139,6 @@ export const DetailBlog1 = () => {
           </div>
 
 
-
-
-
           {/* //Right section  */}
           <div>
             <div className=" flex flex-col sticky top-8 right-0">

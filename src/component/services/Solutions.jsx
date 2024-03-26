@@ -16,7 +16,7 @@ export const Solutions = () => {
                             All Your Solutions At One Place
                         </h1>
                         <p className='lg:text-lapBody sm:text-tabBody text-mobBody font-krub font-medium text-textgray '>
-                            Discover comprehensive solutions tailored to meet your needs efficiently. Our services encompass <strong> “Remote Technical Support</strong> and <strong> Maintenance” </strong>, <strong>“Computer Cyber Security Service Solutions”</strong> , <strong>“Cloud Service Management Solutions” </strong>, and <strong> “Digital Marketing Expert Solutions” </strong>. Experience seamless integration and unparalleled expertise, all under one roof.
+                            Discover comprehensive solutions tailored to meet your needs efficiently. Our services encompass <strong> “Remote Technical Support and  Maintenance” </strong>, <strong>“Computer Cyber Security Service Solutions”</strong> , <strong>“Cloud Service Management Solutions” </strong>, and <strong> “Digital Marketing Expert Solutions” </strong>. Experience seamless integration and unparalleled expertise, all under one roof.
                         </p>
                     </div>
 

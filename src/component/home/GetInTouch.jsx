@@ -84,9 +84,9 @@ export const GetInTouch = () => {
                         <div>
                             <button
                                 type="submit"
-                                className="text-start bg-custom-gradient px-[25px] py-[14px] text-black  font-rubik font-semibold"
+                                className="text-start bg-custom-gradient px-[25px] py-[14px] text-black rounded-lg font-rubik font-semibold"
                             >
-                                Submit Message
+                                Submit
                             </button>
                         </div>
                     </div>
