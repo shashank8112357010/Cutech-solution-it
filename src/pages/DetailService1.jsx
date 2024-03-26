@@ -114,7 +114,7 @@ export const DetailService1 = () => {
         </div>
 
         {/* Right side of cutech solution  */}
-        <div className='relative flex flex-col gap-2 sm:gap-[31.21px] items-center lg:items-start mt-14 lg:max-w-[520px] px-4 sm:pl-10 lg:pl-0 -order-1 sm:-order-1 lg:order-1'>
+        <div className='relative flex flex-col gap-2 sm:gap-[31.21px] items-center lg:items-start mt-14 lg:max-w-[520px] px-4 sm:pl-10 md:pl-[50px] -order-1 sm:-order-1 lg:order-1'>
 
           <div className='flex flex-row flex-wrap gap-4 w-full sticky top-8 right-0'>
             <div className='text-center lg:text-start w-full gap-4 flex justify-center items-center flex-col'>
@@ -148,7 +148,7 @@ export const DetailService1 = () => {
         <div className="whiteSection w-full lg:w-[70%]">
           <div className=" pl-10 py-12 grid gap-6 grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2">
             <div className="flex flex-col gap-2 hover:text-darkYellow cursor-pointer ">
-              <p className="text-mobTitle sm:text-tabTitle lg:text-lapTitle font-black ">01</p>
+              <p className="text-mobTitle sm:text-tabTitle lg:text-lapTitle font-black font-rubik">01</p>
               <h3 className="text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2 font-semibold  ">Enhanced Security Posture</h3>
               <p className="text-mobBody2 sm:text-tabBody2 lg:text-lapBody2 font-normal font-krub">Our expertise allows us to identify and address security gaps that may be missed by internal IT teams. We implement best practices and industry-standard security controls to significantly reduce your risk of cyberattacks.</p>
             </div>

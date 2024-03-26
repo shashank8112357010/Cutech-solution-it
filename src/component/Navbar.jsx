@@ -33,9 +33,8 @@ export const Navbar = () => {
             <nav role="navigation" aria-label="Main" className='max-w-[1920px] relative bg-darkBlue mx-auto px-4 mmd:px-20 text-white'>
                 <div className='sm:px-10 font-krub flex flex-row justify-between items-center py-4 '>
                     {/* leftSide  */}
-                    <div className='LeftSide w-[191px] h-[47px]'>
+                    <div className='LeftSide w-[120px] flex items-center justify-center sm:w-[191px] h-[47px]'>
                         <Link to="/">
-
                             <img loading="lazy" src='../../img/navbar/logo.svg' className='object-cover w-full' />
                         </Link>
                     </div>
@@ -100,7 +99,7 @@ export const Navbar = () => {
 
                         </ul>
                         <div className='flex flex-col items-center justify-center gap-8 sm:gap-12 w-1/2'>
-                            {socialIcon.map((item, index) => <span className='hover:-translate-y-1 transition-all duration-240 px-0.5 ease-out' key={index}>{item.icon}</span>)}
+                            {/* {socialIcon.map((item, index) => <span className='hover:-translate-y-1 transition-all duration-240 px-0.5 ease-out' key={index}>{item.icon}</span>)} */}
                         </div>
                     </div>
 

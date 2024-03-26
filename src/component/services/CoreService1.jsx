@@ -6,7 +6,7 @@ export const CoreService1 = () => {
       <div className="">
         <div className="lg:w-[529px] mx-auto text-center">
 
-          <h2 className="text-mobTitle sm:text-tabTitle lg:text-lapTitle font-bold font-rubik">Core Services Offered by Cutech Solutions</h2>
+          <h2 className="text-mobTitle sm:text-tabTitle lg:text-lapTitle font-bold font-rubik leading-7 mb-4 lg:leading-10">Core Services Offered by Cutech Solutions</h2>
 
           <p className='font-krub text-mobBody sm:text-tabBody lg:text-lapBody leading-[18px] sm:leading-[24px] text-center'>
             Our comprehensive suite of cyber security services provides a multi-layered defense against cyber threats

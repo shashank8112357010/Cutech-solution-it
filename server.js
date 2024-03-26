@@ -31,7 +31,7 @@ const pageData = [
         metaTitle: 'Discover Our Story | Cutech Solutions About Us',
         canonicalUrl: 'https://cutechsolutions.co.uk/about-us',
         metaDescription: 'Explore the journey of Cutech Solutions. Learn about our overview, our mission, and core values. Get to know us better.',
-        metaKeywords: "B2B IT Support Service, Reliable B2B IT Support Service, Top notch B2B IT Support Service, On-Call 24x7 Technical Support, IT Helpdesk Support, IT Managed Service Providers, Remote Technical Support in UK, Technical Support in UK, Computer Cyber Security Service Solutions, Leading Computer Cyber Security Service Providers in UK, Cloud Managed Services in UK, Cloud Service Management in UK, Best SEO company in London, Digital Marketing Solutions , Digital Marketing Experts in UK, Digital Marketing Experts, SEO Company, SEO Company UK, Best SEO Company UK, SEO Company in the UK"
+        metaKeywords: "About Us, About Us Page, All About Us, Know About Us"
 
     },
     {
@@ -39,7 +39,7 @@ const pageData = [
         metaTitle: 'Cutech Solutions Blog: Stay Updated',
         metaDescription: "Explore the latest trends and insights in technology with Cutech Solutions' informative blog posts.",
         canonicalUrl: 'https://cutechsolutions.co.uk/blog',
-        metaKeywords: "B2B IT Support Service, Reliable B2B IT Support Service, Top notch B2B IT Support Service, On-Call 24x7 Technical Support, IT Helpdesk Support, IT Managed Service Providers, Remote Technical Support in UK, Technical Support in UK, Computer Cyber Security Service Solutions, Leading Computer Cyber Security Service Providers in UK, Cloud Managed Services in UK, Cloud Service Management in UK, Best SEO company in London, Digital Marketing Solutions , Digital Marketing Experts in UK, Digital Marketing Experts, SEO Company, SEO Company UK, Best SEO Company UK, SEO Company in the UK"
+        metaKeywords: "Latest Blogs, Blog Page, Blog Post Page"
 
     },
     {
@@ -47,7 +47,7 @@ const pageData = [
         metaTitle: 'Contact Page',
         metaDescription: 'Welcome to Cutech Solutions, your trusted B2B IT support solution in UK and globally. Contact us for 24/7 IT helpdesk support & tailored solutions.',
         canonicalUrl: 'https://cutechsolutions.co.uk/contact',
-        metaKeywords: "B2B IT Support Service, Reliable B2B IT Support Service, Top notch B2B IT Support Service, On-Call 24x7 Technical Support, IT Helpdesk Support, IT Managed Service Providers, Remote Technical Support in UK, Technical Support in UK, Computer Cyber Security Service Solutions, Leading Computer Cyber Security Service Providers in UK, Cloud Managed Services in UK, Cloud Service Management in UK, Best SEO company in London, Digital Marketing Solutions , Digital Marketing Experts in UK, Digital Marketing Experts, SEO Company, SEO Company UK, Best SEO Company UK, SEO Company in the UK"
+        metaKeywords: "Contact Us, Get in Touch, Get in Touch with Us, Contact Us Page, Connect with Us"
 
     },
     {
@@ -55,7 +55,7 @@ const pageData = [
         metaTitle: 'Disclaimer',
         metaDescription: "Explore Cutech Solutions' Disclaimer page to understand our policies, limitations, and legal obligations in delivering digital marketing services.",
         canonicalUrl: 'https://cutechsolutions.co.uk/disclaimer',
-        metaKeywords: "B2B IT Support Service, Reliable B2B IT Support Service, Top notch B2B IT Support Service, On-Call 24x7 Technical Support, IT Helpdesk Support, IT Managed Service Providers, Remote Technical Support in UK, Technical Support in UK, Computer Cyber Security Service Solutions, Leading Computer Cyber Security Service Providers in UK, Cloud Managed Services in UK, Cloud Service Management in UK, Best SEO company in London, Digital Marketing Solutions , Digital Marketing Experts in UK, Digital Marketing Experts, SEO Company, SEO Company UK, Best SEO Company UK, SEO Company in the UK"
+        metaKeywords: "Disclaimer, Legal Disclaimer, Terms of use, Website Disclaimer, Disclaimer Statement"
 
     },
     {
@@ -63,7 +63,7 @@ const pageData = [
         metaTitle: 'Terms of Service',
         metaDescription: "Review our comprehensive terms and condition for Cutech Solutions. Learn about our commitments, usage policies, and legal agreements.",
         canonicalUrl: 'https://cutechsolutions.co.uk/terms-condition',
-        metaKeywords: "B2B IT Support Service, Reliable B2B IT Support Service, Top notch B2B IT Support Service, On-Call 24x7 Technical Support, IT Helpdesk Support, IT Managed Service Providers, Remote Technical Support in UK, Technical Support in UK, Computer Cyber Security Service Solutions, Leading Computer Cyber Security Service Providers in UK, Cloud Managed Services in UK, Cloud Service Management in UK, Best SEO company in London, Digital Marketing Solutions , Digital Marketing Experts in UK, Digital Marketing Experts, SEO Company, SEO Company UK, Best SEO Company UK, SEO Company in the UK"
+        metaKeywords: "Terms and Condition, Service Terms, Terms and Conditions Agreement, Website Policies, Contractual Terms, Terms and Conditions"
 
     },
     {
@@ -71,7 +71,7 @@ const pageData = [
         metaTitle: 'Refund Policy',
         metaDescription: "Explore Cutech Solutions' Refund Policy: Clear guidelines ensuring customer satisfaction & transparency in all transactions. Your trust, our priority.",
         canonicalUrl: 'https://cutechsolutions.co.uk/refund-policy',
-        metaKeywords: "B2B IT Support Service, Reliable B2B IT Support Service, Top notch B2B IT Support Service, On-Call 24x7 Technical Support, IT Helpdesk Support, IT Managed Service Providers, Remote Technical Support in UK, Technical Support in UK, Computer Cyber Security Service Solutions, Leading Computer Cyber Security Service Providers in UK, Cloud Managed Services in UK, Cloud Service Management in UK, Best SEO company in London, Digital Marketing Solutions , Digital Marketing Experts in UK, Digital Marketing Experts, SEO Company, SEO Company UK, Best SEO Company UK, SEO Company in the UK"
+        metaKeywords: "Refund Policy, Refund Process, Refund Eligibility, Return Conditions, Refund Procedure"
 
     },
     {
@@ -79,7 +79,7 @@ const pageData = [
         metaTitle: 'Privacy Policy',
         metaDescription: "Explore Cutech Solutions' Disclaimer page to understand our policies, limitations, and legal obligations in delivering digital marketing services.",
         canonicalUrl: 'https://cutechsolutions.co.uk/privacy-policy',
-        metaKeywords: "B2B IT Support Service, Reliable B2B IT Support Service, Top notch B2B IT Support Service, On-Call 24x7 Technical Support, IT Helpdesk Support, IT Managed Service Providers, Remote Technical Support in UK, Technical Support in UK, Computer Cyber Security Service Solutions, Leading Computer Cyber Security Service Providers in UK, Cloud Managed Services in UK, Cloud Service Management in UK, Best SEO company in London, Digital Marketing Solutions , Digital Marketing Experts in UK, Digital Marketing Experts, SEO Company, SEO Company UK, Best SEO Company UK, SEO Company in the UK"
+        metaKeywords: "Privacy Policy, Privacy Statement, Privacy Rights, Privacy Assurance, User Consent"
 
     },
     {
@@ -95,8 +95,7 @@ const pageData = [
         metaTitle: 'Elevate Your Business With Expert B2B-IT-Support',
         metaDescription: "Get expert Remote Technical Support Services in UK for seamless troubleshooting and assistance. Reliable solutions for all your tech needs",
         canonicalUrl: 'https://cutechsolutions.co.uk/elevate-your-business-with-expert-b2b-it-support',
-        metaKeywords: "B2B IT Support Service, Reliable B2B IT Support Service, Top notch B2B IT Support Service, On-Call 24x7 Technical Support, IT Helpdesk Support, IT Managed Service Providers, Remote Technical Support in UK, Technical Support in UK, Computer Cyber Security Service Solutions, Leading Computer Cyber Security Service Providers in UK, Cloud Managed Services in UK, Cloud Service Management in UK, Best SEO company in London, Digital Marketing Solutions , Digital Marketing Experts in UK, Digital Marketing Experts, SEO Company, SEO Company UK, Best SEO Company UK, SEO Company in the UK"
-
+        metaKeywords: "Expert B2B IT Support Services,  IT Helpdesk Services, Innovative IT Support Services, On-Call 24x7 Technical Support, IT Helpdesk Support in UK, Top-Quality IT Support, B2B IT Support Services UK, Remote Technical Support, Remote Technical Service,  IT Support Services UK, Remote Technical Support Service UK, Remote Technical Support UK, Remote Technical Support UK"
     },
     {
         path: '/remote-technical-support-services',

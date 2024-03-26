@@ -5,7 +5,7 @@ export const Intro = () => {
         <div className='max-w-[1920px] mx-auto py-4 sm:py-12 pb-12 sm:pb-24'>
             <div className='flex flex-col px-8 sm:px-20 md:px-40 lg:justify-center'>
                 <div className='flex lg:flex-row sm:flex-col flex-col lg:justify-between items-center w-full'>
-                    <div className=' flex flex-col w-auto lg:w-1/2'>
+                    <div className=' flex flex-col w-auto lg:w-1/2 '>
                         <p className="text-[12px] lg:text-[14px] font-rubik w-[78px] bg-white/10 border-l-4 pl-2 border-yellow-500 font-normal">
                             Welcome
                         </p>
@@ -14,7 +14,7 @@ export const Intro = () => {
                                 Your Trusted Partner for <span className='text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay'>B2B IT Support Services</span>
                             </h1>
                             <div>
-                                <p className='font-krub font-medium lg:text-[16px] sm:text-[16px] text-[12px] text-[#666C89] mb-4'>
+                                <p className='font-krub font-medium lg:text-[16px] sm:text-[16px] text-[12px] text-[#666C89] mb-4 '>
                                     Welcome to Cutech Solutions, your one-stop solution for <span className='font-bold'>B2B IT support services in UK</span> . We understand the critical importance of uninterrupted technical operations for businesses, which is why we offer <span className='font-bold'>on-call 24x7 technical support</span> to ensure your systems run smoothly round the clock.
                                 </p>
 

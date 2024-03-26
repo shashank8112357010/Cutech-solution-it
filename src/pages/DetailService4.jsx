@@ -1,9 +1,9 @@
 import React from 'react'
-import {BannerAtom} from '../atom/BannerAtom'
+import { BannerAtom } from '../atom/BannerAtom'
 import { Link } from 'react-router-dom'
 
-import {CoreService4} from '../component/services/CoreService4'
-import {ChooseService4} from '../component/services/ChooseService4'
+import { CoreService4 } from '../component/services/CoreService4'
+import { ChooseService4 } from '../component/services/ChooseService4'
 
 
 export const DetailService4 = () => {
@@ -103,7 +103,7 @@ export const DetailService4 = () => {
         </div>
 
         {/* Right side of cutech solution  */}
-        <div className='relative flex flex-col gap-2 sm:gap-[31.21px] items-center lg:items-start mt-14 lg:max-w-[520px] px-4 sm:pl-10 lg:pl-0 -order-1 sm:-order-1 lg:order-1'>
+        <div className='relative flex flex-col gap-2 sm:gap-[31.21px] items-center lg:items-start mt-14 lg:max-w-[520px] px-4 sm:pl-10 -order-1 sm:-order-1 lg:order-1 md:pl-[50px]'>
 
           <div className='flex flex-row flex-wrap gap-4 w-full sticky right-0 top-8 '>
 
@@ -138,7 +138,7 @@ export const DetailService4 = () => {
         <div className="whiteSection w-full lg:w-[70%]">
           <div className=" pl-10 py-12 grid gap-6 grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2">
             <div className="flex flex-col gap-2 hover:text-darkYellow cursor-pointer">
-              <p className="text-mobTitle sm:text-tabTitle lg:text-lapTitle font-black ">01</p>
+              <p className="text-mobTitle sm:text-tabTitle lg:text-lapTitle font-black font-rubik">01</p>
               <h3 className=" text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2 font-semibold font-rubik  ">Reduced Downtime</h3>
               <p className="text-mobBody2 sm:text-tabBody2 lg:text-lapBody2 font-normal font-krub">Swift issue resolution translates to minimal downtime for your business operations. Our team works diligently to get your systems back up and running as quickly as possible.</p>
             </div>
@@ -175,7 +175,7 @@ export const DetailService4 = () => {
               <img loading="lazy" src="/img/services/ServicesImg.png" alt="services" className='w-full h-full object-cover' />
             </div>
 
-            <div className=' flex flex-col lg:gap-[25px] sm:gap-[25px] gap-[8.9px] w-auto lg:w-1/2 md:pl-12'>
+            <div className='flex flex-col lg:gap-[25px] sm:gap-[25px] gap-[8.9px] w-auto lg:w-1/2 md:pl-12'>
               <div className='flex flex-col w-full '>
                 <h2 className='font-rubik font-semibold w-[300px] sm:w-[400px] lg:w-[500px] mt-2 capitalize text-mobTitle sm:text-tabTitle lg:text-lapTitle leading-[23px] sm:leading-[29px] lg:leading-[43px] mb-1'>
                   Why Cutech Solutions is the Ideal Remote Technical Support Partner for You

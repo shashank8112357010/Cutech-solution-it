@@ -12,21 +12,21 @@ import {
 export const socialIcon = [
     {
         icon: (
-            <LinkedinShareButton url='https://cutechsolutions.co.uk/'>
+            <LinkedinShareButton url='https://www.linkedin.com/company/cutechsolutions/'>
                 <LinkedinIcon size={24} round={true} />
             </LinkedinShareButton>
         )
     },
     {
         icon: (
-            <TwitterShareButton url='https://cutechsolutions.co.uk/'>
+            <TwitterShareButton url='https://twitter.com/Cutech_Solution'>
                 <TwitterIcon size={24} round={true} />
             </TwitterShareButton>
         )
     },
     {
         icon: (
-            <FacebookShareButton url='https://cutechsolutions.co.uk/'>
+            <FacebookShareButton url='https://www.facebook.com/profile.php?id=61557138917291'>
                 <FacebookIcon size={24} round={true} />
             </FacebookShareButton>
         )
@@ -36,21 +36,21 @@ export const socialIcon = [
 export const HomeSocialIcon = [
     {
         icon: (
-            <LinkedinShareButton url='https://cutechsolutions.co.uk/'>
+            <LinkedinShareButton url='https://www.linkedin.com/company/cutechsolutions/'>
                 <LinkedinIcon size={35} round={false} />
             </LinkedinShareButton>
         )
     },
     {
         icon: (
-            <TwitterShareButton url='https://cutechsolutions.co.uk/'>
+            <TwitterShareButton url='https://twitter.com/Cutech_Solution'>
                 <TwitterIcon size={35} round={false} />
             </TwitterShareButton>
         )
     },
     {
         icon: (
-            <FacebookShareButton url='https://cutechsolutions.co.uk/'>
+            <FacebookShareButton url='https://www.facebook.com/profile.php?id=61557138917291'>
                 <FacebookIcon size={35} round={false} />
             </FacebookShareButton>
         )

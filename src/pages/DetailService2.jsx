@@ -1,7 +1,7 @@
 import React from 'react'
-import {BannerAtom} from '../atom/BannerAtom'
-import {CoreService2} from '../component/services/CoreService2'
-import {ChooseService2} from '../component/services/ChooseService2'
+import { BannerAtom } from '../atom/BannerAtom'
+import { CoreService2 } from '../component/services/CoreService2'
+import { ChooseService2 } from '../component/services/ChooseService2'
 import { Link } from 'react-router-dom'
 
 
@@ -101,7 +101,7 @@ export const DetailService2 = () => {
                 </div>
 
                 {/* Right side of cutech solution  */}
-                <div className='relative flex flex-col gap-2 sm:gap-[31.21px] items-center lg:items-start mt-14 lg:max-w-[520px] px-4 sm:pl-10 lg:pl-0 -order-1 sm:-order-1 lg:order-1'>
+                <div className='relative flex flex-col gap-2 sm:gap-[31.21px] items-center lg:items-start mt-14 lg:max-w-[520px] px-4 sm:pl-10 md:pl-[50px] -order-1 sm:-order-1 lg:order-1'>
 
                     <div className='flex flex-row flex-wrap gap-4 w-full  sticky top-8 right-0'>
                         <div className='text-center lg:text-start w-full gap-4 flex justify-center items-center flex-col'>
