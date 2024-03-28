@@ -9,7 +9,7 @@ export const ChooseService1 = () => {
           <h2 className="text-mobTitle sm:text-tabTitle lg:text-lapTitle font-bold lg:leading-10 font-rubik">Choosing the Right Cyber Security Service Provider in UK</h2>
 
           <p className='font-krub text-mobBody sm:text-tabBody lg:text-lapBody leading-[18px] sm:leading-[24px] text-center'>
-            With a multitude of cyber security service providers in UK, selecting the right partner can be a daunting task. These are some essential factors to help you make a choice:
+            With a multitude of <strong> cyber security service providers in UK</strong>, selecting the right partner can be a daunting task. These are some essential factors to help you make a choice:
           </p>
 
         </div>

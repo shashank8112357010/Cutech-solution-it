@@ -14,8 +14,8 @@ export const DetailService1 = () => {
         <div className='flex justify-between gap-20 sm:flex-col lg:flex-row flex-col mb-32 '>
           <div className='lg:w-[55%] flex flex-col gap-[31px]'>
             <h1 className=' text-mobTitle sm:text-tabTitle lg:text-lapTitle font-semibold font-rubik lg:leading-[41.48px] sm:leading-[29px] leading-[23px]'>Cyber Security Service Providers in UK: Protecting Your Digital Assets with Cutech Solutions</h1>
-            <p className='text-mobBody sm:text-tabBody lg:text-lapBody font-medium font-krub text-textgray '>The digital landscape of today is an undeniable double-edged sword. While technology empowers us to connect, collaborate, and conduct business with unprecedented ease, it also exposes us to a growing threat – cybercrime. In the UK, businesses and individuals alike face a constant barrage of cyberattacks, aiming to steal data, disrupt operations, or extort money. This escalating threat landscape necessitates the expertise of reliable cyber security service providers in the UK.</p>
-            <p className='text-mobBody sm:text-tabBody lg:text-lapBody font-medium font-krub text-textgray' >Here at Cutech Solutions, we understand the critical importance of safeguarding your digital assets. We are a leading provider of computer cyber security service solutions, offering a comprehensive suite of services designed to protect your data, systems, and networks from even the most sophisticated cyber threats.
+            <p className='text-mobBody sm:text-tabBody lg:text-lapBody font-medium font-krub text-textgray '>The digital landscape of today is an undeniable double-edged sword. While technology empowers us to connect, collaborate, and conduct business with unprecedented ease, it also exposes us to a growing threat – cybercrime. In the UK, businesses and individuals alike face a constant barrage of cyberattacks, aiming to steal data, disrupt operations, or extort money. This escalating threat landscape necessitates the expertise of reliable <strong> cyber security service providers in UK. </strong></p>
+            <p className='text-mobBody sm:text-tabBody lg:text-lapBody font-medium font-krub text-textgray' >Here at Cutech Solutions, we understand the critical importance of safeguarding your digital assets. We are a leading provider of computer <strong> cyber security service solutions </strong>, offering a comprehensive suite of services designed to protect your data, systems, and networks from even the most sophisticated cyber threats.
             </p>
           </div>
           <div className='flex sm:justify-center lg:justify-between'>
@@ -124,7 +124,7 @@ export const DetailService1 = () => {
                 Why Choose Cutech Solutions as Your Cyber Security Service Provider?
               </h2>
               <p className='lg:text-lapBody3 sm:text-lapBody3 text-tabBody3 font-krub font-medium text-center lg:text-start max-w-[700px] text-textgray pr-4 mb-8 lg:mb-0'>
-                In the ever-evolving world of cyber threats, choosing the right cyber security service provider is crucial. Cutech Solutions stands out from the crowd with the following key advantages:
+                In the ever-evolving world of cyber threats, choosing the right <strong> cyber security service provider</strong> is crucial. Cutech Solutions stands out from the crowd with the following key advantages:
               </p>
             </div>
           </div>
@@ -141,7 +141,7 @@ export const DetailService1 = () => {
             <h2 className="text-white text-mobTitle sm:text-tabTitle lg:text-lapTitle font-rubik font-semibold lg:leading-[41px] ">
               Benefits of Partnering with a Reputable Cyber Security Service Provider
             </h2>
-            <p className="text-white text-mobBody sm:text-tabBody lg:text-lapBody font-krub">Cybercrime is a complex and ever-evolving threat. Attempting to manage cyber security in-house can be a resource-intensive and challenging endeavor. Partnering with a reputable cyber security service provider in UK offers a multitude of benefits.</p>
+            <p className="text-white text-mobBody sm:text-tabBody lg:text-lapBody font-krub">Cybercrime is a complex and ever-evolving threat. Attempting to manage cyber security in-house can be a resource-intensive and challenging endeavor. Partnering with a <strong> reputable cyber security service provider in UK </strong>offers a multitude of benefits.</p>
             <button className="bg-white font-medium text-xs sm:text-[23px]   block mx-auto py-3 px-5 sm:mx-0  sm:px-10 sm:py-6 rounded-full">Get Started</button>
           </div>
         </div>
@@ -155,7 +155,7 @@ export const DetailService1 = () => {
             <div className="flex flex-col gap-2 hover:text-darkYellow cursor-pointer ">
               <p className="text-mobTitle sm:text-tabTitle lg:text-lapTitle font-black  font-rubik">02</p>
               <h3 className=" text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2 font-semibold    font-rubik ">Cost-Effectiveness</h3>
-              <p className="text-mobBody2 sm:text-tabBody2 lg:text-lapBody2 font-normal font-krub">Building and maintaining an in-house security team is a substantial investment. Our outsourced cyber security services provide a cost-effective solution, delivering a higher level of protection without the overhead costs of hiring and training dedicated security personnel.</p>
+              <p className="text-mobBody2 sm:text-tabBody2 lg:text-lapBody2 font-normal font-krub">Building and maintaining an in-house security team is a substantial investment. Our outsourced <strong> cyber security services</strong> provide a cost-effective solution, delivering a higher level of protection without the overhead costs of hiring and training dedicated security personnel.</p>
             </div>
             <div className=" flex flex-col gap-2 hover:text-darkYellow cursor-pointer">
               <p className="text-mobTitle sm:text-tabTitle lg:text-lapTitle font-black font-rubik ">03</p>
@@ -190,7 +190,7 @@ export const DetailService1 = () => {
                 </h2>
                 <div>
                   <p className='font-krub  font-medium lg:text-[16px] sm:text-[16px] text-[12px] text-[#666C89] my-2 sm:my-6'>
-                    At Cutech Solutions, we are confident that we can be your ideal cyber security partner in UK. We offer an unrivaled combination of experience, expertise, and a comprehensive suite of services designed to provide the highest level of protection for your business. Every business has different security needs, and we are aware of that. We work closely with you to understand your specific requirements and develop a customized security strategy that aligns with your budget and risk tolerance.
+                    At Cutech Solutions, we are confident that we can be your ideal <strong> cyber security partner in UK</strong>. We offer an unrivaled combination of experience, expertise, and a comprehensive suite of services designed to provide the highest level of protection for your business. Every business has different security needs, and we are aware of that. We work closely with you to understand your specific requirements and develop a customized security strategy that aligns with your budget and risk tolerance.
                   </p>
                 </div>
 
@@ -269,7 +269,7 @@ export const DetailService1 = () => {
               Act Now to Protect your Digital Future
             </span>
             <p className='font-krub leading-[18.18px] cursor-default select-none sm:leading-[24.24px] text-mobHeaderBody sm:text-tabHeaderBody lg:text-lapHeaderBody '>
-              Let Cutech Solutions be your trusted partner in navigating the ever-evolving cyber threat  landscape. With our comprehensive cyber security service solutions, you can focus on  running your business with confidence, knowing your digital assets are protected.
+              Let Cutech Solutions be your trusted partner in navigating the ever-evolving cyber threat  landscape. With our comprehensive <strong> cyber security service solutions</strong>, you can focus on  running your business with confidence, knowing your digital assets are protected.
             </p>
             <Link to="/contact-us">
               <button className='bg-custom-gradient font-krub overflow-hidden font-semibold relative text-[12px] text-lightBlack w-[112px] h-[34px] sm:w-[146px] sm:h-[45px]'>

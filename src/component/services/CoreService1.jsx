@@ -9,7 +9,7 @@ export const CoreService1 = () => {
           <h2 className="text-mobTitle sm:text-tabTitle lg:text-lapTitle font-bold font-rubik leading-7 mb-4 lg:leading-10">Core Services Offered by Cutech Solutions</h2>
 
           <p className='font-krub text-mobBody sm:text-tabBody lg:text-lapBody leading-[18px] sm:leading-[24px] text-center'>
-            Our comprehensive suite of cyber security services provides a multi-layered defense against cyber threats
+            Our comprehensive suite of <strong> cyber security services</strong> provides a multi-layered defense against cyber threats
           </p>
 
         </div>
@@ -84,7 +84,7 @@ export const CoreService1 = () => {
                 Ongoing Security Monitoring
               </h3>
               <p className="text-mobBody2 sm:text-tabBody2 lg:text-lapBody2 font-krub font-normal text-textgray">
-                Our team provides 24/7 security monitoring to continuously identify and respond to potential threats. We leverage advanced Security Information and Event Management (SIEM) solutions to provide comprehensive threat detection and analysis.
+                Our team provides <strong> 24/7 security monitoring </strong> to continuously identify and respond to potential threats. We leverage advanced Security Information and Event Management (SIEM) solutions to provide comprehensive threat detection and analysis.
               </p>
 
             </div>
@@ -99,7 +99,7 @@ export const CoreService1 = () => {
                 Cyber Security Consulting
               </h3>
               <p className="text-mobBody2 sm:text-tabBody2 lg:text-lapBody2 font-krub font-normal text-textgray">
-                Our expert consultants offer comprehensive cyber security consulting services to help you develop a robust and customized security strategy aligned with your business goals and risk tolerance.
+                Our expert consultants offer comprehensive<strong> cyber security consulting services </strong>to help you develop a robust and customized security strategy aligned with your business goals and risk tolerance.
               </p>
 
             </div>
