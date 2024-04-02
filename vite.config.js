@@ -18,5 +18,5 @@ export default defineConfig({
     },
   }),],
   // base :"https://cutechsolutions.co.uk/"
-  // base: "https://cutechsolution.com/",
+  base: "https://cutechsolution.onrender.com/",
 })

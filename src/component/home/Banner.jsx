@@ -6,7 +6,7 @@ export const Banner = () => {
     const slideImages = [
         {
             url: '/img/home/homeBanner1.png',
-            heading: 'Tech Shahank Beyond Borders: Expert <span> Remote Maintenance Services </span>',
+            heading: 'Tech Care Beyond Borders: Expert <span> Remote Maintenance Services </span>',
             link: '/remote-technical-support-services',
         },
         {
