@@ -112,11 +112,11 @@ const pageData = [
         metaKeywords: "Digital Marketing Services in UK, SEO Service UK, Digital Marketing Company in UK, Digital Marketing Service Provider, Digital Marketing Service Provider in UK, digital marketing experts, digital marketing services UK, Search Engine Optimization, Pay-Per-Click, Social Media Marketing, Digital Marketing Companies in UK, Digital Marketing Solutions",
     },
     {
-        path: '/cyber-security-service',
-        metaTitle: 'Cyber Security Service | Cyber Risk',
-        metaDescription: "Safeguard your business with expert Cyber Security Service from Cutech Solutions. Mitigate cyber risks and protect your assets today.",
-        canonicalUrl: 'https://cutechsolutions.co.uk/cyber-security-service',
-        metaKeywords: "Cyber Security Service, Cyber Security Service Providers in UK, Computer Cyber Security Service Solutions, Computer Cyber Security Service Providers in UK, Cyber Security Service in UK, Best Cyber Security Service in UK, Top Cyber Security Service in UK",
+        path: '/cyber-security-services',
+        metaTitle: 'Cyber Security Services | Cyber Risk',
+        metaDescription: "Safeguard your business with expert Cyber Security Services from Cutech Solutions. Mitigate cyber risks and protect your assets today.",
+        canonicalUrl: 'https://cutechsolutions.co.uk/cyber-security-services',
+        metaKeywords: "Cyber Security Services, Cyber Security Service Providers in UK, Computer Cyber Security Service Solutions, Computer Cyber Security Service Providers in UK, Cyber Security Service in UK, Best Cyber Security Service in UK, Top Cyber Security Service in UK",
     },
     {
         path: '/cloud-managed-services',

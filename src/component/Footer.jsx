@@ -12,9 +12,9 @@ export const Footer = () => {
                         {/* FIRST */}
                         <div className='flex flex-col gap-4'>
                             <div className='py-4 px-20 z-10 bg-darkBlue'>
-                                <div className='sm:w-[176px] h-[38px] '>
+                                <Link to="/" className='sm:w-[176px] h-[38px] '>
                                     <img loading="lazy" className='object-fit w-full h-full' src='../../img/footer/footerLogo.svg' alt='footerImg' />
-                                </div>
+                                </Link>
                             </div>
                             <p className='font-krub font-medium text-lapFooterBody leading-[18.18px] text-center lg:text-start sm:w-[400px] lg:w-[300px]'>
                                 Cutech Solutions: Empowering B2B Enterprises with Next-Level IT Solutions
@@ -42,12 +42,18 @@ export const Footer = () => {
                         </div>
                         {/* SECOND */}
                         <div className='flex flex-col w-full lg:w-auto gap-4 text-center'>
-                            <h3 className='text-mobFooterTitle z-10 sm:text-lapFooterTitle font-rubik bg-[#1d2551] py-5 px-20'>Pages</h3>
+                            <h4 className='text-mobFooterTitle z-10 sm:text-lapFooterTitle font-rubik bg-[#1d2551] py-5 px-20'>
+                                Pages
+                            </h4>
                             <ul className='flex flex-col text-mobFooterLinks sm:text-tabFooterLinks lg:text-lapFooterLinks justify-center font-medium items-center gap-4'>
                                 {
                                     [{ route: "Home", path: '/' }, { route: "About Us", path: '/about-us' }, { route: "Blog", path: '/blog' }, { route: "Services", path: '/services' }, { route: "Contact", path: '/contact-us' }].map((item, index) => {
                                         return (
-                                            <li key={index} className='flex items-center transition-all duration-300 ease-in-out'><Link to={item.path}>{item.route}</Link></li>
+                                            <li key={index} className='flex items-center transition-all duration-300 ease-in-out'>
+                                                <Link to={item.path}>
+                                                    <h5>  {item.route}</h5>
+                                                </Link>
+                                            </li>
                                         )
                                     })
                                 }
@@ -56,14 +62,18 @@ export const Footer = () => {
                         </div>
                         {/* THIRD */}
                         <div className='flex flex-col w-full lg:w-auto gap-4 text-center'>
-                            <h3 className='text-mobFooterTitle z-10 sm:text-lapFooterTitle font-rubik bg-[#1d2551] py-5 px-20'>
+                            <h4 className='text-mobFooterTitle z-10 sm:text-lapFooterTitle font-rubik bg-[#1d2551] py-5 px-20'>
                                 Utility
-                            </h3>
+                            </h4>
                             <ul className='flex flex-col text-mobFooterLinks sm:text-lapFooterLinks lg:text-lapFooterLinks justify-center font-medium items-center gap-4'>
                                 {
                                     [{ route: "Terms and Condition", path: '/terms-condition' }, { route: "Disclaimer", path: '/disclaimer' }, { route: "Privacy Policy", path: '/privacy-policy' }, { route: "Refund Policy", path: '/refund-policy' }].map((item, index) => {
                                         return (
-                                            <li key={index} className='flex items-center transition-all duration-300 ease-in-out'><Link to={item.path}>{item.route}</Link></li>
+                                            <li key={index} className='flex items-center transition-all duration-300 ease-in-out'>
+                                                <Link to={item.path}>
+                                                    <h5>  {item.route}</h5>
+                                                </Link>
+                                            </li>
                                         )
                                     })
                                 }
@@ -71,9 +81,9 @@ export const Footer = () => {
                         </div>
                         {/* FOURTH */}
                         <div className='flex flex-col gap-4 w-full xl:w-auto text-center'>
-                            <h3 className='text-mobFooterTitle z-10 sm:text-lapFooterTitle font-rubik bg-[#1d2551] py-5 px-20 xl:px-0'>
+                            <h4 className='text-mobFooterTitle z-10 sm:text-lapFooterTitle font-rubik bg-[#1d2551] py-5 px-20 xl:px-0'>
                                 Subscribe
-                            </h3>
+                            </h4>
                             <div className='flex justify-center flex-col gap-4 sm:justify-start font-bold'>
                                 <div className=''>
                                     <input
@@ -85,8 +95,12 @@ export const Footer = () => {
                                         Send Now
                                         <div className='w-[40px] h-[40px] absolute -bottom-4 -right-4 rounded-full bg-white'></div>
                                     </button>
-                                    <span className='xl:ml-4 mt-4 xl:mt-0 block '>
-                                        {socialIcon.map((item, index) => <span className='hover:-translate-y-1 transition-all duration-240 px-0.5 ease-out' key={index}>{item.icon}</span>)}
+                                    <span className='xl:ml-4 mt-4 xl:mt-0 gap-2 items-center flex  '>
+                                        {socialIcon.map((item, index) => (
+                                            <a href={item.path} target="_blank" rel="noopener noreferrer" key={index}>
+                                                <img src={item.icon} className='hover:-translate-y-1 transition-all duration-240 px-0.5 ease-out' alt={index} />
+                                            </a>
+                                        ))}
                                     </span>
                                 </div>
                             </div>

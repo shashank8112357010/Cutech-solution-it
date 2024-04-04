@@ -118,9 +118,9 @@ export const Testimonial = () => {
                                                 <img loading="lazy" className="object-cover w-full h-full" src={item.img} />
                                             </div>
                                             <div className="flex flex-col">
-                                                <h2 className={`font-rubik text-${item.headingColor} text-start font-semibold text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2`}>
+                                                <h3 className={`font-rubik text-${item.headingColor} text-start font-semibold text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2`}>
                                                     {item.name}
-                                                </h2>
+                                                </h3>
                                                 <p className={`font-krub font-medium leading-[24.24px] text-${item.headingColor}`}>
                                                     {item.route}
                                                 </p>

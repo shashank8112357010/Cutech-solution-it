@@ -154,7 +154,7 @@ export const Navbar = () => {
                                                 </div>
                                                 <div className='flex gap-4 items-center'>
                                                     <img src="../../img/home/whatWeDo2.png" alt="" className="w-[20px] h-[21px] object-cover" />
-                                                    <Link onClick={handleLinkClick} className='text-darkBlack text-[14px] font-medium font-krub leading-[24px] transition-all duration-300 ease-in-out hover:translate-x-2' to="/cyber-security-service ">Cyber Security Service </Link>
+                                                    <Link onClick={handleLinkClick} className='text-darkBlack text-[14px] font-medium font-krub leading-[24px] transition-all duration-300 ease-in-out hover:translate-x-2' to="/cyber-security-services ">Cyber Security Services</Link>
                                                 </div>
                                                 <div className="flex gap-4 items-center">
                                                     <img src="../../img/home/whatWeDo3.png" alt="" className="w-[20px] h-[21px] object-cover" />
@@ -181,11 +181,8 @@ export const Navbar = () => {
                     <div>
                         <div className='flex flex-row justify-center items-center gap-2'>
                             {socialIcon.map((item, index) => (
-                                <a href={item.icon.props.url} target="_blank" rel="noopener noreferrer" key={index}>
-                                    {/* {console.log(item)} */}
-                                    <span className='hover:-translate-y-1 transition-all duration-240 px-0.5 ease-out' >
-                                        {item.icon}
-                                    </span>
+                                <a href={item.path} target="_blank" rel="noopener noreferrer" key={index}>
+                                    <img src={item.icon} className='hover:-translate-y-1 transition-all duration-240 px-0.5 ease-out' alt={index} />
                                 </a>
                             ))}
                             <div>

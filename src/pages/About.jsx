@@ -154,7 +154,7 @@ export const About = () => {
         <div className=' mt-16'>
           <section role="banner" aria-label="Main" className='relative h-[400px] max-w-[1920px] mx-auto px-2 sm:pt-4 text-white'>
 
-            <img src="/img/services/ServicesBgImg.png" className={`-z-50 absolute left-0 w-full h-full -top-24 sm:-top-12 object-cover mmd:-top-16`} alt='imgBanner' loading='lazy' />
+            <img src="/img/services/servicesBanner5.png" className={`-z-50 absolute left-0 w-full h-full -top-24 sm:-top-12 object-cover mmd:-top-16`} alt='imgBanner' loading='lazy' />
 
             <div className='justify-center z-50 text-white w-full sm:px-20 text-center flex flex-col gap-4'>
               <span className='text-mobTitle sm:text-tabttext-mobTitle lg:text-lapttext-mobTitle cursor-default select-none font-bold font-rubik '>

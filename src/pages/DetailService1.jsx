@@ -8,7 +8,7 @@ export const DetailService1 = () => {
 
   return (
     <>
-      <BannerAtom srcImg="/img/about/aboutBanner.png" title="Service " heading="Cyber Security Service " />
+      <BannerAtom srcImg="/img/about/aboutBanner.png" title="Service " heading="Cyber Security Services " />
       <section className="max-w-7xl  mx-auto mt-6 px-4 sm:px-20  bg-transparent ">
         {/* intro section */}
         <div className='flex justify-between gap-20 sm:flex-col lg:flex-row flex-col mb-32 '>
@@ -180,7 +180,7 @@ export const DetailService1 = () => {
           <div className={`flex item flex-col lg:flex-row items-center lg:justify-between w-full`}>
             {/* Image  */}
             <div className='sm:w-[622px] sm:h-[679px] flex justify-end sm:justify-end lg:justify-normal mb-12 mt-0 sm:mt-10 lg:mt-0'>
-              <img loading="lazy" src="/img/services/ServicesImg.png" alt="services" className='w-full h-full object-cover' />
+              <img loading="lazy" src="/img/services/ServicesImg1.png" alt="services" className='w-full h-full object-cover' />
             </div>
 
             <div className=' flex flex-col lg:gap-[25px] sm:gap-[25px] gap-[8.9px] w-auto lg:w-1/2 md:pl-12'>
@@ -262,7 +262,7 @@ export const DetailService1 = () => {
       < div className=' mt-16 mx-auto  px-4 sm:px-20  ' >
         <section role="banner" aria-label="Main" className='relative h-[400px] max-w-[1920px] mx-auto px-2 sm:pt-4 text-white'>
 
-          <img src="/img/services/ServicesBgImg.png" className={`-z-50 absolute left-0 w-full h-full -top-24 sm:-top-12 object-cover mmd:-top-16`} alt='imgBanner' loading='lazy' />
+          <img src="/img/services/servicesBanner1.png" className={`-z-50 absolute left-0 w-full h-full -top-24 sm:-top-12 object-cover mmd:-top-16`} alt='imgBanner' loading='lazy' />
 
           <div className='justify-center z-50 text-white lg:w-1/2 mx-auto sm:px-20 text-center flex flex-col gap-4'>
             <span className='text-mobTitle sm:text-tabttext-mobTitle lg:text-lapttext-mobTitle cursor-default select-none font-bold font-rubik '>

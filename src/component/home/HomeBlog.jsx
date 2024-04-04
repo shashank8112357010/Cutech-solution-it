@@ -25,9 +25,9 @@ export const HomeBlog = () => {
                         <div className="text w-full flex border-y-2 py-4 my-4 lg:border-y-0 lg:py-0 lg:my-0">
                             <div className="text_details w-5/5 md:border-l-2 text-left px-2 sm:pl-8 space-y-5 group">
                                 <Link to="/elevate-your-business-with-expert-b2b-it-support">
-                                    <h2 className='text-mobBlogTitle md:text-tabBlogTitle lg:text-lapBlogTitle font-semibold group-hover:text-[#ffc64f] duration-200'>
+                                    <h3 className='text-mobBlogTitle md:text-tabBlogTitle lg:text-lapBlogTitle font-semibold group-hover:text-[#ffc64f] duration-200'>
                                         Elevate Your Business With Expert B2B IT Support
-                                    </h2>
+                                    </h3>
                                 </Link>
                                 <p className='text-mobBlogBody sm:text-tabBlogBody lg:text-lapBlogBody cursor-default'>
                                     Are you tired of dealing with IT issues that disrupt your business flow? Look no further! Cutech Solutions is here to elevate your business with <strong> expert B2B IT support services </strong> tailored to your needs. Based in London, we specialize in providing on-call 24x7 technical support and IT helpdesk services to businesses of all sizes. With our dedicated team of professionals
@@ -38,9 +38,9 @@ export const HomeBlog = () => {
                                 <div className="flex justify-between gap-2 sm:gap-0 flex-col sm:flex-row items-center border-t-2 mt-4 py-2 sm:py-4">
                                     <div className="flex items-center gap-2 ">
                                         <img loading="lazy" src="../../img/blog/Avtar.svg" alt="" className="w-[24px]" />
-                                        <p className="lg:text-[18px] sm:text-[16px] text-[12px] font-medium font-krub">
+                                        <h3 className="lg:text-[18px] sm:text-[16px] text-[12px] font-medium font-krub">
                                             Cutech Solutions
-                                        </p>
+                                        </h3>
                                     </div>
                                     <div className="flex flex-row gap-3 justify-center items-center">
                                         <p className="lg:text-[16px] sm:text-[14px] text-[12px] font-normal ">

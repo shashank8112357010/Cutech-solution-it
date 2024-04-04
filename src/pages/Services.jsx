@@ -14,7 +14,7 @@ export const Services = () => {
                 <div className='flex flex-col lg:flex-row items-center lg:justify-between '>
 
                     <div className='sm:w-[622px] sm:h-[450px] flex justify-end sm:justify-end lg:justify-normal mb-12 mt-0 sm:mt-10 lg:mt-0'>
-                        <img loading="lazy" src="/img/services/ServicesImg.png" alt="services" className='w-full h-full object-contain' />
+                        <img loading="lazy" src="/img/services/ServicesImg5.png" alt="services" className='w-full h-full object-contain' />
                     </div>
 
                     <div className='flex flex-col gap-4 w-auto lg:w-1/2 md:pl-12'>

@@ -26,7 +26,7 @@ export const ComputerSolutions = () => {
             id: 1,
             img: "2",
             heading: "Robust Network Security Solutions",
-            para: `Ensure your business is shielded from cyber threats with <strong> robust network security solutions. </strong> Our comprehensive services include advanced firewall protection, intrusion detection, and threat intelligence to defend against malware, ransomware, and phishing attacks. Trust in our regular security audits and vulnerability assessments to pinpoint and neutralize potential risks to your data and assets. We are among the <strong> leading computer cyber security service providers in UK </strong>, dedicated to safeguarding your digital environment`
+            para: `Ensure your business is shielded from cyber threats with <strong> robust network security solutions. </strong> Our comprehensive services include advanced firewall protection, intrusion detection, and threat intelligence to defend against malware, ransomware, and phishing attacks. Trust in our regular security audits and vulnerability assessments to pinpoint and neutralize potential risks to your data and assets. We are among the <strong> leading computer cyber security services providers in UK </strong>, dedicated to safeguarding your digital environment`
         },
         {
             id: 2,

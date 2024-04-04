@@ -18,7 +18,7 @@ import { DetailService4 } from "../pages/DetailService4";
 import { DetailService3 } from "../pages/DetailService3";
 import { DetailService2 } from "../pages/DetailService2";
 import { NoPageFound } from "./NoPageFound";
-import { HomeSocialIcon } from "../data/dataSet";
+import { socialIcon } from "../data/dataSet";
 import TawkMessengerReact from '@tawk.to/tawk-messenger-react';
 
 
@@ -51,22 +51,26 @@ export const Router = () => {
                     <Route path="/terms-condition" element={<TermsAndPolicy />} />
                     <Route path="/refund-policy" element={<RefundPolicy />} />
                     <Route path="/elevate-your-business-with-expert-b2b-it-support" element={<DetailBlog1 />} />
-                    <Route path="/cyber-security-service" element={<DetailService1 />} />
+                    <Route path="/cyber-security-services" element={<DetailService1 />} />
                     <Route path="/digital-marketing-company" element={<DetailService2 />} />
                     <Route path="/cloud-managed-services" element={<DetailService3 />} />
                     <Route path="/remote-technical-support-services" element={<DetailService4 />} />
                     <Route path="*" element={<NoPageFound />} />
                 </Routes>
 
-                <div className='z-40 fixed top-[29%] right-0 rounded-tl-lg rounded-bl-lg rounded-tr-none rounded-br-none'>
-                    <div className=' relative h-[210px] flex flex-col justify-end'>
-                        <Link to="contact-us" className=' -rotate-90 absolute font-semibold text-[14px] bg-darkBlue text-darkYellow rounded-tr-lg top-0 h-[109px] w-28 px-4 pt-2 cursor-pointer '>
+                <div className='z-40 fixed top-[30%] right-[0px] rounded-tl-lg rounded-bl-lg px-2 rounded-tr-none rounded-br-none'>
+                    <div className='relative h-[210px] flex flex-col justify-end'>
+                        <Link to="contact-us" className=' -rotate-90 absolute font-semibold text-[15px] bg-darkBlue text-darkYellow rounded-tr-lg top-0 h-[109px] w-28 px-4 pt-2 cursor-pointer '>
                             Contact us
                         </Link>
-                        <div className='flex flex-col w-[36px] pb-0'>
-                            {HomeSocialIcon.map((item, index) => <span className='hover:-translate-x-1 h-[33px] rounded-tr-lg transition-all duration-240 px-0.5 ease-out' key={index}>
-                                {item.icon}
-                            </span>)}
+                        <div className='flex flex-col w-[36px] pb-0 justify-center items-center '>
+                            {socialIcon.map((item, index) => (
+                                <div className="bg-darkBlue w-[42px] h-[34px] gap-4 flex justify-center items-center ml-[9px]">
+                                    <a href={item.path} target="_blank" rel="noopener noreferrer" key={index}>
+                                        <img src={item.icon} className='hover:-translate-y-1 transition-all duration-240 px-0.5 ease-out hover:-translate-x-1  rounded-tr-lg  duration-240' alt={index} />
+                                    </a>
+                                </div>
+                            ))}
                         </div>
                     </div>
                 </div>
@@ -142,8 +146,8 @@ const pageData = [
         metaTitle: 'Top Digital Marketing Services in UK | SEO Service UK',
     },
     {
-        path: '/cyber-security-service',
-        metaTitle: 'Cyber Security Service',
+        path: '/cyber-security-services',
+        metaTitle: 'Cyber Security Services',
     },
     {
         path: '/cloud-managed-services',

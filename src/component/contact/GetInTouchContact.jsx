@@ -7,6 +7,7 @@ export const GetInTouchContact = () => {
     const [isloading, setLoading] = useState(false)
     const [showPopup, setShowPopup] = useState(false);
 
+
     var curr = new Date();
     // curr.setDate(curr.getDate() + 3);
     var date = curr.toISOString().substring(0, 10);
@@ -184,6 +185,7 @@ export const GetInTouchContact = () => {
                                         className="bg-darkBlue w-full text-white font-normal font-rubik border-2 px-8 py-3 border-[#4E5683]"
                                         onChange={(e) => setContactData((p) => ({ ...p, AppointmentDate: e.target.value }))}
                                         required
+                                        min={date}
                                         defaultValue={contactData.AppointmentDate}
                                     />
                                     <select name="" onChange={(e) => setContactData((p) => ({ ...p, LinkPlatform: e.target.value }))} className="bg-darkBlue w-full text-white font-normal font-rubik border-2 px-8 py-3 border-[#4E5683]" id="">

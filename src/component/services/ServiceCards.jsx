@@ -16,7 +16,7 @@ export const ServiceCards = () => {
         },
         {
             id: 1,
-            link: "cyber-security-service",
+            link: "cyber-security-services",
             heading: "Computer Cyber Security Service Solutions",
             para1: "Protect your digital assets with our advanced <strong> cyber security service solutions </strong>. From threat detection to mitigation, our experts safeguard your systems from evolving cyber threats.",
             heading1: "Cutting-edge solutions tailored to your specific needs",

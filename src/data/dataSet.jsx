@@ -11,26 +11,18 @@ import {
 
 export const socialIcon = [
     {
-        icon: (
-            <LinkedinShareButton url='https://www.linkedin.com/company/cutechsolutions/'>
-                <LinkedinIcon size={24} round={true} />
-            </LinkedinShareButton>
-        )
+        icon: "/img/navbar/Linkdin.png",
+        path: "https://www.linkedin.com/company/cutechsolutions/"
     },
     {
-        icon: (
-            <TwitterShareButton url='https://twitter.com/Cutech_Solution'>
-                <TwitterIcon size={24} round={true} />
-            </TwitterShareButton>
-        )
+        icon: "/img/navbar/Twitter.png",
+        path: "https://twitter.com/Cutech_Solution"
     },
     {
-        icon: (
-            <FacebookShareButton url='https://www.facebook.com/profile.php?id=61557138917291'>
-                <FacebookIcon size={24} round={true} />
-            </FacebookShareButton>
-        )
-    }
+        icon: "/img/navbar/Facebook.png",
+        path: "https://www.facebook.com/profile.php?id=61557138917291"
+    },
+
 ];
 
 export const HomeSocialIcon = [
