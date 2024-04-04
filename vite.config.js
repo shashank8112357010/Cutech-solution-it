@@ -11,12 +11,12 @@ export default defineConfig({
 
   ViteImageOptimizer({
     png: {
-      quality: 50,
+      quality: 30,
     },
     jpg: {
-      quality: 50,
+      quality: 30,
     },
   }),],
-  // base :"https://cutechsolutions.co.uk/"
-  base: "https://cutechsolution.onrender.com/",
+
+
 })
