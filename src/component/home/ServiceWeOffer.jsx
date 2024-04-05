@@ -111,7 +111,7 @@ export const ServiceWeOffer = () => {
                 <div className=" absolute z-50 leftArrow left-4 sm:left-16 block cursor-pointer"
                     onClick={next}
                 >
-                    <img loading="lazy" src="/img/testimonial/TestimonialLeftArrow.svg" className=" h-8 md:h-12 w-8 md:w-12" alt="LeftArrow" />
+                    <img loading="lazy" src="/img/testimonial/TestimonialLeftArrow.svg" className=" h-8 md:h-12 w-8 md:w-12" alt="Testimonial LeftArrow" />
                 </div>
 
                 <Slider
@@ -137,7 +137,7 @@ export const ServiceWeOffer = () => {
                 <div className="block absolute z-50 rightArrow right-4 sm:right-16 cursor-pointer"
                     onClick={previous}
                 >
-                    <img loading="lazy" src="/img/testimonial/TestimonialRightArrow.svg" className=" h-8 md:h-12 w-8 md:w-12" alt="RightArrow" />
+                    <img loading="lazy" src="/img/testimonial/TestimonialRightArrow.svg" className=" h-8 md:h-12 w-8 md:w-12" alt="Testimonial RightArrow" />
                 </div>
             </div>
 

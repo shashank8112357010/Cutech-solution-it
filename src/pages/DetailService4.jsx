@@ -19,7 +19,7 @@ export const DetailService4 = () => {
             <p className='text-mobBody sm:text-tabBody lg:text-lapBody font-medium font-krub text-textgray '>Welcome to Cutech Solutions, your trusted partner for cutting-edge <strong>remote technical support services in UK</strong>. In today's dynamic business landscape, technology plays a critical role in driving operations. Recognizing its significance, Cutech Solutions provides seamless remote assistance to ensure your systems function smoothly and your business thrives. With an unwavering focus on efficiency, reliability, and customer satisfaction, we emerge as your dependable ally in navigating the complexities of modern IT infrastructure. Whether you're a startup venturing into the digital world or a large enterprise seeking to optimize operations, our tailored solutions cater to your unique needs, guaranteeing optimal performance. Partner with Cutech Solutions today and experience the difference – we're your partner in technological innovation and business success.</p>
           </div>
           <div className='flex sm:justify-center lg:justify-between'>
-            <img loading="lazy" src="../../img/services/TechnicalSupport.png" alt="" />
+            <img loading="lazy" src="../../img/services/TechnicalSupport.png" alt="Remote Technical Service" />
           </div>
         </div>
 
@@ -172,7 +172,7 @@ export const DetailService4 = () => {
           <div className={` flex item flex-col lg:flex-row items-center lg:justify-between w-full`}>
             {/* Image  */}
             <div className='sm:w-[622px] sm:h-[679px] flex justify-end sm:justify-end lg:justify-normal mb-12 mt-0 sm:mt-10 lg:mt-0'>
-              <img loading="lazy" src="/img/services/ServicesImg4.jpg" alt="services" className='w-full h-full object-cover' />
+              <img loading="lazy" src="/img/services/ServicesImg4.jpg" alt="Digital Marketing Experts" className='w-full h-full object-cover' />
             </div>
 
             <div className='flex flex-col lg:gap-[25px] sm:gap-[25px] gap-[8.9px] w-auto lg:w-1/2 md:pl-12'>
@@ -190,7 +190,7 @@ export const DetailService4 = () => {
 
                 {/* //heading and para start  */}
                 <div className='w-full flex flex-row items-center sm:items-start mt-2'>
-                  <img loading="lazy" src='/img/services/ServicesTick.png' alt='servicesImg' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
+                  <img loading="lazy" src='/img/services/ServicesTick.png' alt='Digital Marketing Solutions' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
                   <div className='w-full sm:w-4/5 pl-4 border-y-white border-r-white  sm:mt-2'>
                     <h3 className='font-rubik font-bold text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay text-mobTitle3 sm:text-tabTitle3 lg:text-lapTitle3 leading-[16px] sm:leading-[16px] mb-2'>
                       Unwavering Commitment to Customer Satisfaction
@@ -202,7 +202,7 @@ export const DetailService4 = () => {
                   </div>
                 </div>
                 <div className='w-full flex flex-row items-center sm:items-start mt-2'>
-                  <img loading="lazy" src='/img/services/ServicesTick.png' alt='servicesImg' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
+                  <img loading="lazy" src='/img/services/ServicesTick.png' alt=' IT Helpdesk Support' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
                   <div className='w-full sm:w-4/5 pl-4 border-y-white border-r-white sm:mt-2'>
                     <h3 className='font-rubik font-bold text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay inline text-mobTitle3 sm:text-tabTitle3 lg:text-lapTitle3 leading-[16px] sm:leading-[16px] mb-2'>
                       Cost-Effective Solutions with Transparent Pricing
@@ -215,7 +215,7 @@ export const DetailService4 = () => {
                 </div>
 
                 <div className='w-full flex flex-row items-center sm:items-start mt-2'>
-                  <img loading="lazy" src='/img/services/ServicesTick.png' alt='servicesImg' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
+                  <img loading="lazy" src='/img/services/ServicesTick.png' alt=' Top notch B2B IT Support Service' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
                   <div className='w-full sm:w-4/5 pl-4 border-y-white border-r-white sm:mt-2'>
                     <h3 className='font-rubik font-bold text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay inline text-mobTitle3 sm:text-tabTitle3 lg:text-lapTitle3 leading-[16px] sm:leading-[16px] mb-2'>
                       Scalable Solutions to Meet Your Growing Needs
@@ -227,7 +227,7 @@ export const DetailService4 = () => {
                   </div>
                 </div>
                 <div className='w-full flex flex-row items-center sm:items-start mt-2'>
-                  <img loading="lazy" src='/img/services/ServicesTick.png' alt='servicesImg' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
+                  <img loading="lazy" src='/img/services/ServicesTick.png' alt='Reliable B2B IT Support Service' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
                   <div className='w-full sm:w-4/5 pl-4 border-y-white border-r-white sm:mt-2'>
                     <h3 className='font-rubik font-bold text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay inline text-mobTitle3 sm:text-tabTitle3 lg:text-lapTitle3 leading-[16px] sm:leading-[16px] mb-2'>
                       Proactive Approach to IT Management
@@ -261,7 +261,7 @@ export const DetailService4 = () => {
       <div className=' mt-16 mx-auto  px-2 sm:px-10  '>
         <section role="banner" aria-label="Main" className='relative h-[434px] max-w-[1920px] mx-auto  text-white'>
 
-          <img src="/img/services/servicesBanner4.png" className={`-z-50 absolute left-0 w-full h-full -top-24 sm:-top-12 object-cover mmd:-top-16`} alt='imgBanner' loading='lazy' />
+          <img src="/img/services/servicesBanner4.png" className={`-z-50 absolute left-0 w-full h-full -top-24 sm:-top-12 object-cover mmd:-top-16`} alt='B2B IT Support Service' loading='lazy' />
 
           <div className='justify-center z-50 text-white lg:w-[58%]  mx-auto  text-center flex flex-col gap-4'>
             <span className='text-mobTitle sm:text-tabttext-mobTitle lg:text-lapttext-mobTitle cursor-default select-none font-bold font-rubik '>

@@ -11,6 +11,10 @@ export const socialIcon = [
         icon: "/img/navbar/Facebook.png",
         path: "https://www.facebook.com/profile.php?id=61557138917291"
     },
+    {
+        icon: "/img/navbar/Pinterest.png",
+        path: "https://in.pinterest.com/cutechsolutions/"
+    },
 
 ];
 

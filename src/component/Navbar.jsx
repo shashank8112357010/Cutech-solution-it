@@ -15,8 +15,6 @@ export const Navbar = () => {
     };
 
 
-
-
     useEffect(() => {
         const handleOutsideClick = (e) => {
             if (menuRef.current && !menuRef.current.contains(e.target)) {
@@ -29,20 +27,20 @@ export const Navbar = () => {
 
     return (
         <>
-            {/* navbar  */}
+            {/* navbar */}
             <nav role="navigation" aria-label="Main" className='max-w-[1920px] relative bg-darkBlue mx-auto px-4 mmd:px-20 text-white'>
                 <div className='sm:px-10 font-krub flex flex-row justify-between items-center py-4 '>
-                    {/* leftSide  */}
+                    {/* leftSide */}
                     <div className='LeftSide w-[100px] flex items-center justify-center sm:w-[191px] h-[47px]'>
                         <Link to="/">
-                            <img loading="lazy" src='../../img/navbar/logo.svg' className='object-cover w-full' />
+                            <img loading="lazy" src='../../img/navbar/logo.svg' className='object-cover w-full' alt='cutech logo'/>
                         </Link>
                     </div>
-                    {/* RighSide  */}
+                    {/* RighSide */}
                     <div className='RightSide flex-row gap-8 whitespace-nowrap hidden mmd:flex'>
                         <div className='flex items-center justify-center flex-row gap-2'>
                             <div className='w-[47px] h-[47px]'>
-                                <img loading="lazy" src='../../img/navbar/navLogo1.svg' className='object-cover w-full' />
+                                <img loading="lazy" src='../../img/navbar/navLogo1.svg' className='object-cover w-full' alt='cutech logo' />
                             </div>
                             <div className='text-mobContactBody sm:text-lapContactBody'>
                                 <p>Mon - Sun 24/7</p>
@@ -51,7 +49,7 @@ export const Navbar = () => {
                         </div>
                         <div className='flex items-center justify-center flex-row gap-2'>
                             <a className='sm:w-[47px] h-[47px]' href='mailto:info@cutechsolutions.co.uk' target='_blank'>
-                                <img loading="lazy" src='../../img/navbar/navLogo2.svg' className='object-cover w-full' />
+                                <img loading="lazy" src='../../img/navbar/navLogo2.svg' className='object-cover w-full' alt='cutech logo' />
                             </a>
                             <div className='text-mobContactBody sm:text-lapContactBody'>
                                 <p>Email</p>
@@ -60,7 +58,7 @@ export const Navbar = () => {
                         </div>
                         <div className='flex items-center justify-center flex-row gap-2'>
                             <a className='w-[47px] h-[47px]' href=' tel:+447424352181'>
-                                <img loading="lazy" src='../../img/navbar/navLogo3.svg' className='object-cover w-full' />
+                                <img loading="lazy" src='../../img/navbar/navLogo3.svg' className='object-cover w-full' alt='Cutech logo' />
                             </a>
                             <div className='text-mobContactBody sm:text-lapContactBody'>
                                 <p>Call us</p>
@@ -76,10 +74,10 @@ export const Navbar = () => {
                         onClick={() => setHide(!hide)}
                     >
                         {hide ? (
-                            <img loading="lazy" src='../../img/navbar/hamburgerCancel.svg' alt='logoImg' className='w-[35px] sm:w-[45px] h-[30px] sm:h-[40px] object-cover cursor-pointer' />
+                            <img loading="lazy" src='/img/navbar/hamburgerCancel.svg' className='w-[35px] sm:w-[45px] h-[30px] sm:h-[40px] object-cover cursor-pointer' alt='hamburger icon'/>
                         )
                             : (
-                                <img loading="lazy" src='../../img/navbar/hamburgerIcon.svg' className='object-cover w-[35px] sm:w-[45px] h-[30px] sm:h-[40px] cursor-pointer' />
+                                <img loading="lazy" src='/img/navbar/hamburgerIcon.svg' className='object-cover w-[35px] sm:w-[45px] h-[30px] sm:h-[40px] cursor-pointer' alt='hamburger icon'/>
                             )
                         }
                     </div>
@@ -105,7 +103,7 @@ export const Navbar = () => {
 
                     <div className='w-full flex mt-5 pr-10 justify-center items-center'>
                         <Link to="/contact-us">
-                            <img loading="lazy" src='../../img/navbar/header.svg' className='object-cover cursor-pointer w-[100px]' />
+                            <img loading="lazy" src='../../img/navbar/header.svg' className='object-cover cursor-pointer w-[100px]' alt='reach out for contact us' />
                         </Link>
                     </div>
                     <div>{""}</div>
@@ -139,7 +137,7 @@ export const Navbar = () => {
                                         </li>
                                         {/* </Link> */}
                                         <span>
-                                            <img src='../../img/navbar/DropDownArrow.png' className=' mt-[2px]' alt='dropDown' />
+                                            <img src='/img/navbar/DropDownArrow.png' className='mt-[2px]' alt='drop down arrow' />
                                         </span>
                                     </div>
 
@@ -149,19 +147,19 @@ export const Navbar = () => {
                                             <ul className=' absolute group-hover:top-[100px] top-[73px] -left-[93px] w-[280px] justify-center transition-all duration-500 rounded-[16px] bg-lightWhite text-textBlack flex flex-col gap-[16px] z-20 px-7 py-8' onMouseEnter={() => setMenuOpen(true)} onMouseLeave={() => setMenuOpen(false)}>
                                                 <li className="text-[12px] font-normal font-krub">Our Services</li>
                                                 <div className='flex gap-4 items-center'>
-                                                    <img src="../../img/home/whatWeDo1.png" alt="" className="w-[20px] h-[21px] object-cover" />
+                                                    <img src="../../img/home/whatWeDo1.png" alt="1.What cutech solutions do " className="w-[20px] h-[21px] object-cover" />
                                                     <Link onClick={handleLinkClick} className='text-darkBlack text-[14px] font-medium font-krub leading-[24px] transition-all duration-300 ease-in-out hover:translate-x-2' to="/remote-technical-support-services ">Remote Technical Support Services</Link>
                                                 </div>
                                                 <div className='flex gap-4 items-center'>
-                                                    <img src="../../img/home/whatWeDo2.png" alt="" className="w-[20px] h-[21px] object-cover" />
+                                                    <img src="../../img/home/whatWeDo2.png" alt="2.What cutech solutions do " className="w-[20px] h-[21px] object-cover" />
                                                     <Link onClick={handleLinkClick} className='text-darkBlack text-[14px] font-medium font-krub leading-[24px] transition-all duration-300 ease-in-out hover:translate-x-2' to="/cyber-security-services ">Cyber Security Services</Link>
                                                 </div>
                                                 <div className="flex gap-4 items-center">
-                                                    <img src="../../img/home/whatWeDo3.png" alt="" className="w-[20px] h-[21px] object-cover" />
+                                                    <img src="../../img/home/whatWeDo3.png" alt="3.What cutech solutions do " className="w-[20px] h-[21px] object-cover" />
                                                     <Link onClick={handleLinkClick} className='text-darkBlack text-[14px] font-medium font-krub leading-[24px] transition-all duration-300 ease-in-out hover:translate-x-2 z-20' to="/cloud-managed-services ">Cloud Managed Services</Link>
                                                 </div>
                                                 <div className="flex gap-4 items-center">
-                                                    <img src="../../img/home/whatWeDo4.png" alt="" className="w-[20px] h-[21px] object-cover" />
+                                                    <img src="../../img/home/whatWeDo4.png" alt="4.What cutech solutions do " className="w-[20px] h-[21px] object-cover" />
                                                     <Link onClick={handleLinkClick} className='text-darkBlack text-[14px] font-medium font-krub leading-[24px] transition-all duration-300 ease-in-out hover:translate-x-2 z-20' to="/digital-marketing-company ">Digital Marketing Company</Link>
                                                 </div>
                                             </ul>
@@ -182,12 +180,12 @@ export const Navbar = () => {
                         <div className='flex flex-row justify-center items-center gap-2'>
                             {socialIcon.map((item, index) => (
                                 <a href={item.path} target="_blank" rel="noopener noreferrer" key={index}>
-                                    <img src={item.icon} className='hover:-translate-y-1 transition-all duration-240 px-0.5 ease-out' alt={index} />
+                                    <img src={item.icon} className='hover:-translate-y-1 transition-all duration-240 px-0.5 ease-out w-[20px] h-[16px]' alt={item.path} />
                                 </a>
                             ))}
                             <div>
                                 <Link to="/contact-us" >
-                                    <img loading="lazy" src='../../img/navbar/header.svg' className='object-cover cursor-pointer w-full' />
+                                    <img loading="lazy" src='../../img/navbar/header.svg' className='object-cover cursor-pointer w-full' alt='contact us icon' />
                                 </Link>
                             </div>
                         </div>

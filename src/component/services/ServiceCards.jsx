@@ -113,8 +113,7 @@ export const ServiceCards = () => {
 
                                     {/* Image  */}
                                     <div className='flex justify-end sm:justify-end lg:justify-normal mt-10 lg:mt-0 lg:ml-4'>
-
-                                        <img loading="lazy" src={item.img} alt="" className='w-[90%] h-full object-cover ' />
+                                        <img loading="lazy" src={item.img} alt="service cards" className='w-[90%] h-full object-cover ' />
                                     </div>
                                 </div>
                             </div>

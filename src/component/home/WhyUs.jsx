@@ -23,14 +23,11 @@ export const WhyUs = () => {
                                 Thank you for considering Cutech Solutions as your trusted partner for <strong> B2B computer services </strong>. With our comprehensive range of services and commitment to priority issue resolution, we are confident in our ability to help your business thrive in today's digital landscape. Contact us today to learn more about our <strong> IT support services in UK </strong> and how we can assist you in achieving your goals.
                             </p>
                         </div>
-
                     </div>
                     <div className='flex flex-col gap-4 sm:gap-[22px]'>
-
                         <div className='flex justify-end sm:justify-end lg:justify-normal mt-10 lg:mt-0'>
-                            <img loading="lazy" src="img/home/whyUs1.png" alt="" className='w-full h-full object-cover' />
+                            <img loading="lazy" src="img/home/whyUs1.png" alt="why cutech solutions" className='w-full h-full object-cover' />
                         </div>
-
                     </div>
                 </div>
             </div>

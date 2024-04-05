@@ -70,8 +70,8 @@ export const FaqContact = ({ data }) => {
                             You need any help? get free consultation
                         </h3>
                         <div className='flex items-center flex-row gap-2 pt-8'>
-                            <a className='w-[47px] h-[47wpx]' href=' tel:+447424352181'>
-                                <img loading="lazy" src='../../img/navbar/navLogo3.svg' className='object-cover w-full' />
+                            <a className='w-[47px] h-[47wpx]' href='tel:+447424352181'>
+                                <img loading="lazy" src='/img/navbar/navLogo3.svg' className='object-cover w-full' alt='contact icon' />
                             </a>
                             <div className='text-mobContactBody sm:text-lapContactBody'>
                                 <p>Have Any Questions</p>

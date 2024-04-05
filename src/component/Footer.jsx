@@ -13,7 +13,7 @@ export const Footer = () => {
                         <div className='flex flex-col gap-4'>
                             <div className='py-4 px-20 z-10 bg-darkBlue'>
                                 <Link to="/" className='sm:w-[176px] h-[38px] '>
-                                    <img loading="lazy" className='object-fit w-full h-full' src='../../img/footer/footerLogo.svg' alt='footerImg' />
+                                    <img loading="lazy" className='object-fit w-full h-full' src='../../img/footer/footerLogo.svg' alt='cutech logo' />
                                 </Link>
                             </div>
                             <p className='font-krub font-medium text-lapFooterBody leading-[18.18px] text-center lg:text-start sm:w-[400px] lg:w-[300px]'>
@@ -22,7 +22,7 @@ export const Footer = () => {
                             <div className='flex flex-col gap-4'>
                                 <div className='flex items-center flex-row justify-center lg:justify-start gap-2'>
                                     <a className='sm:w-[47px] h-[47px]' href='mailto:info@cutechsolutions.co.uk' target='_blank'>
-                                        <img loading="lazy" src='../../img/navbar/navLogo2.svg' className='object-cover w-full' />
+                                        <img loading="lazy" src='/img/navbar/navLogo2.svg' className='object-cover w-full' alt='cutech logo' />
                                     </a>
                                     <div className='text-mobContactBody sm:text-lapContactBody'>
                                         <p>Email</p>
@@ -31,7 +31,7 @@ export const Footer = () => {
                                 </div>
                                 <div className='flex items-center justify-center mr-10 lg:mr-0 lg:justify-start flex-row gap-2'>
                                     <a className='w-[47px] h-[47px]' href=' tel:+447424352181'>
-                                        <img loading="lazy" src='../../img/navbar/navLogo3.svg' className='object-cover w-full' />
+                                        <img loading="lazy" src='../../img/navbar/navLogo3.svg' className='object-cover w-full' alt='cutech logo' />
                                     </a>
                                     <div className='text-mobContactBody sm:text-lapContactBody'>
                                         <p>Call us</p>
@@ -98,7 +98,7 @@ export const Footer = () => {
                                     <span className='xl:ml-4 mt-4 xl:mt-0 gap-2 items-center flex  '>
                                         {socialIcon.map((item, index) => (
                                             <a href={item.path} target="_blank" rel="noopener noreferrer" key={index}>
-                                                <img src={item.icon} className='hover:-translate-y-1 transition-all duration-240 px-0.5 ease-out' alt={index} />
+                                                <img src={item.icon} className='hover:-translate-y-1 transition-all duration-240 px-0.5 ease-out w-[20px] h-[15px]' alt={item.path} />
                                             </a>
                                         ))}
                                     </span>

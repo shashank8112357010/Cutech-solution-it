@@ -39,7 +39,7 @@ export const Cards = () => {
               className="flex gap-4 px-2 sm:px-8 py-4 sm:py-8 border rounded-md shadow-sm"
             >
               <div className="">
-                <img loading="lazy" src={item.img} alt="" className="max-w-[30px] sm:max-w-none" />
+                <img loading="lazy" src={item.img} alt="cards provided by cutech solutions" className="max-w-[30px] sm:max-w-none" />
               </div>
               <div>
                 <h3 className="lg:text-lapTitle3 sm:text-tabTitle3 text-mobTitle3 font-bold font-rubik leading-[16px] sm:leading-[21px] tracking-[-0.005em] mb-1.5 text-[#FFB629]">

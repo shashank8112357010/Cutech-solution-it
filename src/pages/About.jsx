@@ -12,15 +12,15 @@ export const About = () => {
       {/* //about us  */}
       <div className='flex flex-row flex-wrap lg:flex-nowrap sm:gap-[89.16px] gap-[89.16px] justify-center lg:justify-between mt-0 mb-28 lg:px-20 '>
         <div className='sm:order-2 order-2 text-start sm:w-[713px] lg:w-[684.33px] pr-4 sm:pr-0 lg:pr-0 '>
-          <img loading="lazy" src="../../img/about/AboutImghead.png" alt="" className='w-full h-full object-cover' />
+          <img loading="lazy" src="/img/about/AboutImghead.png" alt="About Us Header Image" className='w-full h-full object-cover' />
         </div>
         <div className='flex flex-col gap-[31.21px] lg:w-[570.51px] sm:w-[580.52px] order-1 lg:order-2 pl-3 w-full lg:pl-0'>
           <div className='flex gap-[10px] flex-col'>
-            <p className=" font-rubik font-normal lg:text-lapBody2 sm:text-lapBody2 text-[6.7px] w-[78px] bg-white/10 border-l-4 pl-2 border-yellow-500">
+            <p className="font-rubik font-normal lg:text-lapBody2 sm:text-lapBody2 text-[6.7px] w-[78px] bg-white/10 border-l-4 pl-2 border-yellow-500">
               About us
             </p>
             <h1 className='lg:text-lapTitle sm:text-tabTitle text-mobTitle font-semibold font-rubik'>Our <span className='text-[#FFB82B]'> Company </span> Overview</h1>
-            <p className='lg:text-lapBody3 sm:text-lapBody3 text-tabBody3 font-krub font-medium text-textgray '>Welcome to Cutech Solutions, the foremost provider of <strong>B2B IT support services in UK</strong>. With an unwavering dedication to excellence and innovation, Cutech Solutions emerges as the go-to ally for businesses in search of comprehensive and customized IT solutions.</p>
+            <p className='lg:text-lapBody3 sm:text-lapBody3 text-tabBody3 font-krub font-medium text-textgray'>Welcome to Cutech Solutions, the foremost provider of <strong>B2B IT support services in UK</strong>. With an unwavering dedication to excellence and innovation, Cutech Solutions emerges as the go-to ally for businesses in search of comprehensive and customized IT solutions.</p>
           </div>
           <div className='flex flex-col gap-[24.07px] sm:order-2'>
             <div>
@@ -38,7 +38,7 @@ export const About = () => {
         <div className='flex flex-row flex-wrap px-4 sm:px-40 lg:px-4 '>
           <div className='flex flex-col lg:w-1/2 gap-10'>
             <p className='lg:text-[35px] sm:text-[25px] text-[18px] font-krub font-semibold'>“Navigate the maze effortlessly with <span className='text-darkYellow'>Cutech Solutions</span>”</p>
-            <img loading="lazy" src="/img/about/About.png" alt="" className='w-[90%]' />
+            <img loading="lazy" src="/img/about/About.png" alt="Know About Us" className='w-[90%]' />
           </div>
 
           <div className='lg:w-1/2 mt-8 lg:mt-0'>
@@ -70,7 +70,7 @@ export const About = () => {
 
           </div>
           <div className='sm:w-2/3 lg:w-1/2 px-4 sm:px-0 lg:px-0 sm:mx-auto'>
-            <img loading="lazy" src="../../img/about/Abou-us-Video.svg" alt="" className='w-full object-cover ' />
+            <img loading="lazy" src="../../img/about/Abou-us-Video.svg" alt="About Us Page" className='w-full object-cover ' />
           </div>
         </div>
 
@@ -154,7 +154,7 @@ export const About = () => {
         <div className=' mt-16'>
           <section role="banner" aria-label="Main" className='relative h-[400px] max-w-[1920px] mx-auto px-2 sm:pt-4 text-white'>
 
-            <img src="/img/services/servicesBanner5.png" className={`-z-50 absolute left-0 w-full h-full -top-24 sm:-top-12 object-cover mmd:-top-16`} alt='imgBanner' loading='lazy' />
+            <img src="/img/services/servicesBanner5.png" className={`-z-50 absolute left-0 w-full h-full -top-24 sm:-top-12 object-cover mmd:-top-16`} alt='About Us' loading='lazy' />
 
             <div className='justify-center z-50 text-white w-full sm:px-20 text-center flex flex-col gap-4'>
               <span className='text-mobTitle sm:text-tabttext-mobTitle lg:text-lapttext-mobTitle cursor-default select-none font-bold font-rubik '>

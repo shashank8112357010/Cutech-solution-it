@@ -94,7 +94,7 @@ export const ComputerSolutions = () => {
                             return (
                                 <div key={item.id} className='basis-[300px] grow w-[400px] flex flex-row justify-between items-center sm:items-start'>
                                     <div className='w-[41px] sm:w-[60px] h-[40px] sm:h-[60px]'>
-                                        <img loading="lazy" src={`/img/home/ComputerSol${item.img}.png`} alt='whatwedoIcon' className='w-full h-full object-cover' />
+                                        <img loading="lazy" src={`/img/home/ComputerSol${item.img}.png`} alt='computer solutions provided by cutech solutions' className='w-full h-full object-cover' />
                                     </div>
                                     <div className='w-4/5 border-2 border-l-[#D8D8D8] pl-4 border-y-white border-r-white'>
                                         <h3 className='font-rubik text-mobHeading1 sm:text-tabHeading1 leading-[14px] sm:leading-[29px]'>
