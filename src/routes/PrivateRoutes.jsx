@@ -51,12 +51,16 @@ export const Router = () => {
                     <Route path="/terms-condition" element={<TermsAndPolicy />} />
                     <Route path="/refund-policy" element={<RefundPolicy />} />
                     <Route path="/elevate-your-business-with-expert-b2b-it-support" element={<DetailBlog1 />} />
+
                     <Route path="/cyber-security-services" element={<DetailService1 />} />
                     <Route path="/digital-marketing-company" element={<DetailService2 />} />
                     <Route path="/cloud-managed-services" element={<DetailService3 />} />
                     <Route path="/remote-technical-support-services" element={<DetailService4 />} />
+
                     <Route path="*" element={<NoPageFound />} />
                 </Routes>
+
+
 
                 <div className='z-40 fixed top-[30%] right-[0px] rounded-tl-lg rounded-bl-lg px-2 rounded-tr-none rounded-br-none'>
                     <div className='relative h-[206px] flex flex-col justify-end'>

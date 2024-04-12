@@ -11,7 +11,7 @@ export const DetailService4 = () => {
   return (
     <>
       <BannerAtom srcImg="/img/about/aboutBanner.png" title="Service" heading="Remote Technical Support Service" />
-      <section className="max-w-7xl  mx-auto mt-6 px-4 sm:px-20  bg-transparent ">
+      <section className="max-w-7xl mx-auto mt-6 px-4 sm:px-20 bg-transparent">
         {/* intro section */}
         <div className='flex justify-between gap-20 sm:flex-col lg:flex-row flex-col mb-32 '>
           <div className='lg:w-[55%] flex flex-col gap-[31px]'>

@@ -8,14 +8,13 @@ import { Link } from 'react-router-dom'
 export const DetailService2 = () => {
     return (
         <>
-            <BannerAtom srcImg="/img/about/aboutBanner.png" title="Service " heading="Digital Marketing Service " />
-            <section className="max-w-7xl  mx-auto mt-6 px-4 sm:px-20  bg-transparent ">
+            <BannerAtom srcImg="/img/about/aboutBanner.png" title="Service" heading="Digital Marketing Service " />
+            <section className="max-w-7xl mx-auto mt-6 px-4 sm:px-20 bg-transparent">
                 {/* intro section */}
                 <div className='flex justify-between items-center gap-[45px] sm:flex-col lg:flex-row flex-col mb-32 '>
                     <div className='lg:w-1/2 flex flex-col gap-[31px]'>
-                        <h1 className=' text-mobTitle sm:text-tabTitle lg:text-lapTitle font-semibold font-rubik lg:leading-[41.48px] sm:leading-[29px] leading-[23px]'>Elevate Your Online Presence with Cutech Solutions: Premier Digital Marketing Company in UK</h1>
+                        <h1 className='text-mobTitle sm:text-tabTitle lg:text-lapTitle font-semibold font-rubik lg:leading-[41.48px] sm:leading-[29px] leading-[23px]'>Elevate Your Online Presence with Cutech Solutions: Premier Digital Marketing Company in UK</h1>
                         <p className='text-mobBody sm:text-tabBody lg:text-lapBody font-medium font-krub text-textgray '>In today's digital age, a strong online presence is no longer a luxury – it's a necessity. At Cutech Solutions, a leading <strong> digital marketing company in UK </strong>, we understand the ever-evolving digital landscape and the challenges businesses face in capturing and retaining online audiences. We offer a comprehensive suite of <strong> digital marketing solutions </strong> designed to propel your brand to the forefront of your industry, driving targeted traffic, boosting conversions, and ultimately, achieving your business goals.</p>
-
                     </div>
                     <div className='flex sm:justify-center lg:justify-between'>
                         <img src="../../img/services/FirstsecImg.png" alt="Digital Marketing Solutions" />
@@ -36,7 +35,6 @@ export const DetailService2 = () => {
                                     </h3>
                                     <p className='text-mobBody2 text-center sm:text-tabBody2 lg:text-lapBody2 text-textgray font-rubik leading-[18px] md:leading-[22px]'>
                                         Our team comprises seasoned <strong> digital marketing experts </strong> with a proven track record of success. We stay at the forefront of industry trends and utilize cutting-edge strategies to deliver exceptional results.
-
                                     </p>
                                 </div>
                             </div>
@@ -75,6 +73,7 @@ export const DetailService2 = () => {
                                     </p>
                                 </div>
                             </div>
+                            
                             <div className='w-[265px] h-auto'>
                                 <div className='hover:scale-105 transition-all h-full duration-300 ease-in-out shadow-custom-about border-2 border-[#E7DAED] justify-center flex flex-col p-4 gap-2 sm:gap-4 rounded-[9px]  '>
                                     <h3 className='font-rubik text-mobTitle2 text-center text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay sm:text-tabTitle2 lg:text-lapTitle2 font-semibold leading-[27px]'>
@@ -102,7 +101,6 @@ export const DetailService2 = () => {
 
                 {/* Right side of cutech solution  */}
                 <div className='relative flex flex-col gap-2 sm:gap-[31.21px] items-center lg:items-start mt-14 lg:max-w-[520px] px-4 sm:pl-10 md:pl-[50px] -order-1 sm:-order-1 lg:order-1'>
-
                     <div className='flex flex-row flex-wrap gap-4 w-full  sticky top-8 right-0'>
                         <div className='text-center lg:text-start w-full gap-4 flex justify-center items-center flex-col'>
                             <h2 className='lg:text-lapTitle relative capitalize sm:text-tabTitle text-mobTitle font-semibold font-rubik leading-[24px] sm:leading-[36px] text-center lg:text-start w-full'>

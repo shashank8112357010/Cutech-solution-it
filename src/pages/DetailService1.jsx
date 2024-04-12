@@ -8,8 +8,8 @@ export const DetailService1 = () => {
 
   return (
     <>
-      <BannerAtom srcImg="/img/about/aboutBanner.png" title="Service " heading="Cyber Security Services " />
-      <section className="max-w-7xl  mx-auto mt-6 px-4 sm:px-20  bg-transparent ">
+      <BannerAtom srcImg="/img/about/aboutBanner.png" title="Service" heading="Cyber Security Services " />
+      <section className="max-w-7xl mx-auto mt-6 px-4 sm:px-20  bg-transparent ">
         {/* intro section */}
         <div className='flex justify-between gap-20 sm:flex-col lg:flex-row flex-col mb-32 '>
           <div className='lg:w-[55%] flex flex-col gap-[31px]'>
@@ -115,7 +115,6 @@ export const DetailService1 = () => {
 
         {/* Right side of cutech solution  */}
         <div className='relative flex flex-col gap-2 sm:gap-[31.21px] items-center lg:items-start mt-14 lg:max-w-[520px] px-4 sm:pl-10 md:pl-[50px] -order-1 sm:-order-1 lg:order-1'>
-
           <div className='flex flex-row flex-wrap gap-4 w-full sticky top-8 right-0'>
             <div className='text-center lg:text-start w-full gap-4 flex justify-center items-center flex-col'>
               <h2 className='lg:text-lapTitle relative capitalize sm:text-tabTitle text-mobTitle font-semibold font-rubik leading-[24px] sm:leading-[36px] text-center lg:text-start w-full'>

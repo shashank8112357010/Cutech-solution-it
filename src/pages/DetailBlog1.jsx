@@ -273,10 +273,10 @@ export const DetailBlog1 = () => {
 
                 <div className="sm:w-[400px] flex gap-4 justify-center items-center bg-darkBlue rounded-2xl mt-16 sm:mt-20 ml-2 mr-16 sm:mx-2 py-8 sm:py-10">
                   <p className="text-white font-semibold">Follow:</p>
-                  <img src="../../img/blog/Fb.svg" alt="facebook" />
-                  <img src="../../img/blog/Tweet.svg" alt="tweet" />
-                  <img src="../../img/blog/Insta.svg" alt="insta" />
-                  <img src="../../img/blog/Linkdin.svg" alt="linkedin" />
+                  <img src="/img/blog/Fb.svg" alt="facebook" />
+                  <img src="/img/blog/Tweet.svg" alt="tweet" />
+                  <img src="/img/blog/Insta.svg" alt="insta" />
+                  <img src="/img/blog/Linkdin.svg" alt="linkedin" />
                 </div>
               </div>
             </div>
