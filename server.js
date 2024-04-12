@@ -48,7 +48,7 @@ const pageData = [
         path: '/contact-us',
         metaTitle: 'Contact Page',
         metaDescription: 'Welcome to Cutech Solutions, your trusted B2B IT support solution in UK and globally. Contact us for 24/7 IT helpdesk support & tailored solutions.',
-        canonicalUrl: 'https://www.cutechsolutions.co.uk/contact',
+        canonicalUrl: 'https://www.cutechsolutions.co.uk/contact-us',
         metaKeywords: "Contact Us, Get in Touch, Get in Touch with Us, Contact Us Page, Connect with Us"
 
     },
