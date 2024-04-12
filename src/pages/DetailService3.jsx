@@ -19,7 +19,7 @@ export const DetailService3 = () => {
             <p className='text-mobBody sm:text-tabBody lg:text-lapBody font-medium font-krub text-textgray '>In today's digital landscape, businesses of all sizes are embracing the flexibility, scalability, and cost-effectiveness of cloud computing. However, managing cloud infrastructure and applications in-house can be a complex and resource-intensive task. That's where Cutech Solutions' <strong>cloud managed services in UK</strong> come in. We offer a comprehensive suite of cloud management solutions designed to take the burden off your IT team, allowing them to focus on core business initiatives.<strong> Cloud service management in UK </strong>is our specialty, and we empower businesses to leverage the full potential of the cloud.</p>
           </div>
           <div className='flex sm:justify-center lg:justify-between'>
-            <img loading="lazy" src="../../img/services/CloudSec.png" alt=" Cloud Server Management Solution" />
+            <img src="../../img/services/CloudSec.png" alt=" Cloud Server Management Solution" />
           </div>
         </div>
       </section>
@@ -174,7 +174,7 @@ export const DetailService3 = () => {
           <div className={` flex item flex-col lg:flex-row items-center lg:justify-between w-full`}>
             {/* Image  */}
             <div className='sm:w-[622px] sm:h-[679px] flex justify-end sm:justify-end lg:justify-normal mb-12 mt-0 sm:mt-10 lg:mt-0'>
-              <img loading="lazy" src="/img/services/ServicesImg2.png" alt="Managed Cloud Services Providers" className='w-full h-full object-cover' />
+              <img src="/img/services/ServicesImg2.png" alt="Managed Cloud Services Providers" className='w-full h-full object-cover' />
             </div>
 
             <div className=' flex flex-col lg:gap-[25px] sm:gap-[25px] gap-[8.9px] w-auto lg:w-1/2 md:pl-12'>
@@ -192,7 +192,7 @@ export const DetailService3 = () => {
 
                 {/* //heading and para start  */}
                 <div className='w-full flex flex-row items-center sm:items-start mt-2'>
-                  <img loading="lazy" src='/img/services/ServicesTick.png' alt=' Managed Cloud Services' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
+                  <img src='/img/services/ServicesTick.png' alt=' Managed Cloud Services' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
                   <div className='w-full sm:w-4/5 pl-4 border-y-white border-r-white  sm:mt-2'>
                     <h3 className='font-rubik font-bold text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay text-mobTitle3 sm:text-tabTitle3 lg:text-lapTitle3 leading-[16px] sm:leading-[16px] mb-2'>
                       Proven Track Record
@@ -204,7 +204,7 @@ export const DetailService3 = () => {
                   </div>
                 </div>
                 <div className='w-full flex flex-row items-center sm:items-start mt-2'>
-                  <img loading="lazy" src='/img/services/ServicesTick.png' alt='Best Cloud Based Managed Services' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
+                  <img src='/img/services/ServicesTick.png' alt='Best Cloud Based Managed Services' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
                   <div className='w-full sm:w-4/5 pl-4 border-y-white border-r-white sm:mt-2'>
                     <h3 className='font-rubik font-bold text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay inline text-mobTitle3 sm:text-tabTitle3 lg:text-lapTitle3 leading-[16px] sm:leading-[16px] mb-2'>
                       Client-Centric Approach
@@ -217,7 +217,7 @@ export const DetailService3 = () => {
                 </div>
 
                 <div className='w-full flex flex-row items-center sm:items-start mt-2'>
-                  <img loading="lazy" src='/img/services/ServicesTick.png' alt='Cloud Service Management Provider' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
+                  <img src='/img/services/ServicesTick.png' alt='Cloud Service Management Provider' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
                   <div className='w-full sm:w-4/5 pl-4 border-y-white border-r-white sm:mt-2'>
                     <h3 className='font-rubik font-bold text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay inline text-mobTitle3 sm:text-tabTitle3 lg:text-lapTitle3 leading-[16px] sm:leading-[16px] mb-2'>
                       Dedicated Team
@@ -229,7 +229,7 @@ export const DetailService3 = () => {
                   </div>
                 </div>
                 <div className='w-full flex flex-row items-center sm:items-start mt-2'>
-                  <img loading="lazy" src='/img/services/ServicesTick.png' alt='Cloud Managed Services' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
+                  <img src='/img/services/ServicesTick.png' alt='Cloud Managed Services' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
                   <div className='w-full sm:w-4/5 pl-4 border-y-white border-r-white sm:mt-2'>
                     <h3 className='font-rubik font-bold text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay inline text-mobTitle3 sm:text-tabTitle3 lg:text-lapTitle3 leading-[16px] sm:leading-[16px] mb-2'>
                       Security-First Mindset

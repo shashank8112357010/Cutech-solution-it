@@ -82,7 +82,7 @@ export const WhatWeDo = () => {
                             return (
                                 <div key={item.id} className='w-[400px] lg:basis-[380px] 2xl:basis-[400px] flex flex-row justify-between items-center sm:items-start'>
                                     <div className='w-[41px] sm:w-[60px] h-[40px] sm:h-[60px]'>
-                                        <img loading="lazy" src={item.imgPic} alt={item.id} className='w-full h-full object-cover' />
+                                        <img src={item.imgPic} alt={item.id} className='w-full h-full object-cover' />
                                     </div>
                                     <div className='w-4/5 border-2  border-l-[#D8D8D8] pl-4 border-y-white border-r-white'>
                                         <h3 className='font-rubik text-mobHeading1 sm:text-tabHeading1 leading-[14px] sm:leading-[29px]'>

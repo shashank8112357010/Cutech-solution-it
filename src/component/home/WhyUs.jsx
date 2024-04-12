@@ -26,7 +26,7 @@ export const WhyUs = () => {
                     </div>
                     <div className='flex flex-col gap-4 sm:gap-[22px]'>
                         <div className='flex justify-end sm:justify-end lg:justify-normal mt-10 lg:mt-0'>
-                            <img loading="lazy" src="img/home/whyUs1.png" alt="why cutech solutions" className='w-full h-full object-cover' />
+                            <img src="img/home/whyUs1.png" alt="why cutech solutions" className='w-full h-full object-cover' />
                         </div>
                     </div>
                 </div>

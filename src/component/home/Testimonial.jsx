@@ -90,12 +90,12 @@ export const Testimonial = () => {
                             <div className="block cursor-pointer"
                                 onClick={next}
                             >
-                                <img loading="lazy" src="/img/testimonial/TestimonialLeftArrow.svg" className=" h-12 md:h-12 w-12 md:w-12" alt="Testimonial LeftArrow" />
+                                <img src="/img/testimonial/TestimonialLeftArrow.svg" className=" h-12 md:h-12 w-12 md:w-12" alt="Testimonial LeftArrow" />
                             </div>
                             <div className="block cursor-pointer"
                                 onClick={previous}
                             >
-                                <img loading="lazy" src="/img/testimonial/TestimonialRightArrow.svg" className=" h-12 md:h-12 w-12 md:w-12" alt="Testimonial RightArrow" />
+                                <img src="/img/testimonial/TestimonialRightArrow.svg" className=" h-12 md:h-12 w-12 md:w-12" alt="Testimonial RightArrow" />
                             </div>
                         </div>
                     </div>
@@ -115,7 +115,7 @@ export const Testimonial = () => {
                                     <div className="flex flex-row justify-between items-center">
                                         <div className="flex flex-row justify-center items-center gap-4">
                                             <div className="justify-between items-start flex w-[44px] sm:w-[54px] lg:w-[72px]">
-                                                <img loading="lazy" className="object-cover w-full h-full" src={item.img} alt="Testimonial Image" />
+                                                <img className="object-cover w-full h-full" src={item.img} alt="Testimonial Image" />
                                             </div>
                                             <div className="flex flex-col">
                                                 <h3 className={`font-rubik text-${item.headingColor} text-start font-semibold text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2`}>
@@ -127,7 +127,7 @@ export const Testimonial = () => {
                                             </div>
                                         </div>
                                         <div className="w-[44px] sm:w-[54px] lg:w-[72px]">
-                                            <img loading="lazy" className="object-cover w-full h-full" src="/img/testimonial/TestimonialIcon.svg" alt="Testimonial Icon" />
+                                            <img className="object-cover w-full h-full" src="/img/testimonial/TestimonialIcon.svg" alt="Testimonial Icon" />
                                         </div>
                                     </div>
 
@@ -136,7 +136,7 @@ export const Testimonial = () => {
                                     </p>
                                     {/* third section  */}
                                     <div className="sm:w-[180px] w-[120px] h-[20px] sm:h-[34px]">
-                                        <img loading="lazy" className="object-cover w-full h-full" src="/img/testimonial/TestimonialStar.svg" alt="Testimonial Star" />
+                                        <img className="object-cover w-full h-full" src="/img/testimonial/TestimonialStar.svg" alt="Testimonial Star" />
                                     </div>
                                 </div>
 
@@ -148,12 +148,12 @@ export const Testimonial = () => {
                     <div className="block cursor-pointer"
                         onClick={next}
                     >
-                        <img loading="lazy" src="/img/testimonial/TestimonialLeftArrow.svg" className=" h-8 md:h-8 w-8 md:w-8" alt="Testimonial LeftArrow" />
+                        <img src="/img/testimonial/TestimonialLeftArrow.svg" className=" h-8 md:h-8 w-8 md:w-8" alt="Testimonial LeftArrow" />
                     </div>
                     <div className="block cursor-pointer"
                         onClick={previous}
                     >
-                        <img loading="lazy" src="/img/testimonial/TestimonialRightArrow.svg" className=" h-8 md:h-8 w-8 md:w-8" alt="Testimonial RightArrow" />
+                        <img src="/img/testimonial/TestimonialRightArrow.svg" className=" h-8 md:h-8 w-8 md:w-8" alt="Testimonial RightArrow" />
                     </div>
                 </div>
             </div>

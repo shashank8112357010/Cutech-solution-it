@@ -33,7 +33,7 @@ export const Home = () => {
 
     return (
         <div className='font-krub'>
-            <Banner />
+            {/* <Banner /> */}
             <Intro />
             <WhatWeDo />
             <WhyUs />

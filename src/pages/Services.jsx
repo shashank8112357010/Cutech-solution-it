@@ -14,7 +14,7 @@ export const Services = () => {
                 <div className='flex flex-col lg:flex-row items-center lg:justify-between '>
 
                     <div className='sm:w-[622px] sm:h-[450px] flex justify-end sm:justify-end lg:justify-normal mb-12 mt-0 sm:mt-10 lg:mt-0'>
-                        <img loading="lazy" src="/img/services/ServicesImg5.png" alt="IT Helpdesk Support" className='w-full h-full object-contain' />
+                        <img src="/img/services/ServicesImg5.png" alt="IT Helpdesk Support" className='w-full h-full object-contain' />
                     </div>
 
                     <div className='flex flex-col gap-4 w-auto lg:w-1/2 md:pl-12'>
@@ -33,7 +33,7 @@ export const Services = () => {
                             content: 'Our proactive monitoring and maintenance services help prevent IT issues before they occur, saving you time, money, and frustration.'
                         }].map(({ title, content }, index) => (
                             <div key={index} className='w-full flex flex-row items-center mt-2'>
-                                <img loading="lazy" src='/img/services/ServicesTick.png' alt='Computer Cyber Security Service Solutions' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
+                                <img src='/img/services/ServicesTick.png' alt='Computer Cyber Security Service Solutions' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
                                 <div className='w-full sm:w-4/5 pl-4 border-y-white border-r-white sm:mt-2'>
                                     <h3 className='font-rubik font-bold text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay inline text-mobTitle3 sm:text-tabTitle3 lg:text-lapTitle3 leading-[16px] sm:leading-[16px] mb-2'>
                                         {title}

@@ -20,7 +20,7 @@ export const GetInTouch = () => {
                     <div className="flex gap-6 flex-col sm:flex-row sm:flex-wrap lg:flex-col justify-center">
                         <div className="flex gap-2">
                             <a className='sm:w-[47px] h-[47px]' href='mailto:info@cutechsolutions.co.uk' target='_blank'>
-                                <img loading="lazy" src="img/Contact/Message.svg" alt="email icon for email" className="inline-block" />
+                                <img src="img/Contact/Message.svg" alt="email icon for email" className="inline-block" />
                             </a>
                             <div className="flex flex-col text-mobBody font-krub font-medium leading-[16.2px]">
                                 <p>Email </p>
@@ -29,7 +29,7 @@ export const GetInTouch = () => {
                         </div>
                         <div className="flex gap-2 ">
                             <a className='w-[47px] h-[47px]' href=' tel:+447424352181'>
-                                <img loading="lazy" src="img/Contact/Phone.svg" alt="phone icon for contact" className="inline-block" />
+                                <img src="img/Contact/Phone.svg" alt="phone icon for contact" className="inline-block" />
                             </a>
                             <div className="flex flex-col text-mobBody font-krub font-medium leading-[16.2px]">
                                 <p>Call Us</p>
@@ -37,7 +37,7 @@ export const GetInTouch = () => {
                             </div>
                         </div>
                         <div className="flex gap-2 ">
-                            <img loading="lazy"
+                            <img
                                 src="img/Contact/Clock.svg"
                                 alt="Get in Touch"
                                 className="inline-block"

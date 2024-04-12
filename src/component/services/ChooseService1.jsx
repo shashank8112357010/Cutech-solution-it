@@ -16,7 +16,7 @@ export const ChooseService1 = () => {
         <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 sm:gap-y-12 gap-x-8 mx-8 sm:mx-12 my-12 ">
           <div className='flex gap-1 '>
             <div>
-              <img loading="lazy" src="/img/services/Tick.png" alt="services_tick3" className="max-w-none mt-1" />
+              <img src="/img/services/Tick.png" alt="services_tick3" className="max-w-none mt-1" />
             </div>
             <div>
               <h3 className="text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2 font-semibold font-rubik text-darkYellow ">
@@ -30,7 +30,7 @@ export const ChooseService1 = () => {
           </div>
           <div className='flex gap-1 '>
             <div>
-              <img loading="lazy" src="/img/services/Tick.png" alt="services_tick3" className="max-w-none mt-1" />
+              <img src="/img/services/Tick.png" alt="services_tick3" className="max-w-none mt-1" />
             </div>
             <div>
               <h3 className="text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2 font-semibold font-rubik text-darkYellow ">
@@ -44,7 +44,7 @@ export const ChooseService1 = () => {
           </div>
           <div className='flex gap-1 '>
             <div>
-              <img loading="lazy" src="/img/services/Tick.png" alt="services_tick4" className="max-w-none mt-1" />
+              <img src="/img/services/Tick.png" alt="services_tick4" className="max-w-none mt-1" />
             </div>
             <div>
               <h3 className="text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2 font-semibold font-rubik text-darkYellow ">
@@ -58,7 +58,7 @@ export const ChooseService1 = () => {
           </div>
           <div className='flex gap-1 '>
             <div>
-              <img loading="lazy" src="/img/services/Tick.png" alt="services_tick4" className="max-w-none mt-1" />
+              <img src="/img/services/Tick.png" alt="services_tick4" className="max-w-none mt-1" />
             </div>
             <div>
               <h3 className="text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2 font-semibold font-rubik text-darkYellow ">
@@ -73,7 +73,7 @@ export const ChooseService1 = () => {
           <div className='flex gap-1 '>
             <div>
 
-              <img loading="lazy" src="/img/services/Tick.png" alt="services_tick5" className="max-w-none mt-1" />
+              <img src="/img/services/Tick.png" alt="services_tick5" className="max-w-none mt-1" />
             </div>
             <div>
               <h3 className="text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2 font-semibold font-rubik text-darkYellow ">
@@ -87,7 +87,7 @@ export const ChooseService1 = () => {
           </div>
           <div className='flex gap-1 '>
             <div>
-              <img loading="lazy" src="/img/services/Tick.png" alt="services_tick_6" className="max-w-none mt-1" />
+              <img src="/img/services/Tick.png" alt="services_tick_6" className="max-w-none mt-1" />
             </div>
             <div>
               <h3 className="text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2 font-semibold font-rubik text-darkYellow ">

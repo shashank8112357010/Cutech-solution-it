@@ -18,7 +18,7 @@ export const DetailService2 = () => {
 
                     </div>
                     <div className='flex sm:justify-center lg:justify-between'>
-                        <img loading="lazy" src="../../img/services/FirstsecImg.png" alt="Digital Marketing Solutions" />
+                        <img src="../../img/services/FirstsecImg.png" alt="Digital Marketing Solutions" />
                     </div>
                 </div>
             </section>
@@ -167,7 +167,7 @@ export const DetailService2 = () => {
                     <div className={` flex item flex-col lg:flex-row items-center lg:justify-between w-full`}>
                         {/* Image  */}
                         <div className='sm:w-[622px] sm:h-[679px] flex justify-end sm:justify-end lg:justify-normal mb-12 mt-0 sm:mt-10 lg:mt-0'>
-                            <img loading="lazy" src="/img/services/ServicesImg3.png" alt="Digital Marketing Solutions" className='w-full h-full object-cover' />
+                            <img src="/img/services/ServicesImg3.png" alt="Digital Marketing Solutions" className='w-full h-full object-cover' />
                         </div>
 
                         <div className=' flex flex-col lg:gap-[25px] sm:gap-[25px] gap-[8.9px] w-auto lg:w-1/2 md:pl-12'>
@@ -183,7 +183,7 @@ export const DetailService2 = () => {
 
                                 {/* //heading and para start  */}
                                 <div className='w-full flex flex-row items-center sm:items-start mt-2'>
-                                    <img loading="lazy" src='/img/services/ServicesTick.png' alt='Search Engine Optimization' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
+                                    <img src='/img/services/ServicesTick.png' alt='Search Engine Optimization' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
                                     <div className='w-full sm:w-4/5 pl-4 border-y-white border-r-white  sm:mt-2'>
                                         <h3 className='font-rubik font-bold text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay text-mobTitle3 sm:text-tabTitle3 lg:text-lapTitle3 leading-[16px] sm:leading-[16px] mb-2'>
                                             Experience and Expertise
@@ -194,7 +194,7 @@ export const DetailService2 = () => {
                                     </div>
                                 </div>
                                 <div className='w-full flex flex-row items-center sm:items-start mt-2'>
-                                    <img loading="lazy" src='/img/services/ServicesTick.png' alt=' Social Media Marketing' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
+                                    <img src='/img/services/ServicesTick.png' alt=' Social Media Marketing' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
                                     <div className='w-full sm:w-4/5 pl-4 border-y-white border-r-white sm:mt-2'>
                                         <h3 className='font-rubik font-bold text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay inline text-mobTitle3 sm:text-tabTitle3 lg:text-lapTitle3 leading-[16px] sm:leading-[16px] mb-2'>
                                             Range of Services
@@ -206,7 +206,7 @@ export const DetailService2 = () => {
                                 </div>
 
                                 <div className='w-full flex flex-row items-center sm:items-start mt-2'>
-                                    <img loading="lazy" src='/img/services/ServicesTick.png' alt=' Digital Marketing Companies' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
+                                    <img src='/img/services/ServicesTick.png' alt=' Digital Marketing Companies' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
                                     <div className='w-full sm:w-4/5 pl-4 border-y-white border-r-white sm:mt-2'>
                                         <h3 className='font-rubik font-bold text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay inline text-mobTitle3 sm:text-tabTitle3 lg:text-lapTitle3 leading-[16px] sm:leading-[16px] mb-2'>
                                             Data-Driven Approach
@@ -217,7 +217,7 @@ export const DetailService2 = () => {
                                     </div>
                                 </div>
                                 <div className='w-full flex flex-row items-center sm:items-start mt-2'>
-                                    <img loading="lazy" src='/img/services/ServicesTick.png' alt=' Digital Marketing Companies' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
+                                    <img src='/img/services/ServicesTick.png' alt=' Digital Marketing Companies' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
                                     <div className='w-full sm:w-4/5 pl-4 border-y-white border-r-white sm:mt-2'>
                                         <h3 className='font-rubik font-bold text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay inline text-mobTitle3 sm:text-tabTitle3 lg:text-lapTitle3 leading-[16px] sm:leading-[16px] mb-2'>
                                             Transparency and Communication
@@ -228,7 +228,7 @@ export const DetailService2 = () => {
                                     </div>
                                 </div>
                                 <div className='w-full flex flex-row items-center sm:items-start mt-2'>
-                                    <img loading="lazy" src='/img/services/ServicesTick.png' alt='Digital Marketing Service Provider,' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
+                                    <img src='/img/services/ServicesTick.png' alt='Digital Marketing Service Provider,' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
                                     <div className='w-full sm:w-4/5 pl-4 border-y-white border-r-white sm:mt-2'>
                                         <h3 className='font-rubik font-bold text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay inline text-mobTitle3 sm:text-tabTitle3 lg:text-lapTitle3 leading-[16px] sm:leading-[16px] mb-2'>
                                             ROI Focus

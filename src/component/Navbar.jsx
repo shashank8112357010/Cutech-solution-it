@@ -33,14 +33,14 @@ export const Navbar = () => {
                     {/* leftSide */}
                     <div className='LeftSide w-[100px] flex items-center justify-center sm:w-[191px] h-[47px]'>
                         <Link to="/">
-                            <img loading="lazy" src='../../img/navbar/logo.svg' className='object-cover w-full' alt='cutech logo'/>
+                            <img src='../../img/navbar/logo.svg' className='object-cover w-full' alt='cutech logo' />
                         </Link>
                     </div>
                     {/* RighSide */}
                     <div className='RightSide flex-row gap-8 whitespace-nowrap hidden mmd:flex'>
                         <div className='flex items-center justify-center flex-row gap-2'>
                             <div className='w-[47px] h-[47px]'>
-                                <img loading="lazy" src='../../img/navbar/navLogo1.svg' className='object-cover w-full' alt='cutech logo' />
+                                <img src='../../img/navbar/navLogo1.svg' className='object-cover w-full' alt='cutech logo' />
                             </div>
                             <div className='text-mobContactBody sm:text-lapContactBody'>
                                 <p>Mon - Sun 24/7</p>
@@ -49,7 +49,7 @@ export const Navbar = () => {
                         </div>
                         <div className='flex items-center justify-center flex-row gap-2'>
                             <a className='sm:w-[47px] h-[47px]' href='mailto:info@cutechsolutions.co.uk' target='_blank'>
-                                <img loading="lazy" src='../../img/navbar/navLogo2.svg' className='object-cover w-full' alt='cutech logo' />
+                                <img src='../../img/navbar/navLogo2.svg' className='object-cover w-full' alt='cutech logo' />
                             </a>
                             <div className='text-mobContactBody sm:text-lapContactBody'>
                                 <p>Email</p>
@@ -58,7 +58,7 @@ export const Navbar = () => {
                         </div>
                         <div className='flex items-center justify-center flex-row gap-2'>
                             <a className='w-[47px] h-[47px]' href=' tel:+447424352181'>
-                                <img loading="lazy" src='../../img/navbar/navLogo3.svg' className='object-cover w-full' alt='Cutech logo' />
+                                <img src='../../img/navbar/navLogo3.svg' className='object-cover w-full' alt='Cutech logo' />
                             </a>
                             <div className='text-mobContactBody sm:text-lapContactBody'>
                                 <p>Call us</p>
@@ -74,10 +74,10 @@ export const Navbar = () => {
                         onClick={() => setHide(!hide)}
                     >
                         {hide ? (
-                            <img loading="lazy" src='/img/navbar/hamburgerCancel.svg' className='w-[35px] sm:w-[45px] h-[30px] sm:h-[40px] object-cover cursor-pointer' alt='hamburger icon'/>
+                            <img src='/img/navbar/hamburgerCancel.svg' className='w-[35px] sm:w-[45px] h-[30px] sm:h-[40px] object-cover cursor-pointer' alt='hamburger icon' />
                         )
                             : (
-                                <img loading="lazy" src='/img/navbar/hamburgerIcon.svg' className='object-cover w-[35px] sm:w-[45px] h-[30px] sm:h-[40px] cursor-pointer' alt='hamburger icon'/>
+                                <img src='/img/navbar/hamburgerIcon.svg' className='object-cover w-[35px] sm:w-[45px] h-[30px] sm:h-[40px] cursor-pointer' alt='hamburger icon' />
                             )
                         }
                     </div>
@@ -103,7 +103,7 @@ export const Navbar = () => {
 
                     <div className='w-full flex mt-5 pr-10 justify-center items-center'>
                         <Link to="/contact-us">
-                            <img loading="lazy" src='../../img/navbar/header.svg' className='object-cover cursor-pointer w-[100px]' alt='reach out for contact us' />
+                            <img src='../../img/navbar/header.svg' className='object-cover cursor-pointer w-[100px]' alt='reach out for contact us' />
                         </Link>
                     </div>
                     <div>{""}</div>
@@ -185,7 +185,7 @@ export const Navbar = () => {
                             ))}
                             <div>
                                 <Link to="/contact-us" >
-                                    <img loading="lazy" src='../../img/navbar/header.svg' className='object-cover cursor-pointer w-full' alt='contact us icon' />
+                                    <img src='../../img/navbar/header.svg' className='object-cover cursor-pointer w-full' alt='contact us icon' />
                                 </Link>
                             </div>
                         </div>

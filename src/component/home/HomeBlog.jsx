@@ -15,7 +15,7 @@ export const HomeBlog = () => {
                     <div className='blog flex w-full flex-col md:flex-row lg:border-y-2 py-4 items-center justify-between sm:gap-4'>
                         <div className="img w-full relative">
                             <div className='flex justify-center items-center'>
-                                <img loading="lazy" className='w-full h-full object-cover' src="img/blog/BlogImg1.png" alt="Blog Page" />
+                                <img className='w-full h-full object-cover' src="img/blog/BlogImg1.png" alt="Blog Page" />
                             </div>
                             <Link to="/elevate-your-business-with-expert-b2b-it-support">
                                 <div className="absolute opacity-0 hover:opacity-100 top-8 left-10 flex h-4/5 w-4/5 bg-black/60 items-center justify-center text-white font-bold duration-500">  Read More</div>
@@ -37,7 +37,7 @@ export const HomeBlog = () => {
                                 </p>
                                 <div className="flex justify-between gap-2 sm:gap-0 flex-col sm:flex-row items-center border-t-2 mt-4 py-2 sm:py-4">
                                     <div className="flex items-center gap-2 ">
-                                        <img loading="lazy" src="../../img/blog/Avtar.svg" alt="Latest Blogs" className="w-[24px]" />
+                                        <img src="../../img/blog/Avtar.svg" alt="Latest Blogs" className="w-[24px]" />
                                         <p className="lg:text-[18px] sm:text-[16px] text-[12px] font-medium font-krub">
                                             Cutech Solutions
                                         </p>

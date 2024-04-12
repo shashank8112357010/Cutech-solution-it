@@ -1,6 +1,6 @@
 import React from 'react'
 
-export  const CoreService4 = () => {
+export const CoreService4 = () => {
   return (
     <div className='bg-lightWhite w-full lg:px-10 lg:py-14 sm:px-8 sm:py-10 py-5 mb-[13rem] '>
       <div className="">
@@ -18,7 +18,7 @@ export  const CoreService4 = () => {
           <div className='flex gap-1 '>
             <div>
 
-              <img loading="lazy" src="../../../img/services/Tick.png" alt="services_tick6" className="max-w-none mt-1" />
+              <img src="../../../img/services/Tick.png" alt="services_tick6" className="max-w-none mt-1" />
             </div>
             <div>
               <h3 className="text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2 font-semibold font-rubik text-darkYellow ">
@@ -34,7 +34,7 @@ export  const CoreService4 = () => {
           <div className='flex gap-1 '>
             <div>
 
-              <img loading="lazy" src="../../../img/services/Tick.png" alt="services_tick5" className="max-w-none mt-1" />
+              <img src="../../../img/services/Tick.png" alt="services_tick5" className="max-w-none mt-1" />
             </div>
             <div>
               <h3 className="text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2 font-semibold font-rubik text-darkYellow ">
@@ -48,7 +48,7 @@ export  const CoreService4 = () => {
           <div className='flex gap-1 '>
             <div>
 
-              <img loading="lazy" src="../../../img/services/Tick.png" alt="services_tick4" className="max-w-none mt-1" />
+              <img src="../../../img/services/Tick.png" alt="services_tick4" className="max-w-none mt-1" />
             </div>
             <div>
               <h3 className="text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2 font-semibold font-rubik text-darkYellow ">
@@ -64,7 +64,7 @@ export  const CoreService4 = () => {
           <div className='flex gap-1 '>
             <div>
 
-              <img loading="lazy" src="../../../img/services/Tick.png" alt="services_tick3" className="max-w-none mt-1" />
+              <img src="../../../img/services/Tick.png" alt="services_tick3" className="max-w-none mt-1" />
             </div>
             <div>
               <h3 className="text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2 font-semibold font-rubik text-darkYellow ">
@@ -79,7 +79,7 @@ export  const CoreService4 = () => {
           </div>
           <div className='flex gap-1'>
             <div>
-              <img loading="lazy" src="/img/services/Tick.png" alt="services_tick2" className="max-w-none mt-1" />
+              <img src="/img/services/Tick.png" alt="services_tick2" className="max-w-none mt-1" />
             </div>
             <div>
               <h3 className="text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2 font-semibold font-rubik text-darkYellow ">
@@ -94,7 +94,7 @@ export  const CoreService4 = () => {
           </div>
           <div className='flex gap-1 '>
             <div>
-              <img loading="lazy" src="/img/services/Tick.png" alt="services_tick1" className="max-w-none mt-1" />
+              <img src="/img/services/Tick.png" alt="services_tick1" className="max-w-none mt-1" />
             </div>
             <div>
               <h3 className="text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2 font-semibold font-rubik text-darkYellow ">
