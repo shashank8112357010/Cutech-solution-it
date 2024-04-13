@@ -48,8 +48,6 @@ export const TermsAndPolicy = () => {
           <li className="text-textgray mb-2">There is nothing in the Comments that violates someone's privacy or is defamatory, libelous, offensive, indecent, or illegal in any other way.</li>
           <li className="text-textgray mb-2">The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity</li>
           <li className="text-textgray mb-2">In any form, format, or media, you hereby grant Cutech Solutions a non-exclusive license to use, reproduce, edit, and permit others to use, reproduce, and edit any of your Comments.</li>
-
-
         </ol>
         <div className="flex  flex-col justify-start gap-4 items-start mb-6">
           <h2 className="text-darkBlue font-extrabold text-[18px] sm:text-[25px] 2xl:text-[30px]">Hyperlinking to our Content</h2>
@@ -61,8 +59,6 @@ export const TermsAndPolicy = () => {
           <li className="text-textgray mb-2">News organizations</li>
           <li className="text-textgray mb-2">Distributors of online directories are free to connect to our website in the same manner that they link to the websites of other listed companies and System-wide Accredited Businesses. However, they are not permitted to request links from soliciting non-profit organizations, charity shopping centers, or charity fundraising clubs.</li>
           <li className="text-textgray mb-2">For these groups to link to our home page, media channels, or other content on the website, the following requirements must be satisfied: (a) the link cannot be misleading; (b) the linking party's products and/or services cannot be falsely implied to be sponsored, endorsed, or approved of; (c) the link needs to make sense in relation to the website of the linking party.</li>
-
-
         </ol>
         <div className="flex  flex-col justify-start gap-4 items-start mb-6">
           <h2 className="text-darkBlue font-extrabold text-[18px] sm:text-[25px] 2xl:text-[30px]">We may review and authorize additional link requests from the following sorts of organizations:</h2>
@@ -84,8 +80,6 @@ export const TermsAndPolicy = () => {
           <li className="text-textgray mb-2">There are no unfavorable records for this organization with us.</li>
           <li className="text-textgray mb-2">The benefit of being able to see the URL compensates for Cutech Solutions' absence.</li>
           <li className="text-textgray mb-2">the link is in the context of general resource information.</li>
-
-
         </ol>
         <div className="flex  flex-col justify-start gap-4 items-start mb-6">
           <h2 className="text-darkBlue font-extrabold text-[18px] sm:text-[25px] 2xl:text-[30px]">Organizations with approval can link to our website in the following ways:</h2>

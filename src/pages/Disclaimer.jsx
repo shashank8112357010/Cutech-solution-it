@@ -24,8 +24,6 @@ export const Disclaimer = () => {
                     <h2 className="text-darkBlue font-extrabold text-[18px] sm:text-[25px] 2xl:text-[30px]">Update</h2>
                     <p className="text-textgray text-[12px] sm:text-[16px] 2xl:text-[22px] leading-4 sm:leading- font-krub8">Should we update, amend or make any changes to this document, those changes will be prominently posted here.</p>
                 </div>
-
-
             </section>
         </>
     );

@@ -9,7 +9,6 @@ export const Footer = () => {
                 <div className='absolute bg-[#1d2551] w-full top-0 left-0 h-[70px] z-0'></div>
                 <div className='outerDiv'>
                     <div className='innerDiv px-8 md:px-0 flex flex-row justify-center flex-wrap gap-8 xl:gap-0'>
-                        {/* FIRST */}
                         <div className='flex flex-col gap-4'>
                             <div className='py-4 px-20 z-10 bg-darkBlue'>
                                 <Link to="/" className='sm:w-[176px] h-[38px] '>
@@ -40,7 +39,7 @@ export const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* SECOND */}
+
                         <div className='flex flex-col w-full lg:w-auto gap-4 text-center'>
                             <h4 className='text-mobFooterTitle z-10 sm:text-lapFooterTitle font-rubik bg-[#1d2551] py-5 px-20'>
                                 Pages
@@ -60,7 +59,7 @@ export const Footer = () => {
 
                             </ul>
                         </div>
-                        {/* THIRD */}
+
                         <div className='flex flex-col w-full lg:w-auto gap-4 text-center'>
                             <h4 className='text-mobFooterTitle z-10 sm:text-lapFooterTitle font-rubik bg-[#1d2551] py-5 px-20'>
                                 Utility
@@ -79,7 +78,7 @@ export const Footer = () => {
                                 }
                             </ul>
                         </div>
-                        {/* FOURTH */}
+                    
                         <div className='flex flex-col gap-4 w-full xl:w-auto text-center'>
                             <h4 className='text-mobFooterTitle z-10 sm:text-lapFooterTitle font-rubik bg-[#1d2551] py-5 px-20 xl:px-0'>
                                 Subscribe

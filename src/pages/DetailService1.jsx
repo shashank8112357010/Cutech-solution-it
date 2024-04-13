@@ -10,7 +10,7 @@ export const DetailService1 = () => {
     <>
       <BannerAtom srcImg="/img/about/aboutBanner.png" title="Service" heading="Cyber Security Services " />
       <section className="max-w-7xl mx-auto mt-6 px-4 sm:px-20  bg-transparent ">
-        {/* intro section */}
+
         <div className='flex justify-between gap-20 sm:flex-col lg:flex-row flex-col mb-32 '>
           <div className='lg:w-[55%] flex flex-col gap-[31px]'>
             <h1 className=' text-mobTitle sm:text-tabTitle lg:text-lapTitle font-semibold font-rubik lg:leading-[41.48px] sm:leading-[29px] leading-[23px]'>Cyber Security Service Providers in UK: Protecting Your Digital Assets with Cutech Solutions</h1>
@@ -23,11 +23,8 @@ export const DetailService1 = () => {
           </div>
         </div>
 
-        {/* second section  */}
-
       </section>
 
-      {/* second section start */}
       <div className='flex max-w-[1920px] mx-auto lg:flex-row sm:flex-col flex-col justify-center lg:justify-between mb-20 lg:px-20  '>
         <div className='w-full flex items-center justify-center lg:justify-normal lg:gap-12 '>
           <div className='flex flex-row flex-wrap justify-center items-center gap-4 sm:gap-12 w-full  '>
@@ -130,10 +127,8 @@ export const DetailService1 = () => {
 
         </div>
       </div>
-      {/* second section end  */}
 
       < CoreService1 />
-      {/* fourth section */}
       < div className="w-full flex flex-col lg:flex-row px-5 lg:px-[2%] mt-14 mb-[10rem]" >
         <div className="blackSection w-full lg:max-w-[30rem]">
           <div className=" bg-darkBlue px-6 py-8 sm:px-11 sm:py-14 rounded-2xl space-y-8 w-full">
@@ -172,7 +167,6 @@ export const DetailService1 = () => {
         </div>
       </div >
 
-      {/* fifth section */}
       < div className='max-w-[1920px] mx-auto py-4 sm:py-12 pb-16 sm:pb-24 mb-[9rem] ' >
         <div className='flex flex-col px-4 sm:px-20 lg:justify-center'>
 
@@ -254,10 +248,8 @@ export const DetailService1 = () => {
           </div>
         </div>
       </div >
-      {/* chooseservice */}
       < ChooseService1 />
 
-      {/* lastsection */}
       < div className=' mt-16 mx-auto  px-4 sm:px-20  ' >
         <section role="banner" aria-label="Main" className='relative h-[400px] max-w-[1920px] mx-auto px-2 sm:pt-4 text-white'>
 

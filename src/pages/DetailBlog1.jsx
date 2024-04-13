@@ -1,6 +1,6 @@
 import React from 'react';
 import { BannerAtom } from '../atom/BannerAtom';
-// import DetailBlogFAQ from '../component/detailBlogFaq/DetailBlogFAQ';
+import DetailBlogFAQ from '../component/detailBlogFaq/DetailBlogFAQ';
 
 export const DetailBlog1 = () => {
   return (
@@ -119,11 +119,11 @@ export const DetailBlog1 = () => {
               </p>
             </div>
 
-            {/* <DetailBlogFAQ /> */}
-
             <p className='font-krub text-mobBody sm:text-tabBody lg:text-lapBody font-medium leading-[18px] sm:leading-[24px] px-4'>
               In today's fast-paced business environment, having reliable IT support is essential for success. With Cutech Solutions, you can elevate your business to new heights with expert B2B IT support services tailored to your needs. From fast resolution times to personalized service, we're here to help you overcome any IT challenge and drive growth and success for your business. Contact us today to learn more about how Cutech Solutions can support your business's IT needs.
             </p>
+
+            <DetailBlogFAQ />
 
             <div className='flex  items-center justify-between py-5 px-5 border-2 shadow-sm mb-10'>
               <div>
@@ -138,8 +138,6 @@ export const DetailBlog1 = () => {
             </div>
           </div>
 
-
-          {/* //Right section  */}
           <div>
             <div className=" flex flex-col sticky top-8 right-0">
               <h1 className="lg:text-lapTitle sm:text-tabTitle text-mobTitle font-semibold font-rubik">

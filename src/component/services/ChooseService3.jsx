@@ -88,15 +88,10 @@ export const ChooseService3 = () => {
               <p className="text-mobBody2 sm:text-tabBody2 lg:text-lapBody2 font-krub font-normal text-textgray">
                 Evaluate the provider's pricing model to ensure it aligns with your budget and offers cost transparency.
               </p>
-
             </div>
           </div>
-
-
         </div>
-
       </div>
-
     </div>
   )
 }

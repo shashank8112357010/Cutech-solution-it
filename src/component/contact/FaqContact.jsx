@@ -8,7 +8,6 @@ export const FaqContact = ({ data }) => {
         setOpen(open === index ? null : index);
     };
 
-
     function Icon({ id, open }) {
         return (
             <svg
@@ -23,8 +22,6 @@ export const FaqContact = ({ data }) => {
             </svg>
         );
     }
-
-
 
     return (
         <section className='flex mt-10 pt-5 justify-center lg:justify-between items-center px-4 sm:px-16 flex-wrap lg:gap-0 lg:flex-nowrap py-4 lg:py-20 mb-10 bg-lightWhite max-w-[1920px] mx-auto'>
@@ -80,7 +77,6 @@ export const FaqContact = ({ data }) => {
                         </div>
                     </div>
                 </div>
-                {/* <img   alt='faqImg' src='img/Contact/FAQImg.png' className='w-full h-full object-cover' /> */}
             </div>
         </section>
     )

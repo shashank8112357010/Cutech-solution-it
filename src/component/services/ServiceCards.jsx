@@ -82,7 +82,6 @@ export const ServiceCards = () => {
                                                 </p>
                                             </div>
 
-                                            {/* //heading and para start  */}
                                             <div className='w-full flex flex-row items-center gap-2 sm:items-start leading-4 px-4 py-3 pl-2 sm:pl-10 mt-2 border-2 rounded-[20px]'>
                                                 <div className='w-4 h-4 rounded-full bg-custom-gradient '>
                                                 </div>
@@ -98,8 +97,6 @@ export const ServiceCards = () => {
                                                 <h3 className='font-rubik font-bold text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay inline text-mobTitle3 sm:text-tabTitle3 lg:text-lapTitle3 leading-[16px] sm:leading-[16px]'>
                                                     {item.heading2}
                                                 </h3>
-
-
                                             </div>
 
                                             <button type="submit" className={`${item.result ? "justify-start" : "justify-end"} text-start w-[110px] text-[12px] border border-blue-700 hover:text-white hover:bg-blue-700 transition-all duration-300 ease-in-out text-blue-700 px-[8px] py-[10px] rounded-[20px] font-rubik font-normal mt-8`}>
@@ -107,11 +104,8 @@ export const ServiceCards = () => {
                                                     Learn More
                                                 </Link>
                                             </button>
-                                            {/* //heading and para end  */}
                                         </div>
                                     </div>
-
-                                    {/* Image  */}
                                     <div className='flex justify-end sm:justify-end lg:justify-normal mt-10 lg:mt-0 lg:ml-4'>
                                         <img src={item.img} alt="service cards" className='w-[90%] h-full object-cover ' />
                                     </div>

@@ -1,7 +1,7 @@
 
 import { hydrate } from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
-import { Router } from './routes/PrivateRoutes'; // Assuming you have a Router component
+import { Router } from './routes/PrivateRoutes'; 
 
 hydrate(
   <BrowserRouter>

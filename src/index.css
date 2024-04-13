@@ -19,8 +19,6 @@
     color: white
 }
 
-
-/* shadow of cards in home  */
 .shadow-custom:hover {
     box-shadow: 3px 5px 31px 2px rgba(9, 18, 66, 0.2);
 }
@@ -29,13 +27,10 @@
     box-shadow: 3px 5px 31px 2px rgba(9, 18, 66, 0.2);
 }
 
-/* blur effect */
 .blureffect {
     background-color: rgba(189, 189, 189, 0.9);
     ;
 }
-
-
 
 .headerBottomBorder,
 .headerBottomActive {
@@ -67,13 +62,10 @@
     height: 2px;
 }
 
-/* //navbar box shadow  */
 .box {
     box-shadow: 3px 5px 17px 2px rgba(9, 18, 66, 0.1);
 }
 
-
-/* //for slick carousal  */
 .slick-initialized .slick-slide {
     gap: center !important;
     display: flex !important;
@@ -88,8 +80,6 @@
     }
 }
 
-
-/* services we offer  */
 .serviceWeOffer>.slick-slider .slick-list {
     height: 334px !important;
 }
@@ -98,12 +88,10 @@
     height: 334px !important;
 }
 
-/* modal */
 .custom-dialog-overlay {
     background-color: #fff;
 }
 
-/* //loader  */
 .loader {
     border: 4px solid #f3f3f3;
     border-top: 4px solid #091242;

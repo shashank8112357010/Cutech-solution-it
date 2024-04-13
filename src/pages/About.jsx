@@ -9,7 +9,6 @@ export const About = () => {
 
       <BannerAtom srcImg="/img/about/aboutBanner.png" title="About us" heading="About Us" />
 
-      {/* //about us  */}
       <div className='flex flex-row flex-wrap lg:flex-nowrap sm:gap-[89.16px] gap-[89.16px] justify-center lg:justify-between mt-0 mb-28 lg:px-20 '>
         <div className='sm:order-2 order-2 text-start sm:w-[713px] lg:w-[684.33px] pr-4 sm:pr-0 lg:pr-0 '>
           <img src="/img/about/AboutImghead.png" alt="About Us Header Image" className='w-full h-full object-cover' />
@@ -34,7 +33,6 @@ export const About = () => {
 
       <div className='flex flex-col flex-wrap lg:flex-nowrap sm:gap-[89.16px] gap-[89.16px] justify-center lg:justify-between mt-0 mb-40 lg:px-20  '>
 
-        {/* //navigate the it maze */}
         <div className='flex flex-row flex-wrap px-4 sm:px-40 lg:px-4 '>
           <div className='flex flex-col lg:w-1/2 gap-10'>
             <p className='lg:text-[35px] sm:text-[25px] text-[18px] font-krub font-semibold'>“Navigate the maze effortlessly with <span className='text-darkYellow'>Cutech Solutions</span>”</p>
@@ -55,7 +53,6 @@ export const About = () => {
           </div>
         </div>
 
-        {/* //leading companies  */}
         <div className='flex lg:flex-row sm:flex-col flex-col lg:justify-between items-center justify-center lg:gap-[209.16px] sm:gap-[89.16px] gap-[89.16px] mt-32 mb-20  lg:px-20  '>
           <div className='relative flex flex-col gap-2 sm:gap-[31.21px] sm:w-3/4 lg:w-1/2 px-4 sm:pl-10 lg:pl-0 '>
             <div className="absolute -top-6 flex h-[6px] w-[15%] bg-custom-gradient rounded-sm items-center justify-center text-white font-bold duration-500">
@@ -74,12 +71,8 @@ export const About = () => {
           </div>
         </div>
 
-
-        {/* //Why opt for cutech solutions  */}
         <div className='flex lg:flex-row sm:flex-col flex-col justify-center lg:justify-between mb-20 lg:px-20  '>
-
           <div className='relative flex flex-col gap-2 sm:gap-[31.21px] items-center lg:items-start justify-center lg:w-2/4 px-4 sm:pl-10 lg:pl-0 '>
-
             <h2 className='lg:text-lapTitle relative capitalize sm:text-tabTitle text-mobTitle font-semibold font-rubik leading-[24px] sm:leading-[36px]'>
               Why opt for <span className='text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay'>cutech solutions</span>
               <div className="absolute -top-4 left-[0px] flex h-[6px] w-[20%] bg-custom-gradient rounded-sm items-center justify-center text-white font-bold duration-500">
@@ -90,12 +83,8 @@ export const About = () => {
             </p>
           </div>
 
-
-          {/* //Right side of cutech solution  */}
-
           <div className='w-full flex items-center justify-center'>
             <div className='grid grid-cols-1 sm:grid-cols-2 place-items-center gap-4 w-4/4 '>
-
               <div className='flex gap-4 flex-col'>
                 <div className='w-[265px] h-[150px] sm:h-auto '>
                   <div className='hover:scale-105 transition-all h-full duration-300 ease-in-out shadow-custom-about  border-2 border-[#E7DAED] justify-center flex flex-col p-4 gap-2 sm:gap-4 rounded-[9px]  '>
@@ -150,7 +139,6 @@ export const About = () => {
         </div>
 
         <Cards />
-        {/* //last section  */}
         <div className=' mt-16'>
           <section role="banner" aria-label="Main" className='relative h-[400px] max-w-[1920px] mx-auto px-2 sm:pt-4 text-white'>
 

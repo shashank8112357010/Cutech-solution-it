@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
-// import { socialIcon } from '../data/dataSet';
 import "../index.css"
 import { socialIcon } from '../data/dataSet'
 
@@ -27,16 +26,13 @@ export const Navbar = () => {
 
     return (
         <>
-            {/* navbar */}
             <nav role="navigation" aria-label="Main" className='max-w-[1920px] relative bg-darkBlue mx-auto px-4 mmd:px-20 text-white'>
                 <div className='sm:px-10 font-krub flex flex-row justify-between items-center py-4 '>
-                    {/* leftSide */}
                     <div className='LeftSide w-[100px] flex items-center justify-center sm:w-[191px] h-[47px]'>
                         <Link to="/">
                             <img src='../../img/navbar/logo.svg' className='object-cover w-full' alt='cutech logo' />
                         </Link>
                     </div>
-                    {/* RighSide */}
                     <div className='RightSide flex-row gap-8 whitespace-nowrap hidden mmd:flex'>
                         <div className='flex items-center justify-center flex-row gap-2'>
                             <div className='w-[47px] h-[47px]'>
@@ -44,7 +40,6 @@ export const Navbar = () => {
                             </div>
                             <div className='text-mobContactBody sm:text-lapContactBody'>
                                 <p>Mon - Sun 24/7</p>
-
                             </div>
                         </div>
                         <div className='flex items-center justify-center flex-row gap-2'>
@@ -67,9 +62,7 @@ export const Navbar = () => {
                         </div>
 
                     </div>
-                    {/* dropdown */}
 
-                    {/* hamburger  */}
                     <div className='block mmd:hidden'
                         onClick={() => setHide(!hide)}
                     >
@@ -83,8 +76,6 @@ export const Navbar = () => {
                     </div>
                 </div>
 
-
-                {/* //mobile screen  */}
                 <div className={`box flex flex-col mmd:hidden absolute z-40 ${hide ? "py-10 sm:py-20 top-[80px] sm:top-[68px] z-20" : "-py-0 -top-[32rem] z-20"} left-0 bg-lightWhite w-full transition-all duration-300 ease-in-out rounded-br-[20px] rounded-bl-[20px]`} >
                     <div className='flex flex-row flex-center w-full'>
 
@@ -97,7 +88,6 @@ export const Navbar = () => {
 
                         </ul>
                         <div className='flex flex-col items-center justify-center gap-8 sm:gap-12 w-1/2'>
-                            {/* {socialIcon.map((item, index) => <span className='hover:-translate-y-1 transition-all duration-240 px-0.5 ease-out' key={index}>{item.icon}</span>)} */}
                         </div>
                     </div>
 
@@ -108,10 +98,8 @@ export const Navbar = () => {
                     </div>
                     <div>{""}</div>
                 </div>
-
             </nav>
 
-            {/* //Header  */}
             <header role='menu' className='max-w-[1920px] z-50 mx-auto px-20 text-white hidden mmd:block bg-darkBlue border-gray-700 border-t '>
                 <div className='sm:px-16 font-krub flex flex-row justify-between'>
                     <div >
@@ -131,11 +119,9 @@ export const Navbar = () => {
                                 }
                                 <Link to="/services" className={`${pathname === '/services' && "headerBottomActive"} relative headerBottomBorder`}>
                                     <div className='cursor-pointer group transition-all duration-300 py-[19.5px] inline-flex items-center' onMouseEnter={() => setMenuOpen(true)} >
-                                        {/* <Link to='/services'> */}
                                         <li className={`h-full flex items-center px-6 transition-all duration-300 ease-in-out`}>
                                             Service
                                         </li>
-                                        {/* </Link> */}
                                         <span>
                                             <img src='/img/navbar/DropDownArrow.png' className='mt-[2px]' alt='drop down arrow' />
                                         </span>

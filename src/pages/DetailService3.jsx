@@ -24,8 +24,6 @@ export const DetailService3 = () => {
         </div>
       </section>
 
-
-      {/* second section start */}
       <div className='flex max-w-[1920px] mx-auto lg:flex-row sm:flex-col flex-col justify-center lg:justify-between mb-20 lg:px-20  '>
         <div className='w-full flex items-center justify-center lg:justify-normal lg:gap-12 '>
           <div className='flex flex-row flex-wrap justify-center items-center gap-4 sm:gap-12 w-full  '>
@@ -119,10 +117,8 @@ export const DetailService3 = () => {
 
         </div>
       </div>
-      {/* second section end  */}
 
       <CoreService3 />
-      {/* fourth section */}
       <div className="w-full flex flex-col lg:flex-row px-5 lg:px-[2%] mt-14 mb-[10rem]">
         <div className="blackSection w-full lg:max-w-[30rem]">
           <div className=" bg-darkBlue px-6 py-8 sm:px-11 sm:py-14 rounded-2xl space-y-8 w-full">
@@ -162,7 +158,6 @@ export const DetailService3 = () => {
         </div>
       </div>
 
-      {/* fifth section */}
       <div className='max-w-[1920px] mx-auto py-4 sm:py-12 pb-16 sm:pb-24 mb-[9rem] '>
         <div className='flex flex-col px-4 sm:px-20 lg:justify-center'>
 
@@ -250,10 +245,8 @@ export const DetailService3 = () => {
           </div>
         </div>
       </div>
-      {/* chooseservice */}
       <ChooseService3 />
 
-      {/* lastsection */}
       <div className=' mt-16 mx-auto  px-2 sm:px-10  '>
         <section role="banner" aria-label="Main" className='relative h-[434px] max-w-[1920px] mx-auto  text-white'>
 

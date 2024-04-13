@@ -12,14 +12,6 @@ const templateHtml = isProduction
     ? fs.readFileSync("./dist/client/index.html", "utf-8")
     : "";
 
-// const ssrManifest = isProduction
-//     ? fs.readFileSync("./dist/client/ssr-manifest.json", "utf-8")
-//     : undefined;
-
-
-
-
-
 const pageData = [
     {
         path: '/',

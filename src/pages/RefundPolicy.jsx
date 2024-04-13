@@ -8,32 +8,27 @@ export const RefundPolicy = () => {
             id: 0,
             policy: "Eligibility for Refund",
             solution: "Customers are eligible for a refund within the first 14 days of receiving the services from Cutech Solutions Ltd.",
-
         },
         {
             id: 1,
             policy: "Refund Process",
             solution: "To request a refund, customers must contact Cutech Solutions Ltd within the first 14 days of receiving the services. Refund requests can be made by contacting our customer support team via email at billing@cutechsolutions.co.uk or by phone at +44 7424 352181. Customers must provide their name, contact information, and details of the services for which they are requesting a refund.",
-
         }
         ,
         {
             id: 2,
             policy: "Refund Amount",
             solution: "Refunds will be issued for the full amount paid by the customer for the services within the first 14 days. No partial refunds will be provided.",
-
         },
         {
             id: 3,
             policy: "Refund Method",
             solution: "The same payment method used for the initial transaction will be used to issue refunds. For example, if the customer made the payment via credit card, the refund will be credited back to the same credit card used for the transaction",
-
         },
         {
             id: 4,
             policy: "Processing Time:",
             solution: "Once a refund request is received and approved, Cutech Solutions Ltd will process the refund within 7 business days. The time it takes for the refund to be credited to the customer's account may vary depending on the customer's financial institution.",
-
         }
     ]
     return (
@@ -46,7 +41,6 @@ export const RefundPolicy = () => {
                         Refund Policy
                     </h1>
                 </div>
-
 
                 <div className="flex  flex-col justify-start gap-4 items-start mb-14">
                     <p className="text-textgray text-[12px] sm:text-[16px] 2xl:text-[22px] leading-4 sm:leading-8 font-krub">At Cutech Solutions Ltd, we strive to ensure the satisfaction of our customers with the services we provide. We are aware, though, that there may be instances in which a refund is required. Therefore, we have established the following refund policy to outline the terms and conditions under which refunds will be issued:</p>

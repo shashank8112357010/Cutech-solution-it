@@ -101,7 +101,6 @@ export const Testimonial = () => {
                     </div>
                 </div>
                 <div className="pb-10 md:pb-40 sm:flex sm:justify-center">
-                    {/* //right arrow  */}
                     <Slider
                         ref={slider => {
                             sliderRef = slider;
@@ -111,7 +110,6 @@ export const Testimonial = () => {
                             <div key={index} className="">
                                 <div className={`bg-${item.bgColor} w-[400px] sm:w-full !p-4 sm:!p-12 transition-all duration-150 ease-in-out hover:bg-cardWhite text-center my-custom-slide-style relative flex-col  gap-5 flex`}
                                 >
-                                    {/* first section  */}
                                     <div className="flex flex-row justify-between items-center">
                                         <div className="flex flex-row justify-center items-center gap-4">
                                             <div className="justify-between items-start flex w-[44px] sm:w-[54px] lg:w-[72px]">
@@ -131,10 +129,8 @@ export const Testimonial = () => {
                                         </div>
                                     </div>
 
-                                    {/* second section  */}
                                     <p className={`font-krub text-${item.paraColor} text-start font-medium text-mobBody3 sm:text-tabBody3 lg:text-lapBody3 leading-[14px] sm:leading-[24.24px] italic`}>{item.review}
                                     </p>
-                                    {/* third section  */}
                                     <div className="sm:w-[180px] w-[120px] h-[20px] sm:h-[34px]">
                                         <img className="object-cover w-full h-full" src="/img/testimonial/TestimonialStar.svg" alt="Testimonial Star" />
                                     </div>

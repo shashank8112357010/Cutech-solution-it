@@ -4,27 +4,22 @@ export const CardModal = ({ open, handleClose, data }) => {
   const modalRef = useRef(null);
 
   useEffect(() => {
-    // Disable scrolling on the body when the modal is open
     if (open) {
       document.body.style.overflow = 'hidden';
-      // Add event listener to detect clicks outside of the modal
       document.addEventListener('mousedown', handleOutsideClick);
     } else {
-      // Restore scrolling and remove event listener when the modal is closed
       document.body.style.overflow = 'auto';
       document.removeEventListener('mousedown', handleOutsideClick);
     }
 
 
     return () => {
-      // Clean up
       document.body.style.overflow = 'auto';
       document.removeEventListener('mousedown', handleOutsideClick);
     };
   }, [open]);
 
   const handleOutsideClick = (event) => {
-    // Close the modal if the click occurs outside of the modal content
     if (modalRef.current && !modalRef.current.contains(event.target)) {
       handleClose();
     }

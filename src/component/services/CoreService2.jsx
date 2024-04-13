@@ -5,13 +5,10 @@ export const CoreService2 = () => {
     <div className='bg-lightWhite max-w-[1920px] mx-auto lg:px-10 lg:py-14 sm:px-8 sm:py-10 py-5 mb-[13rem] '>
       <div className="">
         <div className="lg:w-[529px] mx-auto text-center">
-
           <h2 className="text-mobTitle sm:text-tabTitle lg:text-lapTitle font-bold font-rubik leading-7 mb-4 lg:leading-10">Core Services Offered by Cutech Solutions</h2>
-
           <p className='font-krub text-mobBody sm:text-tabBody lg:text-lapBody leading-[18px] sm:leading-[24px] text-center'>
             Cutech Solutions provides a comprehensive range of <strong> digital marketing services</strong> to cater to all your online marketing needs. Here are some of our core services:
           </p>
-
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-1  lg:grid-cols-2 sm: gap-y-12 gap-x-8 mx-8 sm:mx-12 my-12 ">
           <div className='flex gap-1 '>
@@ -29,7 +26,6 @@ export const CoreService2 = () => {
           </div>
           <div className='flex gap-1 '>
             <div>
-
               <img src="../../../img/services/Tick.png" alt="services_tick5" className="max-w-none mt-1" />
             </div>
             <div>
@@ -39,7 +35,6 @@ export const CoreService2 = () => {
               <p className="text-mobBody2 sm:text-tabBody2 lg:text-lapBody2 font-krub font-normal text-textgray">
                 We develop and execute strategic social media campaigns to build brand awareness, engage your audience, and foster meaningful customer relationships.
               </p>
-
             </div>
           </div>
           <div className='flex gap-1 '>
@@ -53,12 +48,10 @@ export const CoreService2 = () => {
               <p className="text-mobBody2 sm:text-tabBody2 lg:text-lapBody2 font-krub font-normal text-textgray">
                 We craft captivating email campaigns to nurture leads, drive engagement, and ultimately turn prospects into loyal customers.
               </p>
-
             </div>
           </div>
           <div className='flex gap-1 '>
             <div>
-
               <img src="../../../img/services/Tick.png" alt="services_tick3" className="max-w-none mt-1" />
             </div>
             <div>
@@ -73,7 +66,6 @@ export const CoreService2 = () => {
           </div>
           <div className='flex gap-1 '>
             <div>
-
               <img src="../../../img/services/Tick.png" alt="services_tick2" className="max-w-none mt-1" />
             </div>
             <div>
@@ -83,7 +75,6 @@ export const CoreService2 = () => {
               <p className="text-mobBody2 sm:text-tabBody2 lg:text-lapBody2 font-krub font-normal text-textgray">
                 We create high-quality, informative, and engaging content such as blog posts, infographics, and videos to attract, educate, and convert your target audience.
               </p>
-
             </div>
           </div>
           <div className='flex gap-1'>
@@ -99,11 +90,8 @@ export const CoreService2 = () => {
               </p>
             </div>
           </div>
-
         </div>
-
       </div>
-
     </div>
   )
 }

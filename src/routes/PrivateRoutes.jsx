@@ -64,12 +64,12 @@ export const Router = () => {
 
                 <div className='z-40 fixed top-[30%] right-[0px] rounded-tl-lg rounded-bl-lg px-2 rounded-tr-none rounded-br-none'>
                     <div className='relative h-[206px] flex flex-col justify-end'>
-                        <Link to="contact-us" className=' -rotate-90 absolute font-semibold text-[15px] bg-darkBlue text-darkYellow rounded-tr-lg top-0 h-[109px] w-28 px-4 pt-2 cursor-pointer '>
+                        <Link to="contact-us" className='-rotate-90 absolute font-semibold text-[15px] bg-darkBlue text-darkYellow rounded-tr-lg top-0 h-[109px] w-28 px-4 pt-2 cursor-pointer '>
                             Contact us
                         </Link>
                         <div className='flex flex-col w-[36px] pb-0 justify-center items-center py-4 '>
                             {socialIcon.map((item, index) => (
-                                <div className="bg-darkBlue w-[42px] h-[24px] gap-4 flex justify-center items-center ml-[9px]">
+                                <div key={index} className="bg-darkBlue w-[42px] h-[24px] gap-4 flex justify-center items-center ml-[9px]">
                                     <a href={item.path} target="_blank" rel="noopener noreferrer" key={index}>
                                         <img src={item.icon} className='hover:-translate-y-1 w-[20px] h-[15px] transition-all duration-240 px-0.5 ease-out hover:-translate-x-1  rounded-tr-lg  duration-240' alt={index} />
                                     </a>
