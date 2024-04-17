@@ -6,28 +6,28 @@ import { Link } from 'react-router-dom';
 const cardData = [
     {
         id: 0,
-        imgPic: "/img/home/whatWeDo1.png",
+        imgPic: "/img/home/whatWeDo1.webp",
         link: "cloud-managed-services",
         heading: "Cutech Cloud Service Management Solutions",
         para: "Cloud computing revolutionizes business operations by offering unmatched flexibility, scalability, and cost-effectiveness. At Cutech Solutions, we excel in delivering tailored cloud solutions to meet your specific needs. Our expertise encompasses <strong> cloud managed services in UK </strong> and <strong> cloud service management in UK </strong>. Whether you require assistance with cloud migration, infrastructure management, or optimizing performance and cost efficiency, we possess the knowledge and experience to propel your success in the cloud."
     },
     {
         id: 1,
-        imgPic: "/img/home/whatWeDo2.png",
+        imgPic: "/img/home/whatWeDo2.webp",
         heading: "Computer Cyber Security Service Solutions",
         link: "cyber-security-service",
         para: "In today's digital age,<strong> Cyber Security Service Solutions </strong> are paramount for businesses, regardless of their size.. At Cutech Solutions, one of the  leading <strong> computer cyber security service providers in UK </strong>, we offer a comprehensive range of cybersecurity solutions. Our services aim to safeguard your valuable data and assets from cyber threats. From implementing robust security measures to conducting regular vulnerability assessments and security audits, we are dedicated to ensuring the safety and security of your business."
     },
     {
         id: 2,
-        imgPic: "/img/home/whatWeDo3.png",
+        imgPic: "/img/home/whatWeDo3.webp",
         heading: "Digital Marketing Solutions",
         link: "digital-marketing-company",
         para: "Discover the ultimate digital marketing solution process with Cutech Solutions. As the <strong> best SEO company in London </strong>, we excel in delivering comprehensive solutions tailored to elevate your online presence. Our team of <strong> digital marketing experts in UK </strong> ensures unparalleled strategies to boost your brand visibility and drive measurable results. Unlock success today!"
     },
     {
         id: 3,
-        imgPic: "/img/home/whatWeDo4.png",
+        imgPic: "/img/home/whatWeDo4.webp",
         heading: "Remote Technical Support and Maintenance",
         link: "remote-technical-support-services",
         para: "Our <strong> remote technical support services </strong>, including remote virtual assistant, are meticulously crafted to maintain the seamless operation of your business. We adeptly handle hardware and software troubleshooting, guaranteeing the utmost efficiency of your IT infrastructure. Our dedicated team stands ready to deliver swift and dependable assistance whenever required. Prioritizing tasks based on their criticality, we ensure that urgent matters are promptly resolved to mitigate any potential downtime or disruption. Experience the <strong> best technical support in UK </strong> with us.."

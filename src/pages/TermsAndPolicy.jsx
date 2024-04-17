@@ -4,7 +4,7 @@ import { BannerAtom } from '../atom/BannerAtom'
 export const TermsAndPolicy = () => {
   return (
     <>
-      <BannerAtom srcImg="/img/Contact/ContactBanner.png" title="Terms" heading="Terms and Condition" />
+      <BannerAtom srcImg="/img/Contact/ContactBanner.webp" title="Terms" heading="Terms and Condition" />
       <section className="max-w-7xl mx-auto mt-4 px-4 sm:px-20 bg-transparent ">
         <div className="flex  flex-col justify-center items-start gap-4  mb-6">
           <h1 className="text-darkBlue font-extrabold text-[18px] sm:text-[25px] text-center w-full 2xl:text-[30px]">Terms and Condition</h1>

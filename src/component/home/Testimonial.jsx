@@ -3,7 +3,7 @@ import Slider from "react-slick";
 
 const data = [
     {
-        img: "/img/testimonial/TestimonialImg2.png",
+        img: "/img/testimonial/TestimonialImg2.webp",
         name: "Tom",
         route: "Milestone",
         review: "Cutech Solutions has been a game-changer for our small business. Their remote technical support services have saved us countless hours of downtime, allowing us to focus on growing our company. Plus, their cybersecurity solutions have given us peace of mind knowing that our data is safe and secure. Highly recommend their services to any business looking for reliable IT support! -",
@@ -13,7 +13,7 @@ const data = [
     },
     {
 
-        img: " /img/testimonial/TestimonialImg3.png",
+        img: " /img/testimonial/TestimonialImg3.webp",
         name: "Emma",
         route: "User-Support",
         review: "We were hesitant to switch IT support providers, but Cutech Solutions exceeded our expectations in every way. Their team is incredibly responsive and knowledgeable, always providing prompt solutions to our technical issues. Their cloud service management solutions have also helped streamline our operations and reduce costs. We're thrilled with the level of service and expertise they provide.",
@@ -22,7 +22,7 @@ const data = [
         headingColor: "white"
     },
     {
-        img: "/img/testimonial/TestimonialImg1.png",
+        img: "/img/testimonial/TestimonialImg1.webp",
         name: "David",
         route: "Tech-Support",
         review: "Choosing Cutech Solutions for our cybersecurity needs was one of the best decisions we've made for our business. Their comprehensive approach to cybersecurity ensures that we're protected from every angle, giving us confidence in our data security. Their digital marketing solutions have also helped boost our online presence, driving more traffic to our website. We couldn't be happier with the results!",
@@ -31,7 +31,7 @@ const data = [
         headingColor: "darkestBlue"
     },
     {
-        img: "/img/testimonial/TestimonialImg4.png",
+        img: "/img/testimonial/TestimonialImg4.webp",
         name: "Sarah",
         route: "Transparency",
         review: "Cutech Solutions has been an invaluable partner for our growing business. Their remote technical support services have been essential in keeping our operations running smoothly, even during busy periods. Their dedication to providing tailored solutions to our unique needs sets them apart from other IT support providers. We highly recommend Cutech Solutions to any business looking for reliable and proactive IT support",
@@ -90,12 +90,12 @@ export const Testimonial = () => {
                             <div className="block cursor-pointer"
                                 onClick={next}
                             >
-                                <img src="/img/testimonial/TestimonialLeftArrow.svg" className=" h-12 md:h-12 w-12 md:w-12" alt="Testimonial LeftArrow" />
+                                <img src="/img/testimonial/TestimonialLeftArrow.webp" className=" h-12 md:h-12 w-12 md:w-12" alt="Testimonial LeftArrow" />
                             </div>
                             <div className="block cursor-pointer"
                                 onClick={previous}
                             >
-                                <img src="/img/testimonial/TestimonialRightArrow.svg" className=" h-12 md:h-12 w-12 md:w-12" alt="Testimonial RightArrow" />
+                                <img src="/img/testimonial/TestimonialRightArrow.webp" className=" h-12 md:h-12 w-12 md:w-12" alt="Testimonial RightArrow" />
                             </div>
                         </div>
                     </div>
@@ -115,24 +115,24 @@ export const Testimonial = () => {
                                             <div className="justify-between items-start flex w-[44px] sm:w-[54px] lg:w-[72px]">
                                                 <img className="object-cover w-full h-full" src={item.img} alt="Testimonial Image" />
                                             </div>
-                                            <div className="flex flex-col">
+                                            <div className="flex flex-col gap-2">
                                                 <h3 className={`font-rubik text-${item.headingColor} text-start font-semibold text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2`}>
                                                     {item.name}
                                                 </h3>
-                                                <p className={`font-krub font-medium leading-[24.24px] text-${item.headingColor}`}>
+                                                <p className={`font-krub font-medium leading-[24.24px] -mt-3 text-mobBody sm:text-tabBody lg:text-lapBody text-${item.headingColor}`}>
                                                     {item.route}
                                                 </p>
                                             </div>
                                         </div>
                                         <div className="w-[44px] sm:w-[54px] lg:w-[72px]">
-                                            <img className="object-cover w-full h-full" src="/img/testimonial/TestimonialIcon.svg" alt="Testimonial Icon" />
+                                            <img className="object-cover w-full h-full" src="/img/testimonial/TestimonialIcon.webp" alt="Testimonial Icon" />
                                         </div>
                                     </div>
 
                                     <p className={`font-krub text-${item.paraColor} text-start font-medium text-mobBody3 sm:text-tabBody3 lg:text-lapBody3 leading-[14px] sm:leading-[24.24px] italic`}>{item.review}
                                     </p>
                                     <div className="sm:w-[180px] w-[120px] h-[20px] sm:h-[34px]">
-                                        <img className="object-cover w-full h-full" src="/img/testimonial/TestimonialStar.svg" alt="Testimonial Star" />
+                                        <img className="object-cover w-full h-full" src="/img/testimonial/TestimonialStar.webp" alt="Testimonial Star" />
                                     </div>
                                 </div>
 
@@ -144,12 +144,12 @@ export const Testimonial = () => {
                     <div className="block cursor-pointer"
                         onClick={next}
                     >
-                        <img src="/img/testimonial/TestimonialLeftArrow.svg" className=" h-8 md:h-8 w-8 md:w-8" alt="Testimonial LeftArrow" />
+                        <img src="/img/testimonial/TestimonialLeftArrow.webp" className=" h-8 md:h-8 w-8 md:w-8" alt="Testimonial LeftArrow" />
                     </div>
                     <div className="block cursor-pointer"
                         onClick={previous}
                     >
-                        <img src="/img/testimonial/TestimonialRightArrow.svg" className=" h-8 md:h-8 w-8 md:w-8" alt="Testimonial RightArrow" />
+                        <img src="/img/testimonial/TestimonialRightArrow.webp" className=" h-8 md:h-8 w-8 md:w-8" alt="Testimonial RightArrow" />
                     </div>
                 </div>
             </div>

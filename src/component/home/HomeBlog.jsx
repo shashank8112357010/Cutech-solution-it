@@ -15,7 +15,7 @@ export const HomeBlog = () => {
                     <div className='blog flex w-full flex-col md:flex-row lg:border-y-2 py-4 items-center justify-between sm:gap-4'>
                         <div className="img w-full relative">
                             <div className='flex justify-center items-center'>
-                                <img className='w-full h-full object-cover' src="img/blog/BlogImg1.png" alt="Blog Page" />
+                                <img className='w-full h-full object-cover' src="img/blog/BlogImg1.webp" alt="Blog Page" />
                             </div>
                             <Link to="/elevate-your-business-with-expert-b2b-it-support">
                                 <div className="absolute opacity-0 hover:opacity-100 top-8 left-10 flex h-4/5 w-4/5 bg-black/60 items-center justify-center text-white font-bold duration-500">  Read More</div>
@@ -23,7 +23,7 @@ export const HomeBlog = () => {
                         </div>
 
                         <div className="text w-full flex border-y-2 py-4 my-4 lg:border-y-0 lg:py-0 lg:my-0">
-                            <div className="text_details w-5/5 md:border-l-2 text-left px-2 sm:pl-8 space-y-5 group">
+                            <div className="text_details w-5/5  text-left px-2 sm:pl-8 space-y-5 group">
                                 <Link to="/elevate-your-business-with-expert-b2b-it-support">
                                     <h3 className='text-mobBlogTitle md:text-tabBlogTitle lg:text-lapBlogTitle font-semibold group-hover:text-[#ffc64f] duration-200'>
                                         Elevate Your Business With Expert B2B IT Support
@@ -37,7 +37,7 @@ export const HomeBlog = () => {
                                 </p>
                                 <div className="flex justify-between gap-2 sm:gap-0 flex-col sm:flex-row items-center border-t-2 mt-4 py-2 sm:py-4">
                                     <div className="flex items-center gap-2 ">
-                                        <img src="../../img/blog/Avtar.svg" alt="Latest Blogs" className="w-[24px]" />
+                                        <img src="../../img/blog/Avtar.webp" alt="Latest Blogs" className="w-[24px]" />
                                         <p className="lg:text-[18px] sm:text-[16px] text-[12px] font-medium font-krub">
                                             Cutech Solutions
                                         </p>

@@ -7,18 +7,18 @@ export const About = () => {
   return (
     <section className='max-w-[1920px] mx-auto'>
 
-      <BannerAtom srcImg="/img/about/aboutBanner.png" title="About us" heading="About Us" />
+      <BannerAtom srcImg="/img/about/aboutBanner.webp" title="About us" heading="About Us" />
 
       <div className='flex flex-row flex-wrap lg:flex-nowrap sm:gap-[89.16px] gap-[89.16px] justify-center lg:justify-between mt-0 mb-28 lg:px-20 '>
         <div className='sm:order-2 order-2 text-start sm:w-[713px] lg:w-[684.33px] pr-4 sm:pr-0 lg:pr-0 '>
-          <img src="/img/about/AboutImghead.png" alt="About Us Header Image" className='w-full h-full object-cover' />
+          <img src="/img/about/AboutImghead.webp" alt="About Us Header Image" className='w-full h-full object-cover' />
         </div>
         <div className='flex flex-col gap-[31.21px] lg:w-[570.51px] sm:w-[580.52px] order-1 lg:order-2 pl-3 w-full lg:pl-0'>
           <div className='flex gap-[10px] flex-col'>
             <p className="font-rubik font-normal lg:text-lapBody2 sm:text-lapBody2 text-[6.7px] w-[78px] bg-white/10 border-l-4 pl-2 border-yellow-500">
               About us
             </p>
-            <h1 className='lg:text-lapTitle sm:text-tabTitle text-mobTitle font-semibold font-rubik'>Our <span className='text-[#FFB82B]'> Company </span> Overview</h1>
+            <h1 className='lg:text-lapTitle sm:text-tabTitle text-mobTitle font-semibold font-rubik'>Our <span className='text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay'> Company </span> Overview</h1>
             <p className='lg:text-lapBody3 sm:text-lapBody3 text-tabBody3 font-krub font-medium text-textgray'>Welcome to Cutech Solutions, the foremost provider of <strong>B2B IT support services in UK</strong>. With an unwavering dedication to excellence and innovation, Cutech Solutions emerges as the go-to ally for businesses in search of comprehensive and customized IT solutions.</p>
           </div>
           <div className='flex flex-col gap-[24.07px] sm:order-2'>
@@ -35,17 +35,17 @@ export const About = () => {
 
         <div className='flex flex-row flex-wrap px-4 sm:px-40 lg:px-4 '>
           <div className='flex flex-col lg:w-1/2 gap-10'>
-            <p className='lg:text-[35px] sm:text-[25px] text-[18px] font-krub font-semibold'>“Navigate the maze effortlessly with <span className='text-darkYellow'>Cutech Solutions</span>”</p>
-            <img src="/img/about/About.png" alt="Know About Us" className='w-[90%]' />
+            <p className='lg:text-[35px] sm:text-[25px] text-[18px] font-krub font-semibold'>“Navigate the maze effortlessly with <span className='text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay'>Cutech Solutions</span>”</p>
+            <img src="/img/about/About.webp" alt="Know About Us" className='w-[90%]' />
           </div>
 
           <div className='lg:w-1/2 mt-8 lg:mt-0'>
             <div className='flex flex-col lg:gap-8 sm:gap-6 gap-1 mb-8'>
-              <h2 className='lg:text-lapTitle capitalize sm:text-tabTitle text-mobTitle font-semibold font-rubik'>Our <span className='text-darkYellow'>Missions</span></h2>
+              <h2 className='lg:text-lapTitle capitalize sm:text-tabTitle text-mobTitle font-semibold font-rubik'>Our <span className='text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay'>Missions</span></h2>
               <p className='lg:text-lapBody3 sm:text-lapBody3 text-tabBody3 font-krub font-medium text-textgray '>Our mission at Cutech Solutions is straightforward: to furnish dependable and <strong>effective IT support services</strong> customized to the unique necessities of each of our B2B clients. Whether it involves resolving technical glitches, implementing novel technologies, or fine-tuning existing systems, we are steadfastly committed to minimizing downtime, amplifying productivity, and guaranteeing the security and stability of our clients' IT environments.</p>
             </div>
             <div className='flex flex-col lg:gap-10 sm:gap-6 gap-1'>
-              <h2 className='lg:text-lapTitle capitalize sm:text-tabTitle text-mobTitle font-semibold font-rubik'>Our <span className='text-darkYellow'>Vision</span></h2>
+              <h2 className='lg:text-lapTitle capitalize sm:text-tabTitle text-mobTitle font-semibold font-rubik'>Our <span className='text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay'>Vision</span></h2>
               <p className='lg:text-lapBody3 sm:text-lapBody3 text-tabBody3 font-krub font-medium text-textgray '>
                 Our vision is to ascend as the preeminent provider of <strong>B2B IT support services in UK</strong>, renowned for our unwavering dedication to excellence, innovation, and client satisfaction. We aspire to continually adapt and evolve to meet the evolving requisites of our clients in an ever-evolving digital milieu, staying ahead of the curve and setting novel benchmarks of excellence within the industry.
               </p>
@@ -67,7 +67,7 @@ export const About = () => {
 
           </div>
           <div className='sm:w-2/3 lg:w-1/2 px-4 sm:px-0 lg:px-0 sm:mx-auto'>
-            <img src="../../img/about/Abou-us-Video.svg" alt="About Us Page" className='w-full object-cover ' />
+            <img src="../../img/about/Abou-us-Video.webp" alt="About Us Page" className='w-full object-cover ' />
           </div>
         </div>
 
@@ -142,7 +142,7 @@ export const About = () => {
         <div className=' mt-16'>
           <section role="banner" aria-label="Main" className='relative h-[400px] max-w-[1920px] mx-auto px-2 sm:pt-4 text-white'>
 
-            <img src="/img/services/servicesBanner5.png" className={`-z-50 absolute left-0 w-full h-full -top-24 sm:-top-12 object-cover mmd:-top-16`} alt='About Us' loading='lazy' />
+            <img src="/img/services/servicesBanner5.webp" className={`-z-50 absolute left-0 w-full h-full -top-24 sm:-top-12 object-cover mmd:-top-16`} alt='About Us' loading='lazy' />
 
             <div className='justify-center z-50 text-white w-full sm:px-20 text-center flex flex-col gap-4'>
               <span className='text-mobTitle sm:text-tabttext-mobTitle lg:text-lapttext-mobTitle cursor-default select-none font-bold font-rubik '>
@@ -156,7 +156,6 @@ export const About = () => {
               <Link to="/contact-us">
                 <button className='bg-custom-gradient font-krub overflow-hidden font-semibold relative text-[12px] text-lightBlack w-[112px] h-[34px] sm:w-[146px] sm:h-[45px]'>
                   Get Started
-                  <div className='w-[40px] h-[40px] absolute -bottom-4 -right-4 rounded-full bg-white'></div>
                 </button>
               </Link>
             </div>

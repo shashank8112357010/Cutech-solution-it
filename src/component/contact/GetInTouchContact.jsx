@@ -56,7 +56,7 @@ export const GetInTouchContact = () => {
     return (
 
 
-        <section className="max-w-[1920px] mt-10 mx-auto mb-20 text-white px-4 flex flex-col justify-center items-center ">
+        <section className="max-w-[1920px] mt-10 mx-auto mb-20 text-white px-4 flex flex-col justify-center items-center font-rubik">
 
             <div className='flex justify-between items-center w-full px-8 py-10  flex-col pb-20 gap-4 bg-[#091242]'>
                 <div className='flex justify-center items-center max-w-[1280px] flex-col border-b-[#4E5683] border-x-[#091242] border-t-[#091242] border-2 sm:p-4 '>
@@ -84,7 +84,7 @@ export const GetInTouchContact = () => {
                     <div className='flex flex-col sm:flex-row flex-wrap gap-8 justify-center items-center my-6'>
                         <div className="flex gap-2 w-full sm:w-auto">
                             <a className='sm:w-[47px] h-[47px]' href='mailto:info@cutechsolutions.co.uk' target='_blank'>
-                                <img src="img/Contact/Message.svg" alt="email icon" className="inline-block" />
+                                <img src="img/Contact/Message.webp" alt="email icon" className="inline-block" />
                             </a>
                             <div className="flex flex-col text-mobBody justify-center font-krub font-medium leading-[16.2px]">
                                 <p>Email</p>
@@ -93,7 +93,7 @@ export const GetInTouchContact = () => {
                         </div>
                         <div className="flex gap-2 w-full sm:w-auto">
                             <a className='w-[47px] h-[47px]' href='tel:+447424352181'>
-                                <img src="img/Contact/Phone.svg" alt="Phone icon" className="inline-block" />
+                                <img src="img/Contact/Phone.webp" alt="Phone icon" className="inline-block" />
                             </a>
                             <div className="flex flex-col text-mobBody justify-center font-krub font-medium leading-[16.2px]">
                                 <p>Call Us</p>
@@ -102,7 +102,7 @@ export const GetInTouchContact = () => {
                         </div>
                         <div className="flex gap-2 w-full sm:w-auto">
                             <img
-                                src="img/Contact/Message.svg"
+                                src="img/Contact/Message.webp"
                                 alt="Timing to connect"
                                 className="inline-block"
                             />
@@ -123,7 +123,7 @@ export const GetInTouchContact = () => {
                                 defaultValue={contactData.Email}
 
                                 type="text"
-                                className="bg-darkBlue w-full text-white font-normal font-rubik border-2 px-8 py-3 border-[#4E5683] "
+                                className="bg-darkBlue Inputplaceholder w-full text-white font-normal font-rubik border-2 px-8 py-3 border-[#4E5683] "
                                 placeholder="John Smith"
                             />
                             <input
@@ -131,7 +131,7 @@ export const GetInTouchContact = () => {
                                 required
                                 defaultValue={contactData.CompanyName}
                                 type="text"
-                                className="bg-darkBlue w-full text-white font-normal font-rubik border-2 px-8 py-3 border-[#4E5683] "
+                                className="bg-darkBlue Inputplaceholder w-full text-white font-normal font-rubik border-2 px-8 py-3 border-[#4E5683] "
                                 placeholder="Company name*"
                             />
                         </div>
@@ -141,7 +141,7 @@ export const GetInTouchContact = () => {
                                 required
                                 defaultValue={contactData.Contact}
                                 type="tel"
-                                className="bg-darkBlue w-full text-white font-normal font-rubik border-2 px-8 py-3 border-[#4E5683]"
+                                className="bg-darkBlue Inputplaceholder w-full text-white font-normal font-rubik border-2 px-8 py-3 border-[#4E5683]"
                                 placeholder="Your Contact No.*"
                             />
                             <input
@@ -149,21 +149,21 @@ export const GetInTouchContact = () => {
                                 required
                                 defaultValue={contactData.Email}
                                 type="text"
-                                className="bg-darkBlue w-full text-white font-normal font-rubik border-2 px-8 py-3 border-[#4E5683]"
+                                className="bg-darkBlue Inputplaceholder w-full text-white font-normal font-rubik border-2 px-8 py-3 border-[#4E5683]"
                                 placeholder="john@gmail.com"
                             />
                         </div>
                         <div className=" flex gap-1 flex-wrap justify-between">
 
                             <div className="flex flex-wrap gap-2 flex-col ">
-                                <p className="text-[16px]  font-semibold font-rubik mb-4">
+                                <p className=" Inputplaceholder font-normal lg:text-lapContactBody sm:text-tabBody text-mobBody font-rubik mb-4">
                                     I’m interested in:
                                 </p>
-                                <div className='max-w-[350px] '>
+                                <div className='max-w-[350px]  '>
                                     {
                                         ["Technical Support", "Sales Inquiry", "Digital Marketing", "Website Designing", "Other"].map((item, index) => {
                                             return (
-                                                <button type='button' key={index} onClick={(e) => setContactData((p) => ({ ...p, Intreast: item }))} className={` ${contactData.Intreast === item && "bg-custom-gradient "} px-[20px]  py-[10px] border rounded-[50px] text-[16px] font-normal m-1 bg-button`}>
+                                                <button type='button' key={index} onClick={(e) => setContactData((p) => ({ ...p, Intreast: item }))} className={` ${contactData.Intreast === item && "bg-custom-gradient "} px-[20px]  py-[10px] Inputplaceholder border rounded-[50px] text-[16px] text-gray-400 font-normal m-1 bg-button`}>
                                                     {item}
                                                 </button>
                                             )
@@ -173,8 +173,8 @@ export const GetInTouchContact = () => {
                             </div>
 
                             <div>
-                                <div className="flex gap-6 flex-col max-w-[400px] mt-4 lg:mt-16 ">
-                                    <select name=" level" onClick={(e) => setContactData((p) => ({ ...p, Level: e.target.value }))} className="bg-darkBlue  sm:w-[380px] w-[250px] lg:w-[329.5px]  text-white font-normal font-rubik border-2 px-8 py-3 border-[#4E5683]" id="">
+                                <div className="flex gap-6 flex-col max-w-[400px] mt-4 lg:mt-16">
+                                    <select name=" level" onClick={(e) => setContactData((p) => ({ ...p, Level: e.target.value }))} className="bg-darkBlue Inputplaceholder  sm:w-[380px] w-[250px] lg:w-[329.5px]  text-gray-400 font-normal font-rubik border-2 px-8 py-3 border-[#4E5683]" id="">
                                         <option value="Level">Urgency Level</option>
                                         <option value="Low">Low</option>
                                         <option value="Medium">Medium</option>
@@ -182,13 +182,13 @@ export const GetInTouchContact = () => {
                                     </select>
                                     <input
                                         type="date"
-                                        className="bg-darkBlue w-full text-white font-normal font-rubik border-2 px-8 py-3 border-[#4E5683]"
+                                        className="bg-darkBlue Inputplaceholder w-full text-gray-400 font-normal font-rubik border-2 px-8 py-3 border-[#4E5683]"
                                         onChange={(e) => setContactData((p) => ({ ...p, AppointmentDate: e.target.value }))}
                                         required
                                         min={date}
                                         defaultValue={contactData.AppointmentDate}
                                     />
-                                    <select name="" onChange={(e) => setContactData((p) => ({ ...p, LinkPlatform: e.target.value }))} className="bg-darkBlue w-full text-white font-normal font-rubik border-2 px-8 py-3 border-[#4E5683]" id="">
+                                    <select name="" onChange={(e) => setContactData((p) => ({ ...p, LinkPlatform: e.target.value }))} className="bg-darkBlue Inputplaceholder w-full text-gray-400 font-normal font-rubik border-2 px-8 py-3 border-[#4E5683]" id="">
                                         <option value="cucumber">How Did You Hear About Us?</option>
                                         <option value="Instagram">Instagram</option>
                                         <option value="Facebook">Facebook</option>
@@ -202,7 +202,7 @@ export const GetInTouchContact = () => {
                         <div className="flex flex-col gap-6">
                             <textarea
                                 type="text"
-                                className="bg-darkBlue text-white font-normal font-rubik border-2 px-8 pt-4 pb-16 border-[#4E5683]"
+                                className="bg-darkBlue Inputplaceholder text-gray-400 font-normal font-rubik border-2 px-8 pt-4 pb-16 border-[#4E5683]"
                                 placeholder="Your Message"
                                 onChange={(e) => setContactData((p) => ({ ...p, Message: e.target.value }))}
                             />

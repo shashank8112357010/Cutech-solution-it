@@ -20,7 +20,7 @@ export const GetInTouch = () => {
                     <div className="flex gap-6 flex-col sm:flex-row sm:flex-wrap lg:flex-col justify-center">
                         <div className="flex gap-2">
                             <a className='sm:w-[47px] h-[47px]' href='mailto:info@cutechsolutions.co.uk' target='_blank'>
-                                <img src="img/Contact/Message.svg" alt="email icon for email" className="inline-block" />
+                                <img src="img/Contact/Message.webp" alt="email icon for email" className="inline-block" />
                             </a>
                             <div className="flex flex-col text-mobBody font-krub font-medium leading-[16.2px]">
                                 <p>Email </p>
@@ -29,7 +29,7 @@ export const GetInTouch = () => {
                         </div>
                         <div className="flex gap-2 ">
                             <a className='w-[47px] h-[47px]' href=' tel:+447424352181'>
-                                <img src="img/Contact/Phone.svg" alt="phone icon for contact" className="inline-block" />
+                                <img src="img/Contact/Phone.webp" alt="phone icon for contact" className="inline-block" />
                             </a>
                             <div className="flex flex-col text-mobBody font-krub font-medium leading-[16.2px]">
                                 <p>Call Us</p>
@@ -38,7 +38,7 @@ export const GetInTouch = () => {
                         </div>
                         <div className="flex gap-2 ">
                             <img
-                                src="img/Contact/Clock.svg"
+                                src="img/Contact/Clock.webp"
                                 alt="Get in Touch"
                                 className="inline-block"
                             />
@@ -53,38 +53,35 @@ export const GetInTouch = () => {
                     <div className="flex gap-6 flex-col lg:flex-row">
                         <input
                             type="text"
-                            className="bg-darkBlue w-full text-white font-normal font-rubik border-2 px-8 py-3 border-[#4E5683] "
+                            className="bg-darkBlue Inputplaceholder w-full text-white font-normal font-rubik border-2 px-8 py-3 border-[#4E5683] "
                             placeholder="Your name*"
                         />
                         <input
                             type="text"
-                            className="bg-darkBlue w-full text-white font-normal font-rubik border-2 px-8 py-3 border-[#4E5683] "
+                            className="bg-darkBlue Inputplaceholder w-full text-white font-normal font-rubik border-2 px-8 py-3 border-[#4E5683]"
                             placeholder="Email*"
                         />
                     </div>
                     <div className="flex gap-6 flex-col lg:flex-row">
                         <input
                             type="text"
-                            className="bg-darkBlue w-full text-white font-normal font-rubik border-2 px-8 py-3 border-[#4E5683]"
+                            className="bg-darkBlue Inputplaceholder w-full text-white font-normal font-rubik border-2 px-8 py-3 border-[#4E5683]"
                             placeholder="Phone Number*"
                         />
                         <input
                             type="text"
-                            className="bg-darkBlue w-full text-white font-normal font-rubik border-2 px-8 py-3 border-[#4E5683]"
+                            className="bg-darkBlue Inputplaceholder w-full text-white font-normal font-rubik border-2 px-8 py-3 border-[#4E5683]"
                             placeholder="City*"
                         />
                     </div>
                     <div className="flex flex-col gap-6">
                         <textarea
                             type="text"
-                            className="bg-darkBlue text-white font-normal font-rubik border-2 px-8 pt-4 pb-16 border-[#4E5683]"
+                            className="bg-darkBlue Inputplaceholder text-white font-normal font-rubik border-2 px-8 pt-4 pb-16 border-[#4E5683]"
                             placeholder="Your Message"
                         />
                         <div>
-                            <button
-                                type="submit"
-                                className="text-start bg-custom-gradient px-[25px] py-[14px] text-black rounded-lg font-rubik font-semibold"
-                            >
+                            <button type="submit" className='bg-custom-gradient font-krub overflow-hidden font-semibold relative text-[12px] text-lightBlack w-[70px] h-[34px] sm:w-[136px] sm:h-[45px]'>
                                 Submit
                             </button>
                         </div>

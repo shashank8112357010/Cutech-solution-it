@@ -5,29 +5,29 @@ import { Link } from 'react-router-dom';
 export const Banner = () => {
     const slideImages = [
         {
-            url: '/img/home/homeBanner1.png',
+            url: '/img/home/homeBanner1.webp',
             heading: 'Tech Care Beyond Borders: Expert <span> Remote Maintenance Services </span>',
             link: '/remote-technical-support-services',
         },
         {
-            url: '/img/home/homeBanner.png',
+            url: '/img/home/homeBanner.webp',
             heading: 'From glitches to grand solutions, find it all with <span>Cutech Solutions</span>',
             para:
                 'CUTECH Solutions: Your expert in tailored network, security, and backup services for enhanced business security.',
             link: '/contact-us',
         },
         {
-            url: '/img/home/homeBanner2.png',
+            url: '/img/home/homeBanner2.webp',
             heading: 'Your Virtual Bodyguard: Computer <span> Cyber Security at Its Best </span>',
             link: '/cyber-security-service',
         },
         {
-            url: '/img/home/homeBanner3.png',
+            url: '/img/home/homeBanner3.webp',
             heading: 'Harnessing the Power of the Cloud: <span> Tailored Management Solutions for Success </span>',
             link: '/cloud-managed-services',
         },
         {
-            url: '/img/home/homeBanner4.png',
+            url: '/img/home/homeBanner4.webp',
             heading: 'Ignite Your Online Presence: Strategic Solutions from <span> Digital Marketing Experts </span>',
             link: '/digital-marketing-company',
         },

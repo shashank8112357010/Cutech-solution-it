@@ -144,3 +144,9 @@
 .lower-dots>.slick-active {
     right: 4px !important
 }
+
+
+.Inputplaceholder::placeholder,
+.Inputplaceholder {
+    font-size: 13px;
+}

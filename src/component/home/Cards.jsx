@@ -3,7 +3,7 @@ export const Cards = () => {
     {
       id: 1,
       name: "Integrity",
-      desc: "We conduct business affairs with integrity, transparency, and honesty, thereby earning the trust and respect of our clients and peers alike. ",
+      desc: "We conduct business affairs with integrity, transparency, and honesty, thereby earning the trust and respect of our clients and peers alike.",
     },
     {
       id: 2,
@@ -39,7 +39,7 @@ export const Cards = () => {
               className="flex gap-4 px-2 sm:px-8 py-4 sm:py-8 border rounded-md shadow-sm"
             >
               <div>
-                <h3 className="lg:text-lapTitle3 sm:text-tabTitle3 text-mobTitle3 font-bold font-rubik leading-[16px] sm:leading-[21px] tracking-[-0.005em] mb-1.5 text-[#FFB629]">
+                <h3 className="lg:text-lapTitle3 sm:text-tabTitle3 text-mobTitle3 font-bold font-rubik leading-[16px] sm:leading-[21px] tracking-[-0.005em] mb-1.5 text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay">
                   {item.name}
                 </h3>
                 <p className="lg:text-lapBody3 sm:text-tabBody3 text-mobBody3 font-normal font-rubik leading-[19px] sm:leading-[23px] text-textgray">

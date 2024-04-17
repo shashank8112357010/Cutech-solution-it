@@ -5,17 +5,17 @@ import DetailBlogFAQ from '../component/detailBlogFaq/DetailBlogFAQ';
 export const DetailBlog1 = () => {
   return (
     <>
-      <BannerAtom srcImg="/img/blog/BlogBanner.png" title="Blog" heading="Blog" />
+      <BannerAtom srcImg="/img/blog/BlogBanner.webp" title="Blog" heading="Blog" />
       <section className="max-w-[1920px] mx-auto lg:px-10 sm:px-8 px-3">
         <div className="flex lg:flex-row sm:flex-col flex-col gap-[53px]">
           <div className="max-w-[770px]  flex flex-col gap-9 lg:mx-0">
-            <img src="../../img/blog/BlogImg1.png" width={720} height={400} className='rounded-2xl' alt="B2B IT Support Service" />
+            <img src="../../img/blog/BlogImg1.webp" width={720} height={400} className='rounded-2xl' alt="B2B IT Support Service" />
             <h2 className="lg:text-lapTitle sm:text-tabTitle text-mobTitle font-semibold font-rubik">
               Elevate Your Business with Expert B2B IT Support
             </h2>
             <div className="flex justify-between items-center mt-2">
               <div className="flex items-center gap-2 ">
-                <img src="../../img/blog/Avtar.svg" alt=" Reliable B2B IT Support Service" className="w-[24px]" />
+                <img src="../../img/blog/Avtar.webp" alt=" Reliable B2B IT Support Service" className="w-[24px]" />
                 <p className="lg:text-[18px] sm:text-[16px] text-[12px] font-medium font-krub">
                   Cutech Solutions
                 </p>
@@ -37,8 +37,8 @@ export const DetailBlog1 = () => {
             </div>
 
             <div className="flex  lg:gap-10 sm:gap-8 gap-2 items-center lg:items-start sm:justify-normal justify-center lg:justify-start lg:mr-8 py-6">
-              <img src="../../img/blog/Blog1.png" alt="Top notch B2B IT Support Service" className=" w-[140px] sm:w-[260px] lg:w-[340px]" />
-              <img src="../../img/blog/Blog2.png" alt="Top notch B2B IT Support Service" className="w-[140px] sm:w-[260px] lg:w-[340px]" />
+              <img src="../../img/blog/Blog1.webp" alt="Top notch B2B IT Support Service" className=" w-[140px] sm:w-[260px] lg:w-[340px]" />
+              <img src="../../img/blog/Blog2.webp" alt="Top notch B2B IT Support Service" className="w-[140px] sm:w-[260px] lg:w-[340px]" />
             </div>
             <div className="flex flex-col gap-4">
               <h2 className="lg:text-lapTitle sm:text-tabTitle text-mobTitle font-semibold font-rubik">
@@ -130,10 +130,10 @@ export const DetailBlog1 = () => {
                 <h2 className=' text-mobTitle3 sm:text-tabTitle3 lg:text-lapTitle3 font-bold font-rubik'>Share</h2>
               </div>
               <div className='flex lg:gap-[46px] sm:gap-[40px] gap-[20px]'>
-                <img src="../../img/blog/Fb2.svg" alt=" On-Call 24x7 Technical Support 1" />
-                <img src="../../img/blog/Tweet2.svg" alt="IT Helpdesk Support 1" />
-                <img src="../../img/blog/Link2.svg" alt=" On-Call 24x7 Technical Support 2" />
-                <img src="../../img/blog/Insta2.svg" alt=" IT Helpdesk Support 2" />
+                <img src="../../img/blog/Fb2.webp" alt=" On-Call 24x7 Technical Support 1" />
+                <img src="../../img/blog/Tweet2.webp" alt="IT Helpdesk Support 1" />
+                <img src="../../img/blog/Link2.webp" alt=" On-Call 24x7 Technical Support 2" />
+                <img src="../../img/blog/Insta2.webp" alt=" IT Helpdesk Support 2" />
               </div>
             </div>
           </div>
@@ -146,7 +146,7 @@ export const DetailBlog1 = () => {
               <div className="flex flex-col sm:flex-row lg:flex-col gap-2">
                 <div className="items-center flex gap-4 px-2 sm:pl-0 sm:py-2 py-4 sm:pb-8 border rounded-md shadow-sm sm:w-[400px] ">
                   <img
-                    src="../../img/blog/Blog3.png"
+                    src="../../img/blog/Blog3.webp"
                     alt="Remote Technical Support in UK"
                     className="w-[50px] sm:w-[80] lg:w-[120px] pl-2 pt-2 lg:pl-4 lg:pt-4"
                   />
@@ -162,7 +162,7 @@ export const DetailBlog1 = () => {
 
                 <div className=" items-center flex gap-4 px-2 sm:pl-0 sm:py-2 py-4 sm:pb-8 border rounded-md shadow-sm sm:w-[400px] ">
                   <img
-                    src="../../img/blog/Blog4.png"
+                    src="../../img/blog/Blog4.webp"
                     alt="Technical Support in UK"
                     className="w-[50px] sm:w-[80] lg:w-[120px] pl-2 pt-2 lg:pl-4 lg:pt-4"
                   />
@@ -180,7 +180,7 @@ export const DetailBlog1 = () => {
               <div className="flex flex-col sm:flex-row lg:flex-col gap-3">
                 <div className=" items-center flex gap-4 px-2 sm:pl-0 sm:py-2 py-4 sm:pb-8 border rounded-md shadow-sm sm:w-[400px] ">
                   <img
-                    src="../../img/blog/Blog5.png"
+                    src="../../img/blog/Blog5.webp"
                     alt="Cloud Service Management 1"
                     className="w-[50px] sm:w-[80] lg:w-[120px] pl-2 pt-2 lg:pl-4 lg:pt-4"
                   />
@@ -195,7 +195,7 @@ export const DetailBlog1 = () => {
                 </div>
                 <div className=" items-center flex gap-4 px-2 sm:pl-0 sm:py-2 py-4 sm:pb-8 border rounded-md shadow-sm sm:w-[400px] ">
                   <img
-                    src="../../img/blog/Blog6.png"
+                    src="../../img/blog/Blog6.webp"
                     alt="Cloud Service Management 2"
                     className="w-[50px] sm:w-[80] lg:w-[120px] pl-2 pt-2 lg:pl-4 lg:pt-4"
                   />
@@ -271,10 +271,10 @@ export const DetailBlog1 = () => {
 
                 <div className="sm:w-[400px] flex gap-4 justify-center items-center bg-darkBlue rounded-2xl mt-16 sm:mt-20 ml-2 mr-16 sm:mx-2 py-8 sm:py-10">
                   <p className="text-white font-semibold">Follow:</p>
-                  <img src="/img/blog/Fb.svg" alt="facebook" />
-                  <img src="/img/blog/Tweet.svg" alt="tweet" />
-                  <img src="/img/blog/Insta.svg" alt="insta" />
-                  <img src="/img/blog/Linkdin.svg" alt="linkedin" />
+                  <img src="/img/blog/Fb.webp" alt="facebook" />
+                  <img src="/img/blog/Tweet.webp" alt="tweet" />
+                  <img src="/img/blog/Insta.webp" alt="insta" />
+                  <img src="/img/blog/Linkdin.webp" alt="linkedin" />
                 </div>
               </div>
             </div>

@@ -98,7 +98,7 @@ const pageData = [
         metaTitle: 'Top Digital Marketing Services in UK | SEO Service UK',
         metaDescription: "Elevate your online presence with Cutech Solutions' digital marketing services in UK. Our SEO service in UK ensures top rankings and increased visibility.",
         canonicalUrl: 'https://www.cutechsolutions.co.uk/digital-marketing-company',
-        metaKeywords: "Digital Marketing Services in UK, SEO Service UK, Digital Marketing Company in UK, Digital Marketing Service Provider, Digital Marketing Service Provider in UK, digital marketing experts, digital marketing services UK, Search Engine Optimization, Pay-Per-Click, Social Media Marketing, Digital Marketing Companies in UK, Digital Marketing Solutions",
+        metaKeywords: "Digital Marketing Services in UK, SEO Service UK, Digital Marketing Company in UK, Digital Marketing Service Provider, Digital Marketing Service Provider in UK, digital marketing experts, digital marketing services UK, Search Engine Optimization, Pay-Per-Click, Social Media Marketing, Digital Marketing Companies in UK, Digital Marketing Solutions , Digital Marketing Agency",
     },
     {
         path: '/cyber-security-services',
@@ -146,7 +146,7 @@ app.use("*", async (req, res, next) => {
         if (!currentPage) {
             return res.status(404).send(`<div style="width:100%; display:flex; align-items:center; justify-content:center; margin-top: 0; margin-left:auto; margin-right:auto; margin-bottom: 0; height: 90vh">
             <div style="width:700px; height:300px">
-                <img src='/img/PageNotFound.png' alt='page-not-found' style="width: 100%; height: 100%; object-fit: cover;" />
+                <img src='/img/PageNotFound.webp' alt='page-not-found' style="width: 100%; height: 100%; object-fit: cover;" />
             </div>
         </div>`);
         }

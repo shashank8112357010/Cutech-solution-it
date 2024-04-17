@@ -69,7 +69,7 @@ export const Contact = () => {
     ]
     return (
         <section className='max-w-[1920px] mx-auto'>
-            <BannerAtom srcImg="/img/Contact/ContactBanner.png" title="Contact Us" heading="Contact Us" />
+            <BannerAtom srcImg="/img/Contact/ContactBanner.webp" title="Contact Us" heading="Contact Us" />
             <GetInTouchContact />
             <FaqContact data={data} />
         </section>

@@ -11,7 +11,7 @@ export const ServiceCards = () => {
             para1: "Experience uninterrupted productivity with our <strong> remote technical support </strong> and maintenance services. Our skilled technicians ensure swift resolution of issues, keeping your systems running smoothly.",
             heading1: "24/7 assistance for immediate resolution",
             heading2: "Proactive maintenance to prevent future disruptions",
-            img: "img/services/AboutCard1.png",
+            img: "img/services/AboutCard1.webp",
             result: true
         },
         {
@@ -21,7 +21,7 @@ export const ServiceCards = () => {
             para1: "Protect your digital assets with our advanced <strong> cyber security service solutions </strong>. From threat detection to mitigation, our experts safeguard your systems from evolving cyber threats.",
             heading1: "Cutting-edge solutions tailored to your specific needs",
             heading2: "Regular security updates to fortify your defenses",
-            img: "img/services/AboutCard2.png",
+            img: "img/services/AboutCard2.webp",
             result: false
         },
         {
@@ -31,7 +31,7 @@ export const ServiceCards = () => {
             para1: "Optimize your cloud infrastructure with our comprehensive <strong> cloud service management solutions </strong>. From deployment to maintenance, we streamline your cloud operations for enhanced efficiency and scalability.",
             heading1: "Customized strategies to maximize cloud performance",
             heading2: "Continous monitoring for optimal resource utilization",
-            img: "img/services/AboutCard3.png",
+            img: "img/services/AboutCard3.webp",
             result: true
         },
         {
@@ -41,7 +41,7 @@ export const ServiceCards = () => {
             para1: "Amplify your online presence with our <strong> digital marketing expert solutions </strong>. From SEO to social media management, we craft tailored strategies to elevate your brand and drive meaningful engagement.",
             heading1: "Data-driven approaches for targeted audience reach",
             heading2: "Performance analysis and optimization for growth",
-            img: "img/services/AboutCard4.png",
+            img: "img/services/AboutCard4.webp",
             result: false
         },
 

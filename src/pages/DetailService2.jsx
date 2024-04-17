@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 export const DetailService2 = () => {
     return (
         <>
-            <BannerAtom srcImg="/img/about/aboutBanner.png" title="Service" heading="Digital Marketing Service " />
+            <BannerAtom srcImg="/img/about/aboutBanner.webp" title="Service" heading="Digital Marketing Service " />
             <section className="max-w-7xl mx-auto mt-6 px-4 sm:px-20 bg-transparent">
                 {/* intro section */}
                 <div className='flex justify-between items-center gap-[45px] sm:flex-col lg:flex-row flex-col mb-32 '>
@@ -17,7 +17,7 @@ export const DetailService2 = () => {
                         <p className='text-mobBody sm:text-tabBody lg:text-lapBody font-medium font-krub text-textgray '>In today's digital age, a strong online presence is no longer a luxury – it's a necessity. At Cutech Solutions, a leading <strong> digital marketing company in UK </strong>, we understand the ever-evolving digital landscape and the challenges businesses face in capturing and retaining online audiences. We offer a comprehensive suite of <strong> digital marketing solutions </strong> designed to propel your brand to the forefront of your industry, driving targeted traffic, boosting conversions, and ultimately, achieving your business goals.</p>
                     </div>
                     <div className='flex sm:justify-center lg:justify-between'>
-                        <img src="../../img/services/FirstsecImg.png" alt="Digital Marketing Solutions" />
+                        <img src="../../img/services/FirstsecImg.webp" alt="Digital Marketing Solutions" />
                     </div>
                 </div>
             </section>
@@ -72,7 +72,7 @@ export const DetailService2 = () => {
                                     </p>
                                 </div>
                             </div>
-                            
+
                             <div className='w-[265px] h-auto'>
                                 <div className='hover:scale-105 transition-all h-full duration-300 ease-in-out shadow-custom-about border-2 border-[#E7DAED] justify-center flex flex-col p-4 gap-2 sm:gap-4 rounded-[9px]  '>
                                     <h3 className='font-rubik text-mobTitle2 text-center text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay sm:text-tabTitle2 lg:text-lapTitle2 font-semibold leading-[27px]'>
@@ -161,7 +161,7 @@ export const DetailService2 = () => {
                     <div className={` flex item flex-col lg:flex-row items-center lg:justify-between w-full`}>
                         {/* Image  */}
                         <div className='sm:w-[622px] sm:h-[679px] flex justify-end sm:justify-end lg:justify-normal mb-12 mt-0 sm:mt-10 lg:mt-0'>
-                            <img src="/img/services/ServicesImg3.png" alt="Digital Marketing Solutions" className='w-full h-full object-cover' />
+                            <img src="/img/services/ServicesImg3.webp" alt="Digital Marketing Solutions" className='w-full h-full object-cover' />
                         </div>
 
                         <div className=' flex flex-col lg:gap-[25px] sm:gap-[25px] gap-[8.9px] w-auto lg:w-1/2 md:pl-12'>
@@ -177,7 +177,7 @@ export const DetailService2 = () => {
 
                                 {/* //heading and para start  */}
                                 <div className='w-full flex flex-row items-center sm:items-start mt-2'>
-                                    <img src='/img/services/ServicesTick.png' alt='Search Engine Optimization' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
+                                    <img src='/img/services/ServicesTick.webp' alt='Search Engine Optimization' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
                                     <div className='w-full sm:w-4/5 pl-4 border-y-white border-r-white  sm:mt-2'>
                                         <h3 className='font-rubik font-bold text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay text-mobTitle3 sm:text-tabTitle3 lg:text-lapTitle3 leading-[16px] sm:leading-[16px] mb-2'>
                                             Experience and Expertise
@@ -188,7 +188,7 @@ export const DetailService2 = () => {
                                     </div>
                                 </div>
                                 <div className='w-full flex flex-row items-center sm:items-start mt-2'>
-                                    <img src='/img/services/ServicesTick.png' alt=' Social Media Marketing' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
+                                    <img src='/img/services/ServicesTick.webp' alt=' Social Media Marketing' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
                                     <div className='w-full sm:w-4/5 pl-4 border-y-white border-r-white sm:mt-2'>
                                         <h3 className='font-rubik font-bold text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay inline text-mobTitle3 sm:text-tabTitle3 lg:text-lapTitle3 leading-[16px] sm:leading-[16px] mb-2'>
                                             Range of Services
@@ -200,7 +200,7 @@ export const DetailService2 = () => {
                                 </div>
 
                                 <div className='w-full flex flex-row items-center sm:items-start mt-2'>
-                                    <img src='/img/services/ServicesTick.png' alt=' Digital Marketing Companies' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
+                                    <img src='/img/services/ServicesTick.webp' alt=' Digital Marketing Companies' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
                                     <div className='w-full sm:w-4/5 pl-4 border-y-white border-r-white sm:mt-2'>
                                         <h3 className='font-rubik font-bold text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay inline text-mobTitle3 sm:text-tabTitle3 lg:text-lapTitle3 leading-[16px] sm:leading-[16px] mb-2'>
                                             Data-Driven Approach
@@ -211,7 +211,7 @@ export const DetailService2 = () => {
                                     </div>
                                 </div>
                                 <div className='w-full flex flex-row items-center sm:items-start mt-2'>
-                                    <img src='/img/services/ServicesTick.png' alt=' Digital Marketing Companies' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
+                                    <img src='/img/services/ServicesTick.webp' alt=' Digital Marketing Companies' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
                                     <div className='w-full sm:w-4/5 pl-4 border-y-white border-r-white sm:mt-2'>
                                         <h3 className='font-rubik font-bold text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay inline text-mobTitle3 sm:text-tabTitle3 lg:text-lapTitle3 leading-[16px] sm:leading-[16px] mb-2'>
                                             Transparency and Communication
@@ -222,7 +222,7 @@ export const DetailService2 = () => {
                                     </div>
                                 </div>
                                 <div className='w-full flex flex-row items-center sm:items-start mt-2'>
-                                    <img src='/img/services/ServicesTick.png' alt='Digital Marketing Service Provider,' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
+                                    <img src='/img/services/ServicesTick.webp' alt='Digital Marketing Service Provider,' className='w-4 h-4 sm:w-8 sm:h-8 mt-2' />
                                     <div className='w-full sm:w-4/5 pl-4 border-y-white border-r-white sm:mt-2'>
                                         <h3 className='font-rubik font-bold text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay inline text-mobTitle3 sm:text-tabTitle3 lg:text-lapTitle3 leading-[16px] sm:leading-[16px] mb-2'>
                                             ROI Focus
@@ -253,7 +253,7 @@ export const DetailService2 = () => {
             <div className='mt-16 px-4 sm:px-20  '>
                 <section role="banner" aria-label="Main" className='relative h-[400px] max-w-[1920px] mx-auto   text-white'>
 
-                    <img src="/img/services/servicesBanner2.png" className={`-z-50 absolute left-0 w-full h-full -top-24 sm:-top-12 object-cover mmd:-top-16`} alt='Digital Marketing Service Provider' loading='lazy' />
+                    <img src="/img/services/servicesBanner2.webp" className={`-z-50 absolute left-0 w-full h-full -top-24 sm:-top-12 object-cover mmd:-top-16`} alt='Digital Marketing Service Provider' loading='lazy' />
                     <div className='justify-center z-50 text-white lg:w-[58%] mx-auto text-center flex flex-col gap-1'>
                         <span className='text-mobTitle sm:text-tabTitle lg:text-lapTitle cursor-default select-none font-bold font-rubik '>
                             Take Charge of Your Digital Future with Cutech Solutions
@@ -265,7 +265,6 @@ export const DetailService2 = () => {
                         <Link to="/contact-us">
                             <button className='bg-custom-gradient font-krub overflow-hidden font-semibold relative text-[12px] text-lightBlack w-[112px] h-[34px] sm:w-[146px] sm:h-[45px]'>
                                 Contact Us
-                                <div className='w-[40px] h-[40px] absolute -bottom-4 -right-4 rounded-full bg-white'></div>
                             </button>
                         </Link>
                     </div>

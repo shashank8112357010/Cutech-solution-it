@@ -46,7 +46,7 @@ export const FaqContact = ({ data }) => {
                             onClick={() => handleOpen(index)}
                             className={` ${(open === index && index !== data.length - 1) ? "" : (index === data.length - 1) ? "" : "mb-4"} mb-4 rounded-lg border border-blue-gray-100 px-4`}
                         >
-                            <AccordionHeader className={` ${open === index ? "text-textBlack font-bold" : "h-[80px]"} text-[14px] sm:text-[16px] lg:text-lapTitle3 border-none outline-none`}>
+                            <AccordionHeader className={` ${open === index ? "text-textBlack font-bold" : "min-h-[80px]"} text-[14px] sm:text-[16px] lg:text-lapTitle3 border-none outline-none`}>
                                 {item.doubt}
                             </AccordionHeader>
                             <AccordionBody className={`${open !== index ? "hidden" : "block"}  pt-0 text-[12px] sm:text-[15px] lg:text-lapBody2 font-normal`}>
@@ -57,7 +57,7 @@ export const FaqContact = ({ data }) => {
                 })}
             </div>
 
-            <div className='w-full lg:w-[476px]  h-[389px] lg:h-[429px]  relative flex justify-center items-center'>
+            <div className='w-full lg:w-[476px]  h-[389px] lg:h-[429px] relative flex justify-center items-center'>
                 <div className='bg-darkBlue px-6 py-2 md:p-12 text-white  lg:w-[400px] lg:top-[15%] lg:-left-[20%]'>
                     <div className='mb-8 flex flex-col '>
                         <p className="text-lapContactBody w-[100px] mb-4 font-rubik bg-white/10 border-l-4 pl-2 border-yellow-500 ">
@@ -68,7 +68,7 @@ export const FaqContact = ({ data }) => {
                         </h3>
                         <div className='flex items-center flex-row gap-2 pt-8'>
                             <a className='w-[47px] h-[47wpx]' href='tel:+447424352181'>
-                                <img src='/img/navbar/navLogo3.svg' className='object-cover w-full' alt='contact icon' />
+                                <img src='/img/navbar/navLogo3.webp' className='object-cover w-full' alt='contact icon' />
                             </a>
                             <div className='text-mobContactBody sm:text-lapContactBody'>
                                 <p>Have Any Questions</p>

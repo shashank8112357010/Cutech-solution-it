@@ -1,11 +1,11 @@
 import React from 'react'
-import {BannerAtom} from '../atom/BannerAtom'
+import { BannerAtom } from '../atom/BannerAtom'
 
 
 export const Privacy = () => {
     return (
         <>
-            <BannerAtom srcImg="/img/services/ServicesBanner.png" title="Privacy Policy" heading="Privacy Policy" />
+            <BannerAtom srcImg="/img/services/ServicesBanner.webp" title="Privacy Policy" heading="Privacy Policy" />
             <section className="max-w-7xl mx-auto mt-6 px-4 sm:px-20 bg-transparent ">
 
                 <div className="flex  flex-col justify-center gap-4 items-center mb-14">

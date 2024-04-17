@@ -28,15 +28,15 @@ export const Navbar = () => {
         <>
             <nav role="navigation" aria-label="Main" className='max-w-[1920px] relative bg-darkBlue mx-auto px-4 mmd:px-20 text-white'>
                 <div className='sm:px-10 font-krub flex flex-row justify-between items-center py-4 '>
-                    <div className='LeftSide w-[100px] flex items-center justify-center sm:w-[191px] h-[47px]'>
+                    <div className='LeftSide w-[140px] flex items-center justify-center sm:w-[191px] h-[47px]'>
                         <Link to="/">
-                            <img src='../../img/navbar/logo.svg' className='object-cover w-full' alt='cutech logo' />
+                            <img src='/img/navbar/logo.webp' className='object-cover w-full' alt='cutech logo' />
                         </Link>
                     </div>
                     <div className='RightSide flex-row gap-8 whitespace-nowrap hidden mmd:flex'>
                         <div className='flex items-center justify-center flex-row gap-2'>
                             <div className='w-[47px] h-[47px]'>
-                                <img src='../../img/navbar/navLogo1.svg' className='object-cover w-full' alt='cutech logo' />
+                                <img src='/img/navbar/navLogo1.webp' className='object-cover w-full' alt='cutech logo' />
                             </div>
                             <div className='text-mobContactBody sm:text-lapContactBody'>
                                 <p>Mon - Sun 24/7</p>
@@ -44,7 +44,7 @@ export const Navbar = () => {
                         </div>
                         <div className='flex items-center justify-center flex-row gap-2'>
                             <a className='sm:w-[47px] h-[47px]' href='mailto:info@cutechsolutions.co.uk' target='_blank'>
-                                <img src='../../img/navbar/navLogo2.svg' className='object-cover w-full' alt='cutech logo' />
+                                <img src='/img/navbar/navLogo2.webp' className='object-cover w-full' alt='cutech logo' />
                             </a>
                             <div className='text-mobContactBody sm:text-lapContactBody'>
                                 <p>Email</p>
@@ -53,7 +53,7 @@ export const Navbar = () => {
                         </div>
                         <div className='flex items-center justify-center flex-row gap-2'>
                             <a className='w-[47px] h-[47px]' href=' tel:+447424352181'>
-                                <img src='../../img/navbar/navLogo3.svg' className='object-cover w-full' alt='Cutech logo' />
+                                <img src='/img/navbar/navLogo3.webp' className='object-cover w-full' alt='Cutech logo' />
                             </a>
                             <div className='text-mobContactBody sm:text-lapContactBody'>
                                 <p>Call us</p>
@@ -67,19 +67,19 @@ export const Navbar = () => {
                         onClick={() => setHide(!hide)}
                     >
                         {hide ? (
-                            <img src='/img/navbar/hamburgerCancel.svg' className='w-[35px] sm:w-[45px] h-[30px] sm:h-[40px] object-cover cursor-pointer' alt='hamburger icon' />
+                            <img src='/img/navbar/hamburgerCancel.webp' className='w-[35px] sm:w-[45px] h-[30px] sm:h-[40px] object-cover cursor-pointer' alt='hamburger icon' />
                         )
                             : (
-                                <img src='/img/navbar/hamburgerIcon.svg' className='object-cover w-[35px] sm:w-[45px] h-[30px] sm:h-[40px] cursor-pointer' alt='hamburger icon' />
+                                <img src='/img/navbar/hamburgerIcon.webp' className='object-cover w-[35px] sm:w-[45px] h-[30px] sm:h-[40px] cursor-pointer' alt='hamburger icon' />
                             )
                         }
                     </div>
                 </div>
 
                 <div className={`box flex flex-col mmd:hidden absolute z-40 ${hide ? "py-10 sm:py-20 top-[80px] sm:top-[68px] z-20" : "-py-0 -top-[32rem] z-20"} left-0 bg-lightWhite w-full transition-all duration-300 ease-in-out rounded-br-[20px] rounded-bl-[20px]`} >
-                    <div className='flex flex-row flex-center w-full'>
+                    <div className='flex flex-row flex-center w-full '>
 
-                        <ul className={`flex flex-col w-1/2 justify-end items-end gap-8 font-semibold text-[14px] sm:text-[18px]`}>
+                        <ul className={`flex flex-col w-1/2 justify-end ml-10 items-end gap-8 font-semibold text-[14px] sm:text-[18px]`}>
                             {[{ route: "Home", path: '/' }, { route: "About", path: '/about-us' }, { route: "Blog", path: '/blog' }, { route: "Services", path: '/services' }, { route: "Contact", path: '/contact-us' }].map((item, index) => {
                                 return (
                                     <li key={index} className={`hover:text-darkYellow w-[50px] text-center ${pathname === item.path ? "text-darkYellow" : "text-textBlack"}`} onClick={() => setHide(false)}><Link to={item.path}>{item.route}</Link></li>
@@ -91,9 +91,12 @@ export const Navbar = () => {
                         </div>
                     </div>
 
-                    <div className='w-full flex mt-5 pr-10 justify-center items-center'>
+                    <div className='w-full flex mt-5  pr-10 justify-center items-center'>
                         <Link to="/contact-us">
-                            <img src='../../img/navbar/header.svg' className='object-cover cursor-pointer w-[100px]' alt='reach out for contact us' />
+                            <button className='bg-white font-krub overflow-hidden ml-8 font-semibold relative text-[12px] text-lightBlack w-[110px] h-[44px]'>
+                                Request Quote
+                            </button>
+                            {/* <img src='/img/navbar/header.webp' className='object-cover ml-10 cursor-pointer w-[100px]' alt='reach out for contact us' /> */}
                         </Link>
                     </div>
                     <div>{""}</div>
@@ -123,7 +126,7 @@ export const Navbar = () => {
                                             Service
                                         </li>
                                         <span>
-                                            <img src='/img/navbar/DropDownArrow.png' className='mt-[2px]' alt='drop down arrow' />
+                                            <img src='/img/navbar/DropDownArrow.webp' className='mt-[2px]' alt='drop down arrow' />
                                         </span>
                                     </div>
 
@@ -133,19 +136,19 @@ export const Navbar = () => {
                                             <ul className=' absolute group-hover:top-[100px] top-[73px] -left-[93px] w-[280px] justify-center transition-all duration-500 rounded-[16px] bg-lightWhite text-textBlack flex flex-col gap-[16px] z-20 px-7 py-8' onMouseEnter={() => setMenuOpen(true)} onMouseLeave={() => setMenuOpen(false)}>
                                                 <li className="text-[12px] font-normal font-krub">Our Services</li>
                                                 <div className='flex gap-4 items-center'>
-                                                    <img src="../../img/home/whatWeDo1.png" alt="1.What cutech solutions do " className="w-[20px] h-[21px] object-cover" />
+                                                    <img src="/img/home/whatWeDo1.webp" alt="1.What cutech solutions do " className="w-[20px] h-[21px] object-cover" />
                                                     <Link onClick={handleLinkClick} className='text-darkBlack text-[14px] font-medium font-krub leading-[24px] transition-all duration-300 ease-in-out hover:translate-x-2' to="/remote-technical-support-services ">Remote Technical Support Services</Link>
                                                 </div>
                                                 <div className='flex gap-4 items-center'>
-                                                    <img src="../../img/home/whatWeDo2.png" alt="2.What cutech solutions do " className="w-[20px] h-[21px] object-cover" />
+                                                    <img src="/img/home/whatWeDo2.webp" alt="2.What cutech solutions do " className="w-[20px] h-[21px] object-cover" />
                                                     <Link onClick={handleLinkClick} className='text-darkBlack text-[14px] font-medium font-krub leading-[24px] transition-all duration-300 ease-in-out hover:translate-x-2' to="/cyber-security-services ">Cyber Security Services</Link>
                                                 </div>
                                                 <div className="flex gap-4 items-center">
-                                                    <img src="../../img/home/whatWeDo3.png" alt="3.What cutech solutions do " className="w-[20px] h-[21px] object-cover" />
+                                                    <img src="/img/home/whatWeDo3.webp" alt="3.What cutech solutions do " className="w-[20px] h-[21px] object-cover" />
                                                     <Link onClick={handleLinkClick} className='text-darkBlack text-[14px] font-medium font-krub leading-[24px] transition-all duration-300 ease-in-out hover:translate-x-2 z-20' to="/cloud-managed-services ">Cloud Managed Services</Link>
                                                 </div>
                                                 <div className="flex gap-4 items-center">
-                                                    <img src="../../img/home/whatWeDo4.png" alt="4.What cutech solutions do " className="w-[20px] h-[21px] object-cover" />
+                                                    <img src="/img/home/whatWeDo4.webp" alt="4.What cutech solutions do " className="w-[20px] h-[21px] object-cover" />
                                                     <Link onClick={handleLinkClick} className='text-darkBlack text-[14px] font-medium font-krub leading-[24px] transition-all duration-300 ease-in-out hover:translate-x-2 z-20' to="/digital-marketing-company ">Digital Marketing Company</Link>
                                                 </div>
                                             </ul>
@@ -171,7 +174,7 @@ export const Navbar = () => {
                             ))}
                             <div>
                                 <Link to="/contact-us" >
-                                    <img src='../../img/navbar/header.svg' className='object-cover cursor-pointer w-full' alt='contact us icon' />
+                                    <img src='/img/navbar/header.webp' className='object-cover cursor-pointer w-full' alt='contact us icon' />
                                 </Link>
                             </div>
                         </div>

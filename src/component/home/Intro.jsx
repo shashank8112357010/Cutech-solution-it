@@ -31,7 +31,7 @@ export const Intro = () => {
                         </div>
                     </div>
                     <div className='flex justify-end lg:w-[429px] lg:h-[547px] sm:justify-center lg:justify-normal mt-4'>
-                        <img src="img/home/Intro.png" alt="Introduction to cutech solutions" className='w-full h-full object-cover' />
+                        <img src="img/home/Intro.webp" alt="Introduction to cutech solutions" className='w-full h-full object-cover' />
                     </div>
                 </div>
             </div>

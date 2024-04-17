@@ -17,7 +17,7 @@ export const ChooseService3 = () => {
           <div className='flex gap-1 '>
             <div>
 
-              <img src="/img/services/Tick.png" alt="services_tick1" className="max-w-none mt-1" />
+              <img src="/img/services/Tick.webp" alt="services_tick1" className="max-w-none mt-1" />
             </div>
             <div>
               <h3 className="text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2 font-semibold font-rubik text-darkYellow ">
@@ -31,7 +31,7 @@ export const ChooseService3 = () => {
           </div>
           <div className='flex gap-1 '>
             <div>
-              <img src="/img/services/Tick.png" alt="services_tick2" className="max-w-none mt-1" />
+              <img src="/img/services/Tick.webp" alt="services_tick2" className="max-w-none mt-1" />
             </div>
             <div>
               <h3 className="text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2 font-semibold font-rubik text-darkYellow ">
@@ -47,7 +47,7 @@ export const ChooseService3 = () => {
           <div className='flex gap-1 '>
             <div>
 
-              <img src="/img/services/Tick.png" alt="services_tick4" className="max-w-none mt-1" />
+              <img src="/img/services/Tick.webp" alt="services_tick4" className="max-w-none mt-1" />
             </div>
             <div>
               <h3 className="text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2 font-semibold font-rubik text-darkYellow ">
@@ -63,7 +63,7 @@ export const ChooseService3 = () => {
           <div className='flex gap-1 '>
             <div>
 
-              <img src="/img/services/Tick.png" alt="services_tick4" className="max-w-none mt-1" />
+              <img src="/img/services/Tick.webp" alt="services_tick4" className="max-w-none mt-1" />
             </div>
             <div>
               <h3 className="text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2 font-semibold font-rubik text-darkYellow ">
@@ -79,7 +79,7 @@ export const ChooseService3 = () => {
           <div className='flex gap-1 '>
             <div>
 
-              <img src="/img/services/Tick.png" alt="services_tick5" className="max-w-none mt-1" />
+              <img src="/img/services/Tick.webp" alt="services_tick5" className="max-w-none mt-1" />
             </div>
             <div>
               <h3 className="text-mobTitle2 sm:text-tabTitle2 lg:text-lapTitle2 font-semibold font-rubik text-darkYellow ">

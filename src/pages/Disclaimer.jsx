@@ -4,7 +4,7 @@ import { BannerAtom } from "../atom/BannerAtom";
 export const Disclaimer = () => {
     return (
         <>
-            <BannerAtom srcImg="/img/Disclaimer.png" title="Disclaimer" heading="Diclaimer" />
+            <BannerAtom srcImg="/img/Disclaimer.webp" title="Disclaimer" heading="Diclaimer" />
             <section className="max-w-7xl mx-auto px-4 sm:px-20 bg-transparent ">
                 <div className="flex flex-col justify-center items-center mb-4 sm:mb-8">
                     <h1 className="text-center capitalize text-[22px] sm:text-[45px] 2xl:text-[50px] font-extrabold font-rubik">

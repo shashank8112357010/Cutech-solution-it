@@ -8,7 +8,6 @@ import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 export default defineConfig({
   plugins: [react(),
 
-
   ViteImageOptimizer({
     png: {
       quality: 10,
@@ -17,6 +16,4 @@ export default defineConfig({
       quality: 10,
     },
   }),],
-
-
 })

@@ -33,7 +33,7 @@ export const RefundPolicy = () => {
     ]
     return (
         <>
-            <BannerAtom srcImg="/img/RefundPolicy.png" title="Refund Policy" heading="Refund Policy" />
+            <BannerAtom srcImg="/img/RefundPolicy.webp" title="Refund Policy" heading="Refund Policy" />
             <section className="max-w-7xl mx-auto mt-6 px-4 sm:px-20 bg-transparent">
 
                 <div className="flex flex-col justify-center gap-4 items-center mb-10">
@@ -73,7 +73,7 @@ export const RefundPolicy = () => {
                 <div className="flex  flex-col justify-start items-start mb-8 gap-4">
                     <h2 className="text-darkBlue font-extrabold text-[18px] sm:text-[25px] 2xl:text-[30px] font-rubik">Disputes:</h2>
                     <p className="text-textgray text-[12px] sm:text-[16px] 2xl:text-[22px] leading-4 sm:leading-8 font-krub">Under applicable laws and regulations, a customer may report a problem to the relevant regulatory bodies or consumer protection organizations if they are unhappy with the answer Cutech Solutions Ltd. gave them regarding a refund request.</p>
-                   
+
                 </div>
                 <div className="flex  flex-col justify-start items-start mb-12 gap-4">
                     <h2 className="text-darkBlue font-extrabold text-[18px] sm:text-[25px] 2xl:text-[30px] font-rubik">Effective Date:

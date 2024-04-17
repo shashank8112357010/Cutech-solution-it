@@ -6,7 +6,7 @@ export const Solutions = () => {
             <div className='flex flex-row flex-wrap lg:flex-nowrap gap-[60px] sm:gap-[89.16px] justify-center lg:justify-between mt-0 mb-20  lg:px-20  '>
 
                 <div className='sm:order-2 order-2 text-start sm:w-[713px] lg:w-[684.33px] pr-4 sm:pr-0 lg:pr-0 flex items-center '>
-                    <img src="/img/services/AboutUs.png" alt="About Us" className='w-full object-cover' />
+                    <img src="/img/services/AboutUs.webp" alt="About Us" className='w-full object-cover' />
                 </div>
 
                 <div className='flex flex-col items-center justify-center px-4 md:px-0 gap-[31.21px] lg:w-[570.51px] sm:w-[580.52px] order-1 lg:order-2 pl-3 w-full lg:pl-0'>

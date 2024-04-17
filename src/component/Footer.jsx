@@ -5,23 +5,23 @@ import { socialIcon } from '../data/dataSet'
 export const Footer = () => {
     return (
         <>
-            <footer className='max-w-xxl relative bg-darkBlue mx-auto pb-12 xl:px-20 text-white '>
-                <div className='absolute bg-[#1d2551] w-full top-0 left-0 h-[70px] z-0'></div>
+            <footer className='max-w-xxl relative bg-darkBlue mx-auto pb-12 xl:px-20 text-white'>
+                <div className='absolute bg-darkBlue lg:bg-[#1d2551] w-full top-0 left-0 h-[70px] z-0'></div>
                 <div className='outerDiv'>
-                    <div className='innerDiv px-8 md:px-0 flex flex-row justify-center flex-wrap gap-8 xl:gap-0'>
+                    <div className='innerDiv md:px-0 flex flex-row justify-center flex-wrap gap-8 xl:gap-0'>
                         <div className='flex flex-col gap-4'>
                             <div className='py-4 px-20 z-10 bg-darkBlue'>
-                                <Link to="/" className='sm:w-[176px] h-[38px] '>
-                                    <img className='object-fit w-full h-full' src='../../img/footer/footerLogo.svg' alt='cutech logo' />
+                                <Link to="/" className='sm:w-[26px] h-[5px] '>
+                                    <img className='object-fit w-[200px] h-full' src='../../img/footer/footerLogo.webp' alt='cutech logo' />
                                 </Link>
                             </div>
-                            <p className='font-krub font-medium text-lapFooterBody leading-[18.18px] text-center lg:text-start sm:w-[400px] lg:w-[300px]'>
+                            <p className='font-krub font-medium text-lapFooterBody leading-[18.18px] text-center lg:text-start sm:w-[400px] lg:w-[300px] px-4 sm:px-0'>
                                 Cutech Solutions: Empowering B2B Enterprises with Next-Level IT Solutions
                             </p>
                             <div className='flex flex-col gap-4'>
                                 <div className='flex items-center flex-row justify-center lg:justify-start gap-2'>
-                                    <a className='sm:w-[47px] h-[47px]' href='mailto:info@cutechsolutions.co.uk' target='_blank'>
-                                        <img src='/img/navbar/navLogo2.svg' className='object-cover w-full' alt='cutech logo' />
+                                    <a className='w-[47px] h-[47px]' href='mailto:info@cutechsolutions.co.uk' target='_blank'>
+                                        <img src='/img/navbar/navLogo2.webp' className='object-cover w-full' alt='cutech logo' />
                                     </a>
                                     <div className='text-mobContactBody sm:text-lapContactBody'>
                                         <p>Email</p>
@@ -30,7 +30,7 @@ export const Footer = () => {
                                 </div>
                                 <div className='flex items-center justify-center mr-10 lg:mr-0 lg:justify-start flex-row gap-2'>
                                     <a className='w-[47px] h-[47px]' href=' tel:+447424352181'>
-                                        <img src='../../img/navbar/navLogo3.svg' className='object-cover w-full' alt='cutech logo' />
+                                        <img src='../../img/navbar/navLogo3.webp' className='object-cover w-full' alt='cutech logo' />
                                     </a>
                                     <div className='text-mobContactBody sm:text-lapContactBody'>
                                         <p>Call us</p>
@@ -78,7 +78,7 @@ export const Footer = () => {
                                 }
                             </ul>
                         </div>
-                    
+
                         <div className='flex flex-col gap-4 w-full xl:w-auto text-center'>
                             <h4 className='text-mobFooterTitle z-10 sm:text-lapFooterTitle font-rubik bg-[#1d2551] py-5 px-20 xl:px-0'>
                                 Subscribe
@@ -92,7 +92,6 @@ export const Footer = () => {
                                 <div className='flex flex-col xl:flex-row items-center justify-center '>
                                     <button className='bg-custom-gradient font-krub overflow-hidden font-semibold relative text-[12px] text-lightBlack w-[70px] h-[34px] sm:w-[136px] sm:h-[45px]'>
                                         Send Now
-                                        <div className='w-[40px] h-[40px] absolute -bottom-4 -right-4 rounded-full bg-white'></div>
                                     </button>
                                     <span className='xl:ml-4 mt-4 xl:mt-0 gap-2 items-center flex  '>
                                         {socialIcon.map((item, index) => (

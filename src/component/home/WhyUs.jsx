@@ -7,7 +7,7 @@ export const WhyUs = () => {
                 <div className='flex lg:flex-row sm:flex-col flex-col items-center lg:justify-center w-full lg:gap-[112px] '>
                     <div className='flex flex-col  lg:gap-[25px] sm:gap-[25px] gap-[8.9px] w-auto lg:w-[502px]'>
                         <p className="text-[12px] lg:text-[14px] font-rubik w-[78px] bg-white/10 border-l-4 pl-2 border-yellow-500 font-normal">
-                            Whys Us
+                            Why Us
                         </p>
                         <h2 className='font-rubik font-semibold capitalize lg:text-[35px] sm:text-[25px] text-[20px] leading-[23px] sm:leading-[36.81px]'>
                             Commitment to <span className='text-transparent bg-custom-gradient bg-clip-text mix-blend-overlay'>Priority Issue Resolution</span>
@@ -26,7 +26,7 @@ export const WhyUs = () => {
                     </div>
                     <div className='flex flex-col gap-4 sm:gap-[22px]'>
                         <div className='flex justify-end sm:justify-end lg:justify-normal mt-10 lg:mt-0'>
-                            <img src="img/home/whyUs1.png" alt="why cutech solutions" className='w-full h-full object-cover' />
+                            <img src="img/home/whyUs1.webp" alt="why cutech solutions" className='w-full h-full object-cover' />
                         </div>
                     </div>
                 </div>
